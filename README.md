@@ -1114,3 +1114,7 @@ globalThis.document = { createElement: () => ({
 同时修复：本文此前第 1106–1108 行为 GBK 字节（非 UTF-8），导致文档工具无法读取本文件；已按原字节重新编码为 UTF-8，内容未变。
 
 **本轮为工具/文档轮，未改任何运行时代码，也未改本体 `web/src`。** 详见 `web/public/mods/revival/README.md` 的「2026-09-27（第六轮）」。
+
+## 2026-09-27 Codex 项目级 skill 入口
+
+新增根目录 `AGENTS.md` 与 `.agents/skills/revival-dlc-only/SKILL.md`：Codex 在本仓库执行修改时，功能、数据、素材和 UI 默认落在 Revival DLC；完成后同步本 README 与 DLC README，验证、提交并推送到 GitHub `origin` 当前分支。原 `.dsh/skills/revival-dlc-only/` 保留给 DSH 使用，提交脚本已允许本次新增的项目规则文件。本轮仅改规则和文档，未改运行时代码。

@@ -5,7 +5,7 @@
 
   Steps:
     1. collect changed paths (tracked + untracked)
-    2. FAIL if anything outside the allowed scope (DLC / 2 READMEs / .dsh/skills)
+    2. FAIL if anything outside the allowed scope (DLC / 2 READMEs / project skills and instructions)
     3. FAIL if the two READMEs were not updated, or are not valid UTF-8 (no BOM)
     4. git add -A  ->  git commit -m <Message>  ->  git push origin <branch>
     5. verify origin/<branch>..HEAD is empty (push really landed)
@@ -62,7 +62,9 @@ $changed | ForEach-Object { Write-Host "        $_" }
 $allowed = @(
   '^web/public/mods/revival/',
   '^README\.md$',
-  '^\.dsh/skills/'
+  '^\.dsh/skills/',
+  '^\.agents/skills/revival-dlc-only/',
+  '^AGENTS\.md$'
 )
 $outOfScope = $changed | Where-Object {
   $p = $_

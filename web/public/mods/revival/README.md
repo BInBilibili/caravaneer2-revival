@@ -1,5 +1,11 @@
 # 复兴 DLC：代码归属与使用说明
 
+## 2026-09-27：Codex 项目级 skill 生效入口
+
+原有 `.dsh/skills/revival-dlc-only/` 供 DSH 使用。新增仓库根目录 `AGENTS.md` 与 `.agents/skills/revival-dlc-only/SKILL.md`，使 Codex 在本项目中加载同一工作约定：功能、数据、素材和 UI 默认只改 `web/public/mods/revival/`；完成后同步根目录与本 DLC 两份 README；验证、提交并推送到 GitHub `origin` 当前分支。用户明确指定其他范围或暂缓推送时，以当次要求为准。
+
+现有 `ship.ps1` 的范围检查已加入新规则文件。此轮仅修改项目规则与文档，未改游戏运行时代码；用 skill 校验器、脚本 `-DryRun` 和 Git 变更检查验证。
+
 ## 2026-09-27（第六轮）：项目级 skill「默认只改本 DLC + README 同步 + 推 GitHub」+ 修复根 README 编码（工具/文档轮，未改运行时代码）
 
 ### 用户需求（原话）
