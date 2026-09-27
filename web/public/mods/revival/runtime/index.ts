@@ -11,6 +11,13 @@ import { Input } from "../../../../src/core/Input";
 import { Button, ScrollableArea, Switch } from "../../../../src/core/Ui";
 import { addDialogueBackground } from "../../../../src/core/DialogueBg";
 import { loadHoundVisual } from "./HoundVisual";
+import {
+  PROFESSION_ASSET_PREFIX,
+  PROFESSION_FALLBACK_ASSET,
+  PROFESSION_NAMES,
+  classifyWorld,
+  patchProfessions,
+} from "./Profession";
 
 /** 成长空间倍率。原版 Character.as:3176 / World.ts:302 是 10（成长空间 = 智力 × 10）；
  *  1 = 关掉 ×10（成长空间 = 智力）。改这一个数即可调成 5 等半程值。 */
@@ -134,13 +141,19 @@ const STATUS_FRAME_DARK_ALPHA = 1;
 const STATUS_ICON_TINT: Tint = { r: 1, g: 1, b: 1, dr: 0, dg: 0, db: 0 };
 
 interface StatusDef { file: string; kind: string; zh: string; en: string }
+const PROFESSION_DEFS: StatusDef[] = PROFESSION_NAMES.map((zh, i) => ({
+  file: `${PROFESSION_ASSET_PREFIX}${String(i + 1).padStart(2, "0")}.png`,
+  kind: "profession",
+  zh,
+  en: zh,
+}));
 /** 五个状态：三个部位伤 + 受伤（不细分轻/中/重/濒死）+ 超重。 */
 const STATUS_DEFS: StatusDef[] = [
   { file: "IndicatorEyeDamage.png", kind: "eyeDamage", zh: "眼部受伤", en: "Eye injury" },
   { file: "IndicatorArmDamage.png", kind: "armDamage", zh: "上肢受伤", en: "Arm injury" },
   { file: "IndicatorLegDamage.png", kind: "legDamage", zh: "下肢受伤", en: "Leg injury" },
-  { file: "IndicatorCriticallyWounded.png", kind: "wounded", zh: "受伤", en: "Wounded" },
   { file: "IndicatorOverload.png", kind: "overload", zh: "超重", en: "Overloaded" },
+  { file: "IndicatorCriticallyWounded.png", kind: "wounded", zh: "受伤", en: "Wounded" },
 ];
 
 const isChinese = (menu: any) => menu?.ds?.language === 18 || menu?.ds?.language === 19;
@@ -157,8 +170,13 @@ function statusActive(p: any, kind: string): boolean {
 /** 当前要显示的状态格：**只有真的出现该问题时才占格子**（用户要求）。
  *  顺序即 STATUS_DEFS 顺序；职业格（后续）排在最左，这里先留好插队点。 */
 function statusList(p: any): Array<StatusDef & { label: string }> {
-  return STATUS_DEFS
-    .filter((def) => statusActive(p, def.kind))
+  const profession = Number(p?.profession);
+  const professionDef = Number.isInteger(profession) && profession >= 1 && profession <= PROFESSION_DEFS.length
+    ? PROFESSION_DEFS[profession - 1]
+    : null;
+  const defs = professionDef ? [professionDef, ...STATUS_DEFS] : STATUS_DEFS;
+  return defs
+    .filter((def) => def.kind === "profession" || statusActive(p, def.kind))
     .map((def) => ({ ...def, label: def.zh }));
 }
 
@@ -192,7 +210,13 @@ function makeStatusIcon(menu: any, cell: Sprite, file: string, tint: Tint, cellW
     holder.addChild(b);
   };
   const im = menu.assets.getImage(file) as HTMLImageElement | null;
-  if (im) put(im); else void menu.assets.ensure(file).then(put);
+  if (im) put(im);
+  else void menu.assets.ensure(file).then((loaded: HTMLImageElement | null) => {
+    if (loaded || !file.startsWith(PROFESSION_ASSET_PREFIX)) return put(loaded);
+    return menu.assets.ensure(PROFESSION_FALLBACK_ASSET).then(put);
+  }).catch(() => {
+    if (file.startsWith(PROFESSION_ASSET_PREFIX)) void menu.assets.ensure(PROFESSION_FALLBACK_ASSET).then(put).catch(() => undefined);
+  });
 }
 
 /** 生命行上方：横向可滚动的状态槽位（正方形格子 + 装备页道具栏同款槽底/边框）。
@@ -218,6 +242,14 @@ function buildStatusSlot(menu: any, S: Sprite, p: any): void {
     (cell as any).height = STATUS_CELL;
     cell.buttonMode = true;
     const g = new Graphics();
+    // Profession cells use a circular frame; injury cells retain the original square frame.
+    if (def.kind === "profession") {
+      g.lineStyle(1, STATUS_FRAME_LIGHT, STATUS_FRAME_LIGHT_ALPHA);
+      g.beginFill(STATUS_CELL_BG, STATUS_CELL_BG_ALPHA);
+      g.drawCircle(STATUS_CELL / 2, STATUS_CELL / 2, STATUS_CELL / 2 - 1);
+      g.endFill();
+      g.hitRect(0, 0, STATUS_CELL, STATUS_CELL);
+    } else {
     // Original icon-cell drawing: its own fill, inset border, and two icon layers.
     g.lineStyle(1, STATUS_FRAME_LIGHT, STATUS_FRAME_LIGHT_ALPHA);
     g.moveTo(-1, STATUS_CELL + 1); g.lineTo(STATUS_CELL + 1, STATUS_CELL + 1); g.lineTo(STATUS_CELL + 1, -1);
@@ -226,6 +258,7 @@ function buildStatusSlot(menu: any, S: Sprite, p: any): void {
     g.beginFill(STATUS_CELL_BG, STATUS_CELL_BG_ALPHA);
     g.drawRect(0, 0, STATUS_CELL, STATUS_CELL);
     g.hitRect(0, 0, STATUS_CELL, STATUS_CELL);
+    }
     cell.graphics = g;
     makeStatusIcon(menu, cell, def.file, STATUS_ICON_TINT, STATUS_CELL, STATUS_CELL, true);
     const rows: CursorRow[] = [{ text: def.label, center: true, font: 14 }];
@@ -1128,6 +1161,7 @@ type AnyFn = (this: any, ...args: any[]) => any;
 function patchCaravanMenu(menu: any): boolean {
   if (!menu || menu.__revivalCrewPatched) return false;
   menu.__revivalCrewPatched = true;
+  classifyWorld(menu.gd);
   // fleetPage() 会 mainArea.removeAll() 后新建页容器（renderPeople 第一句就调它）——
   // 顺手记下返回值，装饰阶段直接用，绝不重复调用（否则页面被清空）。
   const origFleetPage = menu.fleetPage as AnyFn;
@@ -1182,6 +1216,7 @@ function hookShell(shell: any): void {
 
 /** Uses the existing battle factory boundary; UI/world/save services stay shared. */
 export default function register(api: ReturnType<ModRuntime["api"]>) {
+  patchProfessions();
   patchLearningCapacity();
   patchLevel();
   patchSkillEffects();

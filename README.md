@@ -1118,3 +1118,9 @@ globalThis.document = { createElement: () => ({
 ## 2026-09-27 Codex 项目级 skill 入口
 
 新增根目录 `AGENTS.md` 与 `.agents/skills/revival-dlc-only/SKILL.md`：Codex 在本仓库执行修改时，功能、数据、素材和 UI 默认落在 Revival DLC；完成后同步本 README 与 DLC README，验证、提交并推送到 GitHub `origin` 当前分支。原 `.dsh/skills/revival-dlc-only/` 保留给 DSH 使用，提交脚本已允许本次新增的项目规则文件。本轮仅改规则和文档，未改运行时代码。
+
+## 2026-09-27 Revival profession tags
+
+Revival now assigns exactly one profession tag to every generated character. The 21 tags are farmer, herder, hunter, miner, craftsperson, mechanic, doctor, merchant, vagabond, scout, traveling vendor, adventurer, guard, mercenary, police, bandit, slave trader, rebel, clergy, politician, and scientist. Town recruits and market slaves use the town's dominant industry; map caravans and route merchants use their source type; story mode's player character is scout.
+
+The crew personnel page shows the profession icon first in the status strip. Icons are circular and use the bundled fallback question mark when an icon cannot be loaded. Existing saves receive the vagabond fallback when the field is absent.
