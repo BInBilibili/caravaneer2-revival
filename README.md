@@ -1103,6 +1103,14 @@ globalThis.document = { createElement: () => ({
 *本说明书基于此前工程核查整理，并于 2026-09-20 更新项目方向与文档口径。统计数字与行号需在使用时重新核验；§0.1 提供部分复核命令（其中 Bash 命令需在相应环境执行）。
 当前实现、目标规格和验证结果分别按 §15.1 核验；`web/README.md` 的逐轮记录作为历史参考。*
 
-## 2026-09-26 ��Աҳ״̬��λ
+## 2026-09-26 人员页状态槽位
 
-��Աҳ�м��ж���������ֵ�����Ϸ��ĺ���״̬���� web/public/mods/revival/runtime/index.ts ά�����ղ�ʹ��װ��ҳͬ���ɫ������˫��߿򣻱��� web/src/game/CaravanMenu.ts δ����������ʽ��
+人员页中间列顶部、生命值文字上方的横向状态槽由 web/public/mods/revival/runtime/index.ts 维护，空槽使用装备页同款底色与明暗双层边框；本体 web/src/game/CaravanMenu.ts 未用于这项样式。
+
+## 2026-09-27 项目级 skill：默认只改复兴 DLC + 改完同步 README + 推 GitHub
+
+新增项目级 skill `.dsh/skills/revival-dlc-only/SKILL.md`，把「改动默认落在 `web/public/mods/revival/`、改完同步两份 README、改完 commit + push `origin/main`」写成可执行规则；配 `.dsh/skills/revival-dlc-only/scripts/ship.ps1` 做越界／README／编码校验 + 收尾推送。DSH 从 `<工程根>/.dsh/skills/<名字>/SKILL.md` 发现项目级 skill，写入即生效。
+
+同时修复：本文此前第 1106–1108 行为 GBK 字节（非 UTF-8），导致文档工具无法读取本文件；已按原字节重新编码为 UTF-8，内容未变。
+
+**本轮为工具/文档轮，未改任何运行时代码，也未改本体 `web/src`。** 详见 `web/public/mods/revival/README.md` 的「2026-09-27（第六轮）」。

@@ -1,5 +1,40 @@
 # 复兴 DLC：代码归属与使用说明
 
+## 2026-09-27（第六轮）：项目级 skill「默认只改本 DLC + README 同步 + 推 GitHub」+ 修复根 README 编码（工具/文档轮，未改运行时代码）
+
+### 用户需求（原话）
+
+> 「帮我写一个skill，只对这个项目有效，让所有修改默认在revival dlc里进行，且修改完要同步更新readme.md，修改完要同步更新上传到github」
+
+### 根因
+
+- 前五轮都是"人肉遵守"这条纪律（每轮 README 里都写着"仍只改本 DLC"），但没有机器可执行的护栏：新会话／新 agent 进来不知道默认落点，也不知道改完要写文档、要推送。
+- 顺带发现：根 `README.md` 第 1106–1108 行是 **GBK 字节**（非 UTF-8），导致 `read` 工具报 `invalid UTF-8 text`、整个文件读不了 —— 不修的话"改完同步更新 README"这条根本无法执行。
+
+### 落地（本 DLC 运行时代码 0 改动）
+
+| 文件 | 内容 |
+| --- | --- |
+| `.dsh/skills/revival-dlc-only/SKILL.md` | 项目级 skill。三条铁律：R1 默认只写 `web/public/mods/revival/`；R2 改完同步两份 README；R3 改完 commit + push `origin/main`。另含落点地图、本体改动的例外流程（先问用户 → 批准后两处 README 显式标注 → 跑 §10 回归）、README 写作格式、完成清单 |
+| `.dsh/skills/revival-dlc-only/scripts/ship.ps1` | 一键收尾：越界检查（白名单 = DLC / 两份 README / `.dsh/skills/`）→ 两份 README 是否都改过 → UTF-8 无 BOM 校验 → `git add -A` → commit → push → 用 `origin/main..HEAD == 0` 校验推送真的落地；带 `-DryRun` / `-AllowOutOfScope` / `-SkipReadmeCheck` |
+| 根 `README.md` | 尾部三行 GBK 字节按 GBK 解码后重写为 UTF-8（内容不变），文件恢复可读 |
+
+DSH 从 **`<工程根>/.dsh/skills/<name>/SKILL.md`** 发现项目级 skill（工程根 = 最近的含 `.git` 的祖先目录），写入即生效、无需重启；本次写入后当场出现在技能目录里，已实测。
+
+### 踩坑记录（避免重犯）
+
+1. **`git status --porcelain` 默认把未跟踪目录折叠成 `dir/`**，于是 `.dsh/` 匹配不上 `^\.dsh/skills/` 白名单、被越界检查误报。改用 **`git status --porcelain -uall`** 逐文件列出后正常。
+2. **本机没有 `pwsh`（PowerShell 7），只有 Windows PowerShell 5.1。** 文档与脚本里的调用一律写 `powershell -NoProfile -ExecutionPolicy Bypass -File`；`ship.ps1` 内所有输出刻意只用 ASCII —— 脚本本身是 UTF-8 无 BOM，5.1 会按 ANSI 读，中文会变乱码。
+3. 与上一轮踩坑 #1 同源：**改含中文的 UTF-8 文件不要用 PowerShell 的 `Set-Content`/`Get-Content -Raw`**，一律用 `edit`/`write` 工具或 Node。本次 GBK 修复是**按字节定位后重新编码**，不是文本替换。
+
+### 验证
+
+- `ship.ps1 -DryRun`：正常路径 PASS（识别 3 个改动文件、编码校验通过、打印 commit/push 计划）。
+- 负向用例 1：未改 `web/public/mods/revival/README.md` → 正确 `[FAIL] README not updated`，exit 1。
+- 负向用例 2（修 `-uall` 前）：`.dsh/` 被误判越界 → 已修，修后 PASS。
+- 根 `README.md` 编码：`UTF8Encoding($false,$true).GetString()` 不再抛异常；`read` 工具可读 1108 行全部内容。
+- 本轮 commit 由 `ship.ps1` 自己推送（dogfood），推送后 `git log origin/main..main` 为空。
+
 ## 2026-09-28（第五轮）：人员列表补底板 + 状态槽配色真正落地（仍只改本 DLC）
 
 ### 用户需求（原话）
