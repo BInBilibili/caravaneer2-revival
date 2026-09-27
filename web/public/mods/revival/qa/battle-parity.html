@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8"><base href="/"><title>战斗原版对齐验证（不读写存档）</title>
+<style>body{margin:12px;background:#222;color:#eee;font:14px system-ui}canvas{display:block;width:880px;height:495px;background:#000}button{margin:4px;padding:7px 11px}pre{white-space:pre-wrap;max-width:1100px;font:13px monospace}h1{font-size:18px}#state{color:#aedea8}#errors{color:#ff9999}</style></head><body>
+<h1>战斗原版对齐验证 · 独立内存场景，不读写任何存档</h1>
+<canvas id="stage" width="880" height="495" tabindex="0" aria-label="战斗画布"></canvas>
+<div id="controls">
+<button id="story-battle">原版第37号剧情战斗</button><button id="wall-smoke">墙面命中烟雾场景</button><button id="effects-scene">特效场景</button><button id="effects-check">特效帧序与绘制检查</button>
+<button id="blood-check">血滴与血迹检查</button><button id="blood-profile">血滴绘制耗时采样</button><button id="bleed-turn">准备角色失血场景</button><button id="end-current">结束当前角色回合</button><button id="drop-bow">脚下掉落弩</button><button id="groups">四组部署场景</button><button id="reset">重建原版初始站位</button><button id="close-scene">近距离场景</button>
+<button id="tick">前进 1 帧</button><button id="ticks">前进 10 帧</button><button id="second">前进 1 秒</button>
+<button id="hit">目标受击 12</button><button id="die">击倒目标</button><button id="blood">出血与灼烧</button><button id="towing">牵引动物场景</button><button id="transport-parity">Transport original render parity</button><button id="animal">动物受击</button><button id="animal-die">动物倒地</button>
+<button id="enemy">进入敌方回合</button><button id="player">返回玩家回合</button><button id="pan">平移镜头</button><button id="reload-hud">重建 HUD</button>
+<button id="messages">显示原版战斗消息</button><button id="burst">连发武器场景</button><button id="grenade">手雷场景</button><button id="projectile-check">火箭与弩箭绘制检查</button><button id="grenade-check">手雷帧序与绘制检查</button><button id="flame">喷火器场景</button><button id="flame-check">喷火帧序与绘制检查</button>
+<button id="medical">药品与包扎灯场景</button><button id="walk-hud">开始行走并保留 HUD</button><button id="hud-english">HUD 英文</button><button id="hud-chinese">HUD 中文</button>
+<button id="projectile">弩箭场景</button><button id="fire-target">射击测试目标</button><button id="throw-target">投向测试目标</button><button id="bounce-wall">反弹轮廓场景</button>
+<button id="armed-death">Armed target scene</button><button id="retained-doll">Retained doll bitmap check</button><button id="pose-parity">Pose parity full (legacy / skeleton)</button>
+<button id="atlas-load">Compact atlas resource check (before parity)</button>
+<button id="atlas-parity">Mapped atlas all-frame parity</button>
+<button id="atlas-fallback">Missing compact atlas fallback</button><button id="drop-atlas-parity">Dropped weapon atlas parity</button>
+<button id="rig-check">Static rig capability check</button>
+<button id="render-only">Render-only x20 (no simulation)</button><label><input type="checkbox" id="sound">Sound FX</label>
+<label><input type="checkbox" id="run">实时播放</label>
+<button id="town21">希古德小屋伏击</button><button id="town46">食人族伏击</button><button id="town47">温彻斯特伏击</button><button id="town68">雷金伏击</button>
+<button id="capture" title="鼠标留在画布上时可按 F8 捕获提示框">捕获原始画布</button>
+</div>
+<pre id="state" role="status">加载数据与贴图中…</pre><pre id="animation-state"></pre><pre id="events"></pre><pre id="errors" role="alert"></pre>
+<figure id="capture-figure" hidden><figcaption>880×495 原始画布快照（不受浏览器截图缩放影响）</figcaption><img id="capture-preview" alt="战斗画布原始像素快照" width="880" height="495"></figure>
+<figure id="rig-figure" hidden><figcaption>Static rig capability check (native pixels; not an original-game action)</figcaption><canvas id="rig-preview" style="width:500px;height:400px;background:#ccc" width="500" height="400" aria-label="Static rig preview"></canvas></figure>
+<script type="module" src="/@id/virtual:bundled-mod-qa/revival/battle-parity.ts"></script></body></html>

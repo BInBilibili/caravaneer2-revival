@@ -1,0 +1,34 @@
+{
+  "id": "advanced-weaponry",
+  "version": "1.0.0",
+  "name": "Advanced Weaponry",
+  "names": {
+    "1": "Advanced Weaponry",
+    "18": "高级武器扩展",
+    "19": "高級武器擴展"
+  },
+  "apiVersion": 1,
+  "enabled": true,
+  "data": {
+    "battleDoll": "data/battleDoll.json",
+    "weapons": "data/weapons.json",
+    "items": "data/items.json",
+    "gamedata": "data/gamedata.json",
+    "presets": "data/presets.json",
+    "texts": "data/texts.json",
+    "manifest": "data/asset-manifest.json"
+  },
+  "assets": {
+    "weaponIcon52.png": "images/10_weaponIcon52.png",
+    "weaponIcon53.png": "images/11_weaponIcon53.png",
+    "Weapon36.png": "images/3_Weapon36.png",
+    "Weapon37.png": "images/4_Weapon37.png",
+    "Weapon38.png": "images/5_Weapon38.png",
+    "ammoIcon18.png": "images/6_ammoIcon18.png",
+    "attachmentIcon7.png": "images/7_attachmentIcon7.png",
+    "weaponIcon50.png": "images/8_weaponIcon50.png",
+    "weaponIcon51.png": "images/9_weaponIcon51.png",
+    "SFX50BMG1": "sounds/1_SFX50BMG1.mp3",
+    "SFXDragunov1": "sounds/2_SFXDragunov1.mp3"
+  }
+}

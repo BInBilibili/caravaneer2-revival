@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "fieldSize": 20,
+  "player": {
+    "name": "猎犬",
+    "hp": 220,
+    "physical": 11,
+    "agility": 16,
+    "accuracy": 15,
+    "position": [
+      8,
+      8
+    ]
+  },
+  "zombies": [
+    {
+      "name": "原版对照 · 训练员",
+      "hp": 250,
+      "physical": 8,
+      "agility": 8,
+      "accuracy": 8,
+      "position": [
+        9,
+        8
+      ]
+    },
+    {
+      "name": "原版对照 · 侦察兵",
+      "hp": 180,
+      "physical": 7,
+      "agility": 8,
+      "accuracy": 8,
+      "position": [
+        11,
+        10
+      ]
+    }
+  ]
+}

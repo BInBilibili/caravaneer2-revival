@@ -1,0 +1,232 @@
+{
+  "bones": [
+    {
+      "name": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "BackHair",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "BigGunBackpack",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "LeftTopArm",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "LeftForearm",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Legs",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Body",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "RightTopArm",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "ShoulderPlates",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Head",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Beard",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "RightForearm",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Weapon",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "Shadows",
+      "parent": "root",
+      "x": 0,
+      "y": 0
+    }
+  ],
+  "slots": [
+    {
+      "name": "BackHair",
+      "bone": "BackHair",
+      "part": "BackHair",
+      "z": 0,
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "name": "BigGunBackpack",
+      "bone": "BigGunBackpack",
+      "part": "BigGunBackpack",
+      "z": 1,
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "name": "LeftTopArm",
+      "bone": "LeftTopArm",
+      "part": "LeftTopArm",
+      "z": 2,
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "name": "LeftForearm",
+      "bone": "LeftForearm",
+      "part": "LeftForearm",
+      "z": 3,
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "name": "Legs",
+      "bone": "Legs",
+      "part": "Legs",
+      "z": 4,
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "name": "Body",
+      "bone": "Body",
+      "part": "Body",
+      "z": 5,
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "name": "RightTopArm",
+      "bone": "RightTopArm",
+      "part": "RightTopArm",
+      "z": 6,
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "name": "ShoulderPlates",
+      "bone": "ShoulderPlates",
+      "part": "ShoulderPlates",
+      "z": 7,
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "name": "Head",
+      "bone": "Head",
+      "part": "Head",
+      "z": 8,
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "name": "Beard",
+      "bone": "Beard",
+      "part": "Beard",
+      "z": 9,
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "name": "RightForearm",
+      "bone": "RightForearm",
+      "part": "RightForearm",
+      "z": 10,
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "name": "Weapon",
+      "bone": "Weapon",
+      "part": "Weapon",
+      "z": 11,
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    },
+    {
+      "name": "Shadows",
+      "bone": "Shadows",
+      "part": "Shadows",
+      "z": 12,
+      "x": 0,
+      "y": 0,
+      "rotation": 0,
+      "scaleX": 1,
+      "scaleY": 1
+    }
+  ]
+}

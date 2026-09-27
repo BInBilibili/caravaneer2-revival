@@ -1,0 +1,39 @@
+{
+  "images": {
+    "weaponIcon52.png": [
+      "mods/advanced-weaponry/images/10_weaponIcon52.png"
+    ],
+    "weaponIcon53.png": [
+      "mods/advanced-weaponry/images/11_weaponIcon53.png"
+    ],
+    "Weapon36.png": [
+      "mods/advanced-weaponry/images/3_Weapon36.png"
+    ],
+    "Weapon37.png": [
+      "mods/advanced-weaponry/images/4_Weapon37.png"
+    ],
+    "Weapon38.png": [
+      "mods/advanced-weaponry/images/5_Weapon38.png"
+    ],
+    "ammoIcon18.png": [
+      "mods/advanced-weaponry/images/6_ammoIcon18.png"
+    ],
+    "attachmentIcon7.png": [
+      "mods/advanced-weaponry/images/7_attachmentIcon7.png"
+    ],
+    "weaponIcon50.png": [
+      "mods/advanced-weaponry/images/8_weaponIcon50.png"
+    ],
+    "weaponIcon51.png": [
+      "mods/advanced-weaponry/images/9_weaponIcon51.png"
+    ]
+  },
+  "sounds": {
+    "SFX50BMG1": [
+      "mods/advanced-weaponry/sounds/1_SFX50BMG1.mp3"
+    ],
+    "SFXDragunov1": [
+      "mods/advanced-weaponry/sounds/2_SFXDragunov1.mp3"
+    ]
+  }
+}

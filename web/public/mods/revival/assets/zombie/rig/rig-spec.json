@@ -1,0 +1,239 @@
+{
+ "bones": [
+  {
+   "name": "root"
+  },
+  {
+   "name": "torso",
+   "parent": "root",
+   "x": 0,
+   "y": -20,
+   "rotation": 12
+  },
+  {
+   "name": "head",
+   "parent": "torso",
+   "x": 0,
+   "y": -24,
+   "rotation": 8
+  },
+  {
+   "name": "uarm_L",
+   "parent": "torso",
+   "x": -7,
+   "y": -22,
+   "rotation": -12
+  },
+  {
+   "name": "farm_L",
+   "parent": "uarm_L",
+   "x": 0,
+   "y": 8,
+   "rotation": -8
+  },
+  {
+   "name": "uarm_R",
+   "parent": "torso",
+   "x": 7,
+   "y": -22,
+   "rotation": 12
+  },
+  {
+   "name": "farm_R",
+   "parent": "uarm_R",
+   "x": 0,
+   "y": 8,
+   "rotation": 8
+  },
+  {
+   "name": "thigh_L",
+   "parent": "root",
+   "x": -3,
+   "y": -20,
+   "rotation": 0
+  },
+  {
+   "name": "shin_L",
+   "parent": "thigh_L",
+   "x": 0,
+   "y": 7,
+   "rotation": -3
+  },
+  {
+   "name": "thigh_R",
+   "parent": "root",
+   "x": 3,
+   "y": -20,
+   "rotation": 0
+  },
+  {
+   "name": "shin_R",
+   "parent": "thigh_R",
+   "x": 0,
+   "y": 7,
+   "rotation": 3
+  }
+ ],
+ "slots": [
+  {
+   "name": "thigh_R",
+   "bone": "thigh_R",
+   "part": "thigh_R",
+   "z": 1
+  },
+  {
+   "name": "shin_R",
+   "bone": "shin_R",
+   "part": "shin_R",
+   "z": 1
+  },
+  {
+   "name": "uarm_R",
+   "bone": "uarm_R",
+   "part": "uarm_R",
+   "z": 1
+  },
+  {
+   "name": "farm_R",
+   "bone": "farm_R",
+   "part": "farm_R",
+   "z": 1
+  },
+  {
+   "name": "torso",
+   "bone": "torso",
+   "part": "torso_f",
+   "z": 2
+  },
+  {
+   "name": "thigh_L",
+   "bone": "thigh_L",
+   "part": "thigh_L",
+   "z": 2.5
+  },
+  {
+   "name": "shin_L",
+   "bone": "shin_L",
+   "part": "shin_L",
+   "z": 2.5
+  },
+  {
+   "name": "head",
+   "bone": "head",
+   "part": "head_f",
+   "z": 3
+  },
+  {
+   "name": "uarm_L",
+   "bone": "uarm_L",
+   "part": "uarm_L",
+   "z": 4
+  },
+  {
+   "name": "farm_L",
+   "bone": "farm_L",
+   "part": "farm_L",
+   "z": 4
+  }
+ ],
+ "anchors": {
+  "head_f": [
+   -8,
+   -9
+  ],
+  "torso_f": [
+   -10,
+   -30
+  ],
+  "uarm_L": [
+   -3,
+   -1
+  ],
+  "farm_L": [
+   -3,
+   -1
+  ],
+  "uarm_R": [
+   -3,
+   -1
+  ],
+  "farm_R": [
+   -3,
+   -1
+  ],
+  "thigh_L": [
+   -3,
+   -1
+  ],
+  "shin_L": [
+   -3,
+   -1
+  ],
+  "thigh_R": [
+   -3,
+   -1
+  ],
+  "shin_R": [
+   -3,
+   -1
+  ],
+  "head_b": [
+   -8,
+   -9
+  ],
+  "torso_b": [
+   -10,
+   -30
+  ]
+ },
+ "parts": {
+  "farm_L": [
+   7,
+   17
+  ],
+  "farm_R": [
+   7,
+   12
+  ],
+  "head_b": [
+   18,
+   10
+  ],
+  "head_f": [
+   18,
+   10
+  ],
+  "shin_L": [
+   7,
+   9
+  ],
+  "shin_R": [
+   7,
+   9
+  ],
+  "thigh_L": [
+   7,
+   12
+  ],
+  "thigh_R": [
+   7,
+   12
+  ],
+  "torso_b": [
+   19,
+   31
+  ],
+  "torso_f": [
+   19,
+   31
+  ],
+  "uarm_L": [
+   7,
+   11
+  ],
+  "uarm_R": [
+   7,
+   11
+  ]
+ }
+}

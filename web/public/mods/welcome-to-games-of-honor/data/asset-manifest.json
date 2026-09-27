@@ -1,0 +1,46 @@
+{
+  "images": {
+    "armorIcon28.png": [
+      "mods/welcome-to-games-of-honor/images/10_armorIcon28.png"
+    ],
+    "armorIcon29.png": [
+      "mods/welcome-to-games-of-honor/images/11_armorIcon29.png"
+    ],
+    "itemIcon117.png": [
+      "mods/welcome-to-games-of-honor/images/12_itemIcon117.png"
+    ],
+    "town84.png": [
+      "mods/welcome-to-games-of-honor/images/13_town84.png"
+    ],
+    "weaponIcon49.png": [
+      "mods/welcome-to-games-of-honor/images/14_weaponIcon49.png"
+    ],
+    "Body9.png": [
+      "mods/welcome-to-games-of-honor/images/1_Body9.png"
+    ],
+    "Head12.png": [
+      "mods/welcome-to-games-of-honor/images/2_Head12.png"
+    ],
+    "LeftForearm4.png": [
+      "mods/welcome-to-games-of-honor/images/3_LeftForearm4.png"
+    ],
+    "LeftTopArm3.png": [
+      "mods/welcome-to-games-of-honor/images/4_LeftTopArm3.png"
+    ],
+    "Legs3.png": [
+      "mods/welcome-to-games-of-honor/images/5_Legs3.png"
+    ],
+    "RightForearm4.png": [
+      "mods/welcome-to-games-of-honor/images/6_RightForearm4.png"
+    ],
+    "RightTopArm3.png": [
+      "mods/welcome-to-games-of-honor/images/7_RightTopArm3.png"
+    ],
+    "ShoulderPlates1.png": [
+      "mods/welcome-to-games-of-honor/images/8_ShoulderPlates1.png"
+    ],
+    "Weapon35.png": [
+      "mods/welcome-to-games-of-honor/images/9_Weapon35.png"
+    ]
+  }
+}

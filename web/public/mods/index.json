@@ -1,0 +1,9 @@
+{
+  "mods": [
+    "mods/advanced-weaponry/manifest.json",
+    "mods/industrial-magnate/manifest.json",
+    "mods/revival/manifest.json",
+    "mods/special-story/manifest.json",
+    "mods/welcome-to-games-of-honor/manifest.json"
+  ]
+}

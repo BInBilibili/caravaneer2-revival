@@ -1,0 +1,23 @@
+{
+  "AnimationTypes": {
+    "35": 2
+  },
+  "Weapons": {
+    "49": {
+      "name": 7034,
+      "type": 20,
+      "animatedWeapon": 35,
+      "range": 1,
+      "baseDamage": 46,
+      "armorNeutralization": 15,
+      "openWoundCoeficient": 0.05,
+      "weight": 3.6,
+      "price": 20000,
+      "sound": [
+        "SFXSwordHit1",
+        "SFXSwordHit2",
+        "SFXSwordHit3"
+      ]
+    }
+  }
+}

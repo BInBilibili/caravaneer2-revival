@@ -1,0 +1,389 @@
+{
+  "AnimationTypes": {
+    "36": 4,
+    "37": 4,
+    "38": 4
+  },
+  "Weapons": {
+    "50": {
+      "name": 7083,
+      "type": 15,
+      "animatedWeapon": 28,
+      "range": 300,
+      "accuracy": 8,
+      "weight": 4.3,
+      "ammo": 16,
+      "ammoCapacity": 30,
+      "muzzleVelocityChange": 0,
+      "price": 60000,
+      "sound": [
+        "SFXAK1",
+        "SFXAK2",
+        "SFXAK3"
+      ]
+    },
+    "51": {
+      "name": 7084,
+      "type": 22,
+      "animatedWeapon": 36,
+      "range": 180,
+      "accuracy": 4,
+      "weight": 5.2,
+      "ammo": 3,
+      "ammoCapacity": 20,
+      "muzzleVelocityChange": 0,
+      "spread": 0.2,
+      "price": 70000,
+      "sound": [
+        "SFXShotgun1",
+        "SFXShotgun2",
+        "SFXShotgun3"
+      ]
+    },
+    "52": {
+      "name": 7085,
+      "type": 4,
+      "animatedWeapon": 37,
+      "range": 900,
+      "accuracy": 13,
+      "weight": 4.3,
+      "ammo": 9,
+      "ammoCapacity": 10,
+      "muzzleVelocityChange": 0.05,
+      "price": 700000,
+      "sound": [
+        "SFXDragunov1"
+      ]
+    },
+    "53": {
+      "name": 7086,
+      "type": 13,
+      "animatedWeapon": 38,
+      "range": 1000,
+      "accuracy": 11,
+      "weight": 12.4,
+      "ammo": 18,
+      "ammoCapacity": 1,
+      "muzzleVelocityChange": 0.01,
+      "price": 1500000,
+      "sound": "SFX50BMG1"
+    },
+    "54": {
+      "name": 1044,
+      "icon": 20,
+      "additionalNameText": 7095,
+      "type": 28,
+      "animatedWeapon": 20,
+      "range": 150,
+      "accuracy": 6,
+      "weight": 0.871,
+      "ammo": 1,
+      "ammoCapacity": 8,
+      "muzzleVelocityChange": 0,
+      "price": 20000,
+      "sound": "SFXPistol1",
+      "pictureFrom": 20
+    },
+    "55": {
+      "name": 4223,
+      "icon": 36,
+      "additionalNameText": 7095,
+      "type": 28,
+      "animatedWeapon": 20,
+      "range": 200,
+      "accuracy": 7,
+      "weight": 0.625,
+      "ammo": 1,
+      "ammoCapacity": 17,
+      "muzzleVelocityChange": 0.05,
+      "price": 40000,
+      "sound": "SFXPistol1",
+      "pictureFrom": 36
+    },
+    "56": {
+      "name": 1045,
+      "icon": 21,
+      "additionalNameText": 7096,
+      "type": 4,
+      "animatedWeapon": 21,
+      "range": 400,
+      "accuracy": 11,
+      "weight": 4.31,
+      "ammo": 2,
+      "ammoCapacity": 8,
+      "muzzleVelocityChange": 0.03,
+      "price": 100000,
+      "sound": "SFXRifle1",
+      "pictureFrom": 21
+    },
+    "57": {
+      "name": 4175,
+      "icon": 33,
+      "additionalNameText": 7096,
+      "type": 13,
+      "animatedWeapon": 21,
+      "range": 400,
+      "accuracy": 12,
+      "weight": 4,
+      "ammo": 8,
+      "ammoCapacity": 10,
+      "muzzleVelocityChange": 0.04,
+      "price": 85000,
+      "sound": "SFXRifle1",
+      "pictureFrom": 33
+    },
+    "58": {
+      "name": 4180,
+      "icon": 34,
+      "additionalNameText": 7096,
+      "type": 13,
+      "animatedWeapon": 21,
+      "range": 400,
+      "accuracy": 12,
+      "weight": 4,
+      "ammo": 9,
+      "ammoCapacity": 5,
+      "muzzleVelocityChange": 0.05,
+      "price": 75000,
+      "sound": "SFXRifle1",
+      "pictureFrom": 34
+    },
+    "59": {
+      "name": 3889,
+      "icon": 30,
+      "additionalNameText": 7096,
+      "type": 15,
+      "animatedWeapon": 28,
+      "range": 300,
+      "accuracy": 10,
+      "weight": 3.26,
+      "ammo": 7,
+      "ammoCapacity": 30,
+      "muzzleVelocityChange": 0.01,
+      "price": 400000,
+      "sound": [
+        "SFXM161",
+        "SFXM162",
+        "SFXM163"
+      ],
+      "pictureFrom": 30
+    },
+    "60": {
+      "name": 4234,
+      "icon": 41,
+      "additionalNameText": 7096,
+      "type": 15,
+      "animatedWeapon": 28,
+      "range": 200,
+      "accuracy": 9,
+      "weight": 3.1,
+      "ammo": 11,
+      "ammoCapacity": 30,
+      "muzzleVelocityChange": 0,
+      "price": 300000,
+      "sound": [
+        "SFXAK1",
+        "SFXAK2",
+        "SFXAK3"
+      ],
+      "pictureFrom": 41
+    },
+    "61": {
+      "name": 7083,
+      "icon": 50,
+      "additionalNameText": 7096,
+      "type": 15,
+      "animatedWeapon": 28,
+      "range": 300,
+      "accuracy": 10,
+      "weight": 4.3,
+      "ammo": 16,
+      "ammoCapacity": 30,
+      "muzzleVelocityChange": 0,
+      "price": 600000,
+      "sound": [
+        "SFXAK1",
+        "SFXAK2",
+        "SFXAK3"
+      ],
+      "pictureFrom": 50
+    },
+    "62": {
+      "name": 6814,
+      "icon": 47,
+      "additionalNameText": 7096,
+      "type": 4,
+      "animatedWeapon": 21,
+      "range": 800,
+      "accuracy": 14,
+      "weight": 5.27,
+      "ammo": 16,
+      "ammoCapacity": 20,
+      "muzzleVelocityChange": 0.04,
+      "price": 600000,
+      "sound": "SFXRifle1",
+      "pictureFrom": 47
+    },
+    "63": {
+      "name": 7085,
+      "icon": 52,
+      "additionalNameText": 7096,
+      "type": 4,
+      "animatedWeapon": 37,
+      "range": 900,
+      "accuracy": 14,
+      "weight": 4.3,
+      "ammo": 9,
+      "ammoCapacity": 10,
+      "muzzleVelocityChange": 0.05,
+      "price": 700000,
+      "sound": [
+        "SFXDragunov1"
+      ],
+      "pictureFrom": 52
+    }
+  },
+  "Calibers": {
+    "18": {
+      "name": 7087,
+      "bulletDiameter": 13,
+      "caseAndPropellantWeight": 75
+    }
+  },
+  "Ammo": {
+    "35": {
+      "type": 18,
+      "variation": 7088,
+      "projectileMass": 42,
+      "FF": 1,
+      "muzzleVelocity": 928,
+      "armorPiercing": 0.8,
+      "softTargetDamage": 1.2,
+      "price": 1100,
+      "weight": 0.042
+    },
+    "36": {
+      "type": 18,
+      "variation": 7089,
+      "projectileMass": 45,
+      "FF": 1,
+      "muzzleVelocity": 908,
+      "armorPiercing": 2,
+      "softTargetDamage": 0.8,
+      "price": 1200,
+      "weight": 0.042
+    },
+    "37": {
+      "type": 18,
+      "variation": 7090,
+      "projectileMass": 23,
+      "FF": 1,
+      "muzzleVelocity": 1219,
+      "armorPiercing": 2.5,
+      "softTargetDamage": 0.9,
+      "price": 1800,
+      "weight": 0.023
+    },
+    "38": {
+      "type": 18,
+      "variation": 7091,
+      "projectileMass": 44,
+      "FF": 1,
+      "muzzleVelocity": 886,
+      "armorPiercing": 2.3,
+      "softTargetDamage": 1.8,
+      "price": 1900,
+      "weight": 0.044
+    },
+    "39": {
+      "type": 2,
+      "variation": 7097,
+      "projectileMass": 12.3,
+      "FF": 1.1,
+      "muzzleVelocity": 830,
+      "armorPiercing": 2.7,
+      "softTargetDamage": 1,
+      "price": 2000,
+      "weight": 0.015
+    },
+    "40": {
+      "type": 8,
+      "variation": 7097,
+      "projectileMass": 14,
+      "FF": 1,
+      "muzzleVelocity": 705,
+      "armorPiercing": 2.7,
+      "softTargetDamage": 1,
+      "price": 2000,
+      "weight": 0.015
+    },
+    "41": {
+      "type": 9,
+      "variation": 7097,
+      "projectileMass": 9.4,
+      "FF": 1,
+      "muzzleVelocity": 928,
+      "armorPiercing": 2.7,
+      "softTargetDamage": 1,
+      "price": 2500,
+      "weight": 0.011
+    },
+    "42": {
+      "type": 11,
+      "variation": 7097,
+      "projectileMass": 10,
+      "FF": 1,
+      "muzzleVelocity": 698,
+      "armorPiercing": 2.7,
+      "softTargetDamage": 1,
+      "price": 1750,
+      "weight": 0.011
+    },
+    "43": {
+      "type": 15,
+      "variation": 7097,
+      "projectileMass": 14,
+      "FF": 1,
+      "muzzleVelocity": 785,
+      "armorPiercing": 2.7,
+      "softTargetDamage": 1,
+      "price": 4500,
+      "weight": 0.023
+    },
+    "44": {
+      "type": 16,
+      "variation": 7097,
+      "projectileMass": 11,
+      "FF": 1,
+      "muzzleVelocity": 820,
+      "armorPiercing": 2.7,
+      "softTargetDamage": 1,
+      "price": 5500,
+      "weight": 0.023
+    },
+    "45": {
+      "type": 18,
+      "variation": 7097,
+      "projectileMass": 50,
+      "FF": 1,
+      "muzzleVelocity": 860,
+      "armorPiercing": 2.7,
+      "softTargetDamage": 1,
+      "price": 6200,
+      "weight": 0.044
+    }
+  },
+  "Attachments": {
+    "7": {
+      "name": 7092,
+      "type": 3,
+      "applicable": [
+        "shotgun"
+      ],
+      "affectSpread": -5,
+      "description": 7093,
+      "weight": 0.08,
+      "price": 2000
+    }
+  }
+}

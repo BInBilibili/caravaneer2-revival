@@ -1,0 +1,130 @@
+{
+  "town_presets": {
+    "0": {
+      "53": {
+        "locations": {
+          "10": {
+            "x": 180,
+            "y": 200,
+            "category": 1,
+            "subCategory": 2,
+            "symbol": 9,
+            "visible": true,
+            "name": 7098,
+            "margin": 1.6,
+            "assortment": [
+              {
+                "item": 121,
+                "amount": 500
+              },
+              {
+                "item": 122,
+                "amount": 400
+              },
+              {
+                "item": 129,
+                "amount": 300
+              },
+              {
+                "item": 130,
+                "amount": 200
+              },
+              {
+                "item": 131,
+                "amount": 200
+              },
+              {
+                "item": 147,
+                "amount": 400
+              },
+              {
+                "item": 148,
+                "amount": 300
+              },
+              {
+                "item": 150,
+                "amount": 500
+              },
+              {
+                "item": 151,
+                "amount": 400
+              },
+              {
+                "item": 182,
+                "amount": 200
+              },
+              {
+                "item": 183,
+                "amount": 150
+              },
+              {
+                "item": 204,
+                "amount": 600
+              },
+              {
+                "item": 121,
+                "amount": 500
+              },
+              {
+                "item": 210,
+                "amount": 200
+              },
+              {
+                "item": 211,
+                "amount": 150
+              },
+              {
+                "item": 121,
+                "amount": 500
+              },
+              {
+                "item": 240,
+                "amount": 100
+              },
+              {
+                "item": 241,
+                "amount": 100
+              },
+              {
+                "item": 242,
+                "amount": 100
+              },
+              {
+                "item": 243,
+                "amount": 500
+              },
+              {
+                "item": 255,
+                "amount": 200
+              },
+              {
+                "item": 256,
+                "amount": 200
+              },
+              {
+                "item": 257,
+                "amount": 200
+              },
+              {
+                "item": 258,
+                "amount": 200
+              },
+              {
+                "item": 259,
+                "amount": 200
+              },
+              {
+                "item": 260,
+                "amount": 200
+              },
+              {
+                "item": 261,
+                "amount": 200
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

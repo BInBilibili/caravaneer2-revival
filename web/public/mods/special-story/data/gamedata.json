@@ -1,0 +1,69 @@
+{
+  "originalDlcFeatures": {
+    "special-story": true
+  },
+  "originalDlcStock": {
+    "special-story": [
+      {
+        "town": 83,
+        "item": 29,
+        "amount": 75
+      },
+      {
+        "town": 83,
+        "item": 39,
+        "amount": 56
+      },
+      {
+        "town": 83,
+        "item": 45,
+        "amount": 25
+      },
+      {
+        "town": 83,
+        "item": 1,
+        "amount": 23
+      },
+      {
+        "town": 83,
+        "item": 80,
+        "amount": 3
+      },
+      {
+        "town": 83,
+        "item": 10,
+        "amount": 3
+      },
+      {
+        "town": 83,
+        "item": 8,
+        "amount": 2
+      },
+      {
+        "town": 83,
+        "item": 7,
+        "amount": 2
+      },
+      {
+        "town": 83,
+        "item": 11,
+        "amount": 2
+      },
+      {
+        "town": 83,
+        "item": 16,
+        "amount": 3
+      },
+      {
+        "town": 83,
+        "item": 6,
+        "amount": 3
+      },
+      {
+        "town": 83,
+        "item": 54,
+        "amount": 3
+      }
+    ]
+  }
+}

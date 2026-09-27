@@ -1,0 +1,17 @@
+{
+  "id": "industrial-magnate",
+  "name": "Industrial Magnate",
+  "names": {
+    "1": "Industrial Magnate",
+    "18": "工业大亨",
+    "19": "工業大亨"
+  },
+  "version": "1.0.0",
+  "enabled": true,
+  "apiVersion": 1,
+  "data": {
+    "gamedata": "data/gamedata.json",
+    "texts": "data/texts.json"
+  },
+  "assets": {}
+}

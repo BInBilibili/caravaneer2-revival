@@ -1,0 +1,86 @@
+// Minimal in-memory checks for quantity/trade, dialogue, pause controls and save notice.
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createRequire} from 'node:module';
+import ts from 'typescript';
+const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const require = createRequire(import.meta.url), cache = new Map();
+function load(file) {
+  file = path.resolve(root, file); if (!path.extname(file)) file += '.ts';
+  if (cache.has(file)) return cache.get(file).exports;
+  const m = {exports: {}}; cache.set(file, m);
+  const js = ts.transpileModule(fs.readFileSync(file, 'utf8'), {compilerOptions: {module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2022}}).outputText;
+  new Function('require', 'module', 'exports', js)(n => n.startsWith('.') ? load(path.resolve(path.dirname(file), n)) : require(n), m, m.exports);
+  return m.exports;
+}
+globalThis.document = {createElement: () => ({getContext: () => ({measureText: s => ({width: String(s).length * 8})})})};
+
+const {GameData} = load('src/game/World.ts');
+const {getItemData, Economy} = load('src/game/Economy.ts');
+const {SaveSlots, makeSave, applySave} = load('src/game/SaveSystem.ts');
+const {SharedObjectLike} = load('src/core/SaveStore.ts');
+const {CharacterSetupScreen} = load('src/game/CharacterSetupScreen.ts');
+const {TradeWindow} = load('src/game/TradeWindow.ts');
+const {MapMode} = load('src/game/MapMode.ts');
+const {originalCreationColors} = load('src/game/CreationColors.ts');
+const {webText} = load('src/core/WebTexts.ts');
+const json = name => JSON.parse(fs.readFileSync(path.join(root,'public/data/'+name+'.json'),'utf8'));
+const ds = {language:18, texts:json('texts')._texts};
+for (const name of ['presets','items','weapons','industries','transports','gamedata','namePhonetics','dialogues','mainStory']) ds[name]=json(name);
+globalThis.__c2 = {ds}; globalThis.__c2GetItemData = id => getItemData(ds,id);
+const start = (storyMode,difficulty) => new GameData(ds,{storyMode,difficulty,character:{name:'TEST ONLY',age:25,gender:1,basePhysical:10,baseAgility:10,baseAccuracy:10,baseIntelligence:10}});
+const originalRandom = Math.random; Math.random = () => .5;
+const story = start(true,1), survival = start(false,2);
+Math.random = originalRandom;
+assert.equal(story.Caravans[0].money,0);
+assert.deepEqual([survival.Caravans[0].x,survival.Caravans[0].y],[-12600,3700]);
+assert.equal(survival.Caravans[0].money,150000);
+assert.ok(survival.Caravans[0].People[0].weapons.some(x => x>0),'survival weapons are equipped');
+assert.ok(survival.Towns.every(t => !t.preset.storyOnly || !t.active));
+assert.ok(survival.Towns.every(t => t.locations.every(l => l.category!==3 || l.visible===false)));
+assert.ok(survival.Towns[23].locations[2].assortment.some(a=>a.item===166&&a.amount===.3));
+assert.ok(!story.Towns[23].locations[2].assortment.some(a=>a.item===166),'survival additions do not mutate shared presets');
+const hireTown = story.Towns.find(t => t.people?.length); assert.ok(hireTown);
+assert.equal(hireTown.people[0].salaryCoefficient,survival.Towns[hireTown.id].people[0].salaryCoefficient*.7);
+const tags = {nameText:{},countText:{}};
+MapMode.prototype.updateNpcLabel.call({gd:story,text:id=>id===773?'@number@ men':String(id)}, {name:'Test',defenders:9},tags,100000,1);
+assert.equal(tags.countText.text,'(9 men)');
+// An independent in-memory Storage emulates closing/reopening the application.
+const disk = new Map(); let fail=false;
+globalThis.localStorage = {getItem:key=>disk.get(key)??null,setItem(key,value){if(fail)throw Error('quota');disk.set(key,value);},removeItem:key=>disk.delete(key)};
+let storage = new SharedObjectLike('TEST-ONLY', {saves:[]}), slots = new SaveSlots(storage);
+assert.equal(slots.nextManualSlot(),1);
+slots.save(story,0,'Manual A'); slots.save(story,slots.nextManualSlot(),'Manual B');
+slots.saveAutomatic(story,'Auto'); slots.saveAutomatic(story,'Auto');
+storage = new SharedObjectLike('TEST-ONLY',{saves:[]}); slots = new SaveSlots(storage);
+assert.deepEqual(slots.list().filter(Boolean).map(e=>e.name),['Auto','Manual A','Manual B']);
+const before=JSON.stringify(storage.data), persisted=disk.get('c2:TEST-ONLY');
+assert.ok(persisted.startsWith('c2z1:'));assert.ok(persisted.length<before.length/2);
+console.log('Save envelope characters:', before.length, '->', persisted.length); fail=true;
+assert.throws(()=>slots.saveAutomatic(story,'FAILED')); assert.equal(JSON.stringify(storage.data),before);assert.equal(disk.get('c2:TEST-ONLY'),persisted);fail=false;
+const legacy={data:{saves:[{name:'Legacy manual zero',data:makeSave(story)}]},flush(){return true;}};
+new SaveSlots(legacy).saveAutomatic(story,'Auto'); assert.equal(legacy.data.saves[1].name,'Legacy manual zero');
+disk.set('c2:BROKEN','{corrupt');const broken=new SharedObjectLike('BROKEN',{saves:[]});assert.equal(broken.flush(),false);assert.equal(disk.get('c2:BROKEN'),'{corrupt');
+survival.showTutorial=false;const sd=makeSave(survival);applySave(story,sd);assert.equal(story.gameSpeed,0);assert.equal(story.showTutorial,false);assert.equal(story.storyMode,false);assert.equal(story.Towns[16].difficulty,2);
+assert.equal(webText(ds,'autoSaved'),'已自动存档');assert.equal(webText({...ds,language:1},'autoSaved'),'Game autosaved');
+const t=Object.assign(Object.create(TradeWindow.prototype),{gd:survival,ds, sides:[{array:[],items:[]},{array:[],items:[]}], prepare(){this.sides[1].array=[{kind:'item',type:97,amount:123}]},build(){},doMove(side,e,n){this.sides[side].items.push({...e,amount:n});}});
+t.showLoot(new Map([[97,123]]),'Loot',()=>{});assert.deepEqual(t.partnerArea(),[{type:97,amount:123}]);
+const setup=Object.assign(Object.create(CharacterSetupScreen.prototype),{theCharacter:{gender:1,age:25,basePhysical:10,baseAgility:10,baseAccuracy:10,baseIntelligence:10,bristleGrade:0},availablePoints:0,refreshStats(){},drawPortrait(){}});
+setup.adjustStat(0,-1);assert.equal(setup.availablePoints,1);setup.adjustStat(0,1);assert.equal(setup.availablePoints,0);
+setup.adjustBristle(-1);assert.equal(setup.theCharacter.bristleGrade,6);setup.adjustBristle(1);assert.equal(setup.theCharacter.bristleGrade,0);
+setup.randomizeAttrs();assert.equal(['basePhysical','baseAgility','baseAccuracy','baseIntelligence'].reduce((n,k)=>n+setup.theCharacter[k],0),40);
+for(const gender of [1,2])for(let i=0;i<30;i++)for(const c of Object.values(originalCreationColors(gender,25)))assert.ok(Object.values(c).every(Number.isFinite));
+// Hard-mode shop resale uses one quarter of the easy-mode coefficient.
+const town = survival.Towns.find(t=>t.locations.some(l=>l.category===1&&l.subCategory>1&&l.subCategory<5)), shop = town.locations.find(l=>l.category===1&&l.subCategory>1&&l.subCategory<5);
+assert.ok(shop); town.difficulty=1;const easyPrice=Economy.price(ds,town,21,1,false,shop);town.difficulty=2;const hardPrice=Economy.price(ds,town,21,1,false,shop);assert.ok(hardPrice<=easyPrice);
+console.log('PASS reserved saves, reopening, legacy slot preservation, failed write rollback and corrupt-storage protection (memory only)');
+console.log('PASS story/survival start, location visibility, extra assortments, auto-equipment, easy salaries and exact NPC counts');
+console.log('PASS mode/difficulty/tutorial load state, localized autosave, loot money staging, creation stats and seven bristle levels');
+
+const {GameShell} = load('src/game/Shell.ts'), {Sprite} = load('src/core/Display.ts');
+let savedAfterBattle=0;
+const shell = Object.assign(Object.create(GameShell.prototype),{battle:null,gd:{autoSave:true},mapMode:null,currentScreen:new Sprite(),canvas:{style:{}},autoSave(){savedAfterBattle++;}});
+shell.endBattle(true,0);assert.equal(savedAfterBattle,0);
+console.log('PASS battle-to-map does not add a non-original autosave');

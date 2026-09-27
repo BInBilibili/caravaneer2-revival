@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
+  <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  <title>Caravaneer 2 — HTML5 移植</title>
+  <style>
+    html, body { margin: 0; padding: 0; background: #000; height: 100%; overflow: hidden; }
+    #stage-wrap { width: 100vw; height: 100vh; display: flex; align-items: center; justify-content: center; }
+    canvas { image-rendering: auto; box-shadow: 0 0 40px rgba(0,0,0,.8); }
+  </style>
+</head>
+<body>
+  <div id="stage-wrap"><canvas id="stage" width="880" height="495"></canvas></div>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>

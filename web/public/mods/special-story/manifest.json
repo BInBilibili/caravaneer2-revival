@@ -1,0 +1,24 @@
+{
+  "id": "special-story",
+  "name": "Special Story",
+  "names": {
+    "1": "Special Story",
+    "18": "特别剧情",
+    "19": "特別劇情"
+  },
+  "version": "1.0.0",
+  "enabled": true,
+  "apiVersion": 1,
+  "data": {
+    "gamedata": "data/gamedata.json",
+    "presets": "data/presets.json",
+    "mainStory": "data/mainStory.json",
+    "texts": "data/texts.json",
+    "dialogues": "data/dialogues.json",
+    "manifest": "data/asset-manifest.json"
+  },
+  "assets": {
+    "Dialogue38.png": "images/1_Dialogue38.png",
+    "town83.png": "images/2_town83.png"
+  }
+}

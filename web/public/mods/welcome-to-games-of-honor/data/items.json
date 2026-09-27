@@ -1,0 +1,73 @@
+{
+  "Armor": {
+    "28": {
+      "name": 7032,
+      "type": 1,
+      "armor": 25,
+      "explosionResistance": 18,
+      "fireResistance": 10,
+      "color": {
+        "r": 100,
+        "g": 90,
+        "b": 80,
+        "bc": 1
+      },
+      "price": 75000,
+      "weight": 23,
+      "changeBody": 9,
+      "changeTopArm": 3,
+      "changeForearm": 4,
+      "changeLegs": 3,
+      "changeShoulderPlates": 1,
+      "preserveBodyColor": true,
+      "preserveLegsColor": true,
+      "preserveTopArmColor": true,
+      "preserveForearmColor": true,
+      "preserveShoulderPlatesColor": true
+    },
+    "29": {
+      "name": 7033,
+      "type": 2,
+      "armor": 6,
+      "explosionResistance": 7,
+      "fireResistance": 3,
+      "color": {
+        "r": 120,
+        "g": 115,
+        "b": 110,
+        "bc": 1
+      },
+      "price": 8000,
+      "weight": 1,
+      "changeHead": 12,
+      "changeBackHair": 0
+    }
+  },
+  "Goods": {
+    "117": {
+      "name": 7067,
+      "unit": "",
+      "weight": 16,
+      "divisible": false,
+      "price": 10
+    }
+  },
+  "Items": {
+    "232": {
+      "category": 5,
+      "subCategory": 28
+    },
+    "233": {
+      "category": 5,
+      "subCategory": 29
+    },
+    "234": {
+      "category": 2,
+      "subCategory": 49
+    },
+    "235": {
+      "category": 1,
+      "subCategory": 117
+    }
+  }
+}

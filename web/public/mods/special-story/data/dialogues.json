@@ -1,0 +1,908 @@
+{
+  "characterNames": {
+    "38": "6933"
+  },
+  "entries": {
+    "164": {
+      "responses": {
+        "$append": [
+          3373
+        ]
+      }
+    },
+    "188": {
+      "responses": {
+        "$append": [
+          3377,
+          3383
+        ]
+      }
+    },
+    "297": {
+      "responses": {
+        "$append": [
+          3443,
+          3444
+        ]
+      }
+    },
+    "308": {
+      "responses": {
+        "$append": [
+          3433
+        ]
+      }
+    },
+    "327": {
+      "responses": {
+        "$append": [
+          3434
+        ]
+      }
+    },
+    "471": {
+      "responses": {
+        "$append": [
+          3374
+        ]
+      }
+    },
+    "2099": {
+      "text": 6915,
+      "responses": [
+        3375
+      ]
+    },
+    "2100": {
+      "text": 6918,
+      "responses": [
+        3376
+      ]
+    },
+    "2101": {
+      "text": 6921,
+      "responses": [
+        3378
+      ]
+    },
+    "2102": {
+      "text": 6923,
+      "responses": [
+        3379
+      ]
+    },
+    "2103": {
+      "text": 6925,
+      "responses": [
+        3380,
+        3445
+      ]
+    },
+    "2104": {
+      "text": 6926,
+      "responses": [
+        3381,
+        3384
+      ]
+    },
+    "2105": {
+      "text": 6929,
+      "responses": [
+        3382
+      ]
+    },
+    "2106": {
+      "text": 6934,
+      "responses": [
+        3386
+      ]
+    },
+    "2107": {
+      "text": 6936,
+      "responses": [
+        3387
+      ]
+    },
+    "2108": {
+      "text": 6938,
+      "responses": [
+        3388
+      ]
+    },
+    "2109": {
+      "text": 6940,
+      "responses": [
+        3390,
+        3389
+      ]
+    },
+    "2110": {
+      "text": 6943,
+      "responses": [
+        3425,
+        3426,
+        3427,
+        3431,
+        3391
+      ]
+    },
+    "2111": {
+      "text": 6945,
+      "responses": [
+        3392
+      ]
+    },
+    "2112": {
+      "text": 6947,
+      "responses": [
+        3393
+      ]
+    },
+    "2113": {
+      "text": 6949,
+      "responses": [
+        3394
+      ]
+    },
+    "2114": {
+      "text": 6951,
+      "responses": [
+        3395
+      ]
+    },
+    "2115": {
+      "text": 6953,
+      "responses": [
+        3396
+      ]
+    },
+    "2116": {
+      "text": 6955,
+      "responses": [
+        3397
+      ]
+    },
+    "2117": {
+      "text": 6957,
+      "responses": [
+        3398
+      ]
+    },
+    "2118": {
+      "text": 6959,
+      "responses": [
+        3399,
+        3402,
+        3403
+      ]
+    },
+    "2119": {
+      "text": 6961,
+      "responses": [
+        3400,
+        3401
+      ]
+    },
+    "2120": {
+      "text": 6966,
+      "responses": [
+        3404
+      ]
+    },
+    "2121": {
+      "text": 6968,
+      "responses": [
+        3405
+      ]
+    },
+    "2122": {
+      "text": 6970,
+      "responses": [
+        3406
+      ]
+    },
+    "2123": {
+      "text": 6972,
+      "responses": [
+        3407
+      ]
+    },
+    "2124": {
+      "text": 6974,
+      "responses": [
+        3408,
+        3411,
+        3409,
+        3410
+      ]
+    },
+    "2125": {
+      "text": 6979,
+      "responses": [
+        3412
+      ]
+    },
+    "2126": {
+      "text": 6981,
+      "responses": [
+        3413,
+        3414,
+        3416
+      ]
+    },
+    "2127": {
+      "text": 6984,
+      "responses": [
+        3415,
+        3417,
+        3418
+      ]
+    },
+    "2128": {
+      "text": 6987,
+      "responses": [
+        3419,
+        3423,
+        3420
+      ]
+    },
+    "2129": {
+      "text": 6992,
+      "responses": [
+        3428
+      ]
+    },
+    "2130": {
+      "text": 6993,
+      "responses": [
+        3422,
+        3421
+      ]
+    },
+    "2131": {
+      "text": 6997,
+      "responses": [
+        3424
+      ]
+    },
+    "2132": {
+      "text": 7004,
+      "responses": [
+        3430,
+        3429
+      ]
+    },
+    "2133": {
+      "text": 7009,
+      "responses": [
+        3432
+      ]
+    },
+    "2134": {
+      "text": 7013,
+      "responses": [
+        3435,
+        3436
+      ]
+    },
+    "2135": {
+      "text": 7016,
+      "responses": [
+        3437,
+        3438
+      ]
+    },
+    "2136": {
+      "text": 7019,
+      "responses": [
+        3439,
+        3440
+      ]
+    },
+    "2137": {
+      "text": 7022,
+      "responses": [
+        3441
+      ]
+    },
+    "2138": {
+      "text": 7024,
+      "responses": [
+        3442
+      ]
+    }
+  },
+  "responses": {
+    "3373": {
+      "value": {
+        "text": 6914,
+        "goTo": 2099
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            var _loc2_:Boolean = !Story.additionalVariables.heardAboutSilosMerchant;\r\n         }\r\n         return _loc2_;\r\n      }"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            setCurrentDefault(164);\r\n            Story.additionalVariables.heardAboutSilosMerchant = true;\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3374": {
+      "value": {
+        "text": 6916,
+        "goTo": 2099
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            var _loc2_:Boolean = !Story.additionalVariables.heardAboutSilosMerchant;\r\n         }\r\n         return _loc2_;\r\n      }"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            Story.additionalVariables.heardAboutSilosMerchant = true;\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3375": {
+      "value": {
+        "text": 6917,
+        "goTo": 2100
+      }
+    },
+    "3376": {
+      "value": {
+        "text": 6919,
+        "goTo": 0
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            leave();\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3377": {
+      "value": {
+        "text": 6920,
+        "goTo": 2101
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            var _loc2_:Boolean = Story.additionalVariables.heardAboutSilosMerchant && !Story.additionalVariables.askedKukulAboutFinn;\r\n         }\r\n         return _loc2_;\r\n      }"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            Story.additionalVariables.askedKukulAboutFinn = true;\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3378": {
+      "value": {
+        "text": 6922,
+        "goTo": 2102
+      }
+    },
+    "3379": {
+      "value": {
+        "text": 6924,
+        "goTo": 0
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            if(GD.getFactionRelations(0,2,true) < 0)\r\n            {\r\n               currentEntry = 2103;\r\n            }\r\n            else\r\n            {\r\n               currentEntry = 2104;\r\n            }\r\n            refresh();\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3380": {
+      "value": {
+        "text": 6927,
+        "goTo": 188
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            var _loc2_:Boolean = Story.dialogueDefaults[character] != 297;\r\n         }\r\n         return _loc2_;\r\n      }"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            Story.additionalVariables.knowWhereFinnIs = true;\r\n            GD.Towns[17].locations[5].visible = true;\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3381": {
+      "value": {
+        "text": 6928,
+        "goTo": 2105
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            GD.affectSpecificReputation(2,-1);\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3382": {
+      "value": {
+        "text": 6930,
+        "goTo": 188
+      }
+    },
+    "3383": {
+      "value": {
+        "text": 6931,
+        "goTo": 0
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            var _loc2_:Boolean = Story.additionalVariables.askedKukulAboutFinn && !Story.additionalVariables.knowWhereFinnIs;\r\n         }\r\n         return _loc2_;\r\n      }"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            if(GD.getFactionRelations(0,2,true) < 0)\r\n            {\r\n               currentEntry = 2103;\r\n            }\r\n            else\r\n            {\r\n               currentEntry = 2104;\r\n            }\r\n            refresh();\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3384": {
+      "value": {
+        "text": 6932,
+        "goTo": 188
+      }
+    },
+    "3386": {
+      "value": {
+        "text": 6935,
+        "goTo": 2107
+      }
+    },
+    "3387": {
+      "value": {
+        "text": 6937,
+        "goTo": 2108
+      }
+    },
+    "3388": {
+      "value": {
+        "text": 6939,
+        "goTo": 2109
+      }
+    },
+    "3389": {
+      "value": {
+        "text": 6941,
+        "goTo": 0
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            setCurrentDefault(2110);\r\n            leave();\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3390": {
+      "value": {
+        "text": 6942,
+        "goTo": 2111
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            Story.additionalVariables.askedFinnAboutHisShop = true;\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3391": {
+      "value": {
+        "text": 6944,
+        "goTo": 0
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            leave();\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3392": {
+      "value": {
+        "text": 6946,
+        "goTo": 2112
+      }
+    },
+    "3393": {
+      "value": {
+        "text": 6948,
+        "goTo": 2113
+      }
+    },
+    "3394": {
+      "value": {
+        "text": 6950,
+        "goTo": 2114
+      }
+    },
+    "3395": {
+      "value": {
+        "text": 6952,
+        "goTo": 2115
+      }
+    },
+    "3396": {
+      "value": {
+        "text": 6954,
+        "goTo": 2116
+      }
+    },
+    "3397": {
+      "value": {
+        "text": 6956,
+        "goTo": 2117
+      }
+    },
+    "3398": {
+      "value": {
+        "text": 6958,
+        "goTo": 2118
+      }
+    },
+    "3399": {
+      "value": {
+        "text": 6960,
+        "goTo": 2119
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            var _loc2_:Boolean = false;\r\n         }\r\n         return _loc2_;\r\n      }"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            Story.additionalVariables.toldFinnAboutCrowdfunder = true;\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3400": {
+      "value": {
+        "text": 6962,
+        "goTo": 2122
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         var found:*;\r\n         var i:*;\r\n         with(env)\r\n         {\r\n            found = false;\r\n            for(i in GD.Caravans[0].Cargo)\r\n            {\r\n               if(GD.Caravans[0].Cargo[i].type == 230)\r\n               {\r\n                  found = true;\r\n                  break;\r\n               }\r\n            }\r\n            var _loc4_:* = found;\r\n         }\r\n         return _loc4_;\r\n      }"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            GD.affectSpecificReputation(2,3);\r\n            affectCurrentRelationship(2);\r\n            Story.additionalVariables.shownCrowdfunderToFinn = true;\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3401": {
+      "value": {
+        "text": 6963,
+        "goTo": 2120
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            GD.affectSpecificReputation(2,-2);\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3402": {
+      "value": {
+        "text": 6964,
+        "goTo": 2120
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            GD.affectSpecificReputation(6,5);\r\n            affectCurrentRelationship(1);\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3403": {
+      "value": {
+        "text": 6965,
+        "goTo": 2120
+      }
+    },
+    "3404": {
+      "value": {
+        "text": 6967,
+        "goTo": 2121
+      }
+    },
+    "3405": {
+      "value": {
+        "text": 6969,
+        "goTo": 0
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            GD.Towns[83].discovered = true;\r\n            Story.additionalVariables.knowTheLocationOfTheWarehouse = true;\r\n            setCurrentDefault(2110);\r\n            leave();\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3406": {
+      "value": {
+        "text": 6971,
+        "goTo": 2123
+      }
+    },
+    "3407": {
+      "value": {
+        "text": 6973,
+        "goTo": 2124
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            Story.additionalVariables.sellCrowdfunderPrice = 50000;\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3408": {
+      "value": {
+        "text": 6975,
+        "goTo": 2129
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            affectCurrentRelationship(2);\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3409": {
+      "value": {
+        "text": 6976,
+        "goTo": 2128
+      }
+    },
+    "3410": {
+      "value": {
+        "text": 6977,
+        "goTo": 2120
+      }
+    },
+    "3411": {
+      "value": {
+        "text": 6978,
+        "goTo": 2125
+      }
+    },
+    "3412": {
+      "value": {
+        "text": 6980,
+        "goTo": 0
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            Story.additionalVariables.sellCrowdfunderPrice = 65000;\r\n            waitEffect(2126);\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3413": {
+      "value": {
+        "text": 6982,
+        "goTo": 2129
+      }
+    },
+    "3414": {
+      "value": {
+        "text": 6983,
+        "goTo": 2127
+      }
+    },
+    "3415": {
+      "value": {
+        "text": 6985,
+        "goTo": 2120
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            affectCurrentRelationship(-2);\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3416": {
+      "value": {
+        "text": 6986,
+        "goTo": 2128
+      }
+    },
+    "3417": {
+      "value": {
+        "text": 6988,
+        "goTo": 2129
+      }
+    },
+    "3418": {
+      "value": {
+        "text": 6989,
+        "goTo": 2128
+      }
+    },
+    "3419": {
+      "value": {
+        "text": 6990,
+        "goTo": 2130
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            GD.affectSpecificReputation(6,2);\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3420": {
+      "value": {
+        "text": 6991,
+        "goTo": 2129
+      }
+    },
+    "3421": {
+      "value": {
+        "text": 6994,
+        "goTo": 2120
+      }
+    },
+    "3422": {
+      "value": {
+        "text": 6995,
+        "goTo": 2129
+      }
+    },
+    "3423": {
+      "value": {
+        "text": 6996,
+        "goTo": 2131
+      }
+    },
+    "3424": {
+      "value": {
+        "text": 6998,
+        "goTo": 2120
+      }
+    },
+    "3425": {
+      "value": {
+        "text": 7000,
+        "goTo": 2111
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            var _loc2_:Boolean = !Story.additionalVariables.askedFinnAboutHisShop;\r\n         }\r\n         return _loc2_;\r\n      }"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         with(env)\r\n         {\r\n            Story.additionalVariables.askedFinnAboutHisShop = true;\r\n         }\r\n         return arguments.callee;\r\n      }"
+      }
+    },
+    "3426": {
+      "value": {
+        "text": 7001,
+        "goTo": 2122
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n      {\r\n         var found:*;\r\n         var i:*;\r\n         with(env)\r\n         {\r\n            if(Story.additionalVariables.shownCrowdfunderToFinn || !Story.additionalVariables.toldFinnAboutCrowdfunder)\r\n            {\r\n               var _loc2_:Boolean = false;\r\n               var _loc3_:*;\r\n            }\r\n            return _loc2_;\r\n         }\r\n         found = false;\r\n         for(i in GD.Caravans[0].Cargo)\r\n         {\r\n            if(GD.Caravans[0].Cargo[i].type == 230)\r\n            {\r\n               found = true;\r\n               break;\r\n            }\r\n         }\r\n         var _loc6_:* = found;\r\n      }\r\n      return _loc6_;\r\n   }"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n   {\r\n      with(env)\r\n      {\r\n         GD.affectSpecificReputation(2,3);\r\n         affectCurrentRelationship(2);\r\n         Story.additionalVariables.shownCrowdfunderToFinn = true;\r\n      }\r\n      return arguments.callee;\r\n   }"
+      }
+    },
+    "3427": {
+      "value": {
+        "text": 7002,
+        "goTo": 2129
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n   {\r\n      var found:*;\r\n      var i:*;\r\n      with(env)\r\n      {\r\n         if(!Story.additionalVariables.shownCrowdfunderToFinn || Story.additionalVariables.soldCrowdfunderToFinn)\r\n         {\r\n            var _loc2_:Boolean = false;\r\n            var _loc3_:*;\r\n         }\r\n         return _loc2_;\r\n      }\r\n      found = false;\r\n      for(i in GD.Caravans[0].Cargo)\r\n      {\r\n         if(GD.Caravans[0].Cargo[i].type == 230)\r\n         {\r\n            found = true;\r\n            break;\r\n         }\r\n      }\r\n      var _loc6_:* = found;\r\n   }\r\n   return _loc6_;\r\n}"
+      }
+    },
+    "3428": {
+      "value": {
+        "text": 7003,
+        "goTo": 0
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   var i:*;\r\n   with(env)\r\n   {\r\n      GD.Caravans[0].money += Story.additionalVariables.sellCrowdfunderPrice;\r\n      for(i in GD.Caravans[0].People)\r\n      {\r\n         GD.Caravans[0].People[i].unequip(230,1);\r\n      }\r\n      GD.Caravans[0].reduceCargo(230,1);\r\n      Story.additionalVariables.soldCrowdfunderToFinn = true;\r\n      waitEffect(2132);\r\n   }\r\n   return arguments.callee;\r\n}"
+      }
+    },
+    "3429": {
+      "value": {
+        "text": 7005,
+        "goTo": 0
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      var _loc2_:* = Story.additionalVariables.knowTheLocationOfTheWarehouse;\r\n   }\r\n   return _loc2_;\r\n}"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      leave();\r\n   }\r\n   return arguments.callee;\r\n}"
+      }
+    },
+    "3430": {
+      "value": {
+        "text": 7006,
+        "goTo": 2121
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      var _loc2_:Boolean = !Story.additionalVariables.knowTheLocationOfTheWarehouse;\r\n   }\r\n   return _loc2_;\r\n}"
+      }
+    },
+    "3431": {
+      "value": {
+        "text": 7008,
+        "goTo": 2133
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      var _loc2_:Boolean = Story.additionalVariables.defeatedWarehouseGuards && !Story.additionalVariables.toldFinnAboutDefeatingGuards;\r\n   }\r\n   return _loc2_;\r\n}"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      Story.additionalVariables.toldFinnAboutDefeatingGuards = true;\r\n      GD.affectSpecificReputation(1,2);\r\n      GD.affectSpecificReputation(2,3);\r\n      GD.affectSpecificReputation(5,2);\r\n      GD.affectSpecificReputation(6,5);\r\n   }\r\n   return arguments.callee;\r\n}"
+      }
+    },
+    "3432": {
+      "value": {
+        "text": 7010,
+        "goTo": 0
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      leave();\r\n   }\r\n   return arguments.callee;\r\n}"
+      }
+    },
+    "3433": {
+      "value": {
+        "text": 7011,
+        "goTo": 2134
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      var _loc2_:Boolean = Story.additionalVariables.knowTheLocationOfTheWarehouse && !Story.additionalVariables.toldFafnirAboutWarehouse && !Story.additionalVariables.defeatedWarehouseGuards;\r\n   }\r\n   return _loc2_;\r\n}"
+      }
+    },
+    "3434": {
+      "value": {
+        "text": 7012,
+        "goTo": 2134
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      var _loc2_:Boolean = Story.additionalVariables.knowTheLocationOfTheWarehouse && !Story.additionalVariables.toldFafnirAboutWarehouse && !Story.additionalVariables.defeatedWarehouseGuards;\r\n   }\r\n   return _loc2_;\r\n}"
+      }
+    },
+    "3435": {
+      "value": {
+        "text": 7014,
+        "goTo": 2135
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      Story.additionalVariables.toldFafnirAboutWarehouse = true;\r\n   }\r\n   return arguments.callee;\r\n}"
+      }
+    },
+    "3436": {
+      "value": {
+        "text": 7015,
+        "goTo": 0
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      leave();\r\n   }\r\n   return arguments.callee;\r\n}"
+      }
+    },
+    "3437": {
+      "value": {
+        "text": 7017,
+        "goTo": 2136
+      }
+    },
+    "3438": {
+      "value": {
+        "text": 7018,
+        "goTo": 2137
+      }
+    },
+    "3439": {
+      "value": {
+        "text": 7020,
+        "goTo": 2138
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      affectCurrentRelationship(10);\r\n      GD.affectFactionRelations(40,2);\r\n      if(GD.getFactionRelations(2,0) < 0)\r\n      {\r\n         GD.setFactionRelations(0,2,0);\r\n      }\r\n      GD.affectSpecificReputation(1,3);\r\n   }\r\n   return arguments.callee;\r\n}"
+      }
+    },
+    "3440": {
+      "value": {
+        "text": 7021,
+        "goTo": 2137
+      }
+    },
+    "3441": {
+      "value": {
+        "text": 7023,
+        "goTo": 2138
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      GD.affectFactionRelations(40,2);\r\n      GD.affectSpecificReputation(6,-20);\r\n   }\r\n   return arguments.callee;\r\n}"
+      }
+    },
+    "3442": {
+      "value": {
+        "text": 7025,
+        "goTo": 0
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      setCurrentDefault(327);\r\n      GD.parent.executeDLCFunction(2,\"releaseDrekarSquad\");\r\n      leave();\r\n   }\r\n   return arguments.callee;\r\n}"
+      }
+    },
+    "3443": {
+      "value": {
+        "text": 7026,
+        "goTo": 2101
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      var _loc2_:Boolean = Story.additionalVariables.heardAboutSilosMerchant && !Story.additionalVariables.askedKukulAboutFinn;\r\n   }\r\n   return _loc2_;\r\n}"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      Story.additionalVariables.askedKukulAboutFinn = true;\r\n   }\r\n   return arguments.callee;\r\n}"
+      }
+    },
+    "3444": {
+      "value": {
+        "text": 7027,
+        "goTo": 0
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      var _loc2_:Boolean = Story.additionalVariables.askedKukulAboutFinn && !Story.additionalVariables.knowWhereFinnIs;\r\n   }\r\n   return _loc2_;\r\n}"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      if(GD.getFactionRelations(0,2,true) < 0)\r\n      {\r\n         currentEntry = 2103;\r\n      }\r\n      else\r\n      {\r\n         currentEntry = 2104;\r\n      }\r\n      refresh();\r\n   }\r\n   return arguments.callee;\r\n}"
+      }
+    },
+    "3445": {
+      "value": {
+        "text": 7028,
+        "goTo": 0
+      },
+      "conditions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      var _loc2_:Boolean = Story.dialogueDefaults[character] == 297;\r\n   }\r\n   return _loc2_;\r\n}"
+      },
+      "actions": {
+        "__as3fn": "function(env:*):*\r\n{\r\n   with(env)\r\n   {\r\n      Story.additionalVariables.knowWhereFinnIs = true;\r\n      GD.Towns[17].locations[5].visible = true;\r\n      leave();\r\n   }\r\n   return arguments.callee;\r\n}"
+      }
+    }
+  }
+}

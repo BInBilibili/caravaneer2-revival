@@ -1,0 +1,43 @@
+{
+  "version": 1,
+  "label": "临时僵尸战场（不读写存档）",
+  "project": "data/examples/zombie-project.json",
+  "fieldSize": 20,
+  "player": {
+    "name": "测试幸存者",
+    "hp": 400,
+    "physical": 10,
+    "agility": 15,
+    "accuracy": 15,
+    "position": [
+      8,
+      8
+    ]
+  },
+  "zombies": [
+    {
+      "name": "测试僵尸 · 挥击",
+      "hp": 140,
+      "physical": 8,
+      "agility": 8,
+      "accuracy": 10,
+      "position": [
+        9,
+        8
+      ],
+      "attack": "攻击"
+    },
+    {
+      "name": "测试僵尸 · 啃咬",
+      "hp": 140,
+      "physical": 8,
+      "agility": 8,
+      "accuracy": 10,
+      "position": [
+        11,
+        10
+      ],
+      "attack": "啃咬"
+    }
+  ]
+}

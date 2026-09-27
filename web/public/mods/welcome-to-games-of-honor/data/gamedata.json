@@ -1,0 +1,57 @@
+{
+  "originalDlcFeatures": {
+    "welcome-to-games-of-honor": true
+  },
+  "missionDescriptions": {
+    "49": 7064
+  },
+  "originalDlcStock": {
+    "welcome-to-games-of-honor": [
+      {
+        "town": 84,
+        "item": 232,
+        "amount": 1
+      },
+      {
+        "town": 84,
+        "item": 233,
+        "amount": 1
+      },
+      {
+        "town": 84,
+        "item": 234,
+        "amount": 1
+      },
+      {
+        "town": 84,
+        "item": 235,
+        "amount": 1
+      }
+    ]
+  },
+  "originalDlcProbabilities": {
+    "welcome-to-games-of-honor": [
+      [
+        -31,
+        6,
+        17,
+        0.25,
+        3
+      ],
+      [
+        -31,
+        4,
+        11,
+        0.25,
+        3
+      ],
+      [
+        -31,
+        8,
+        11,
+        0.25,
+        3
+      ]
+    ]
+  }
+}

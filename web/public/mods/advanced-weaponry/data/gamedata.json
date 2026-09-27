@@ -1,0 +1,712 @@
+{
+  "workshopRecipes": {
+    "6": {
+      "outcome": 245,
+      "outcomeAmount": 1,
+      "requiredMaterials": [
+        {
+          "type": 21,
+          "amount": 1
+        }
+      ],
+      "requiredTools": [
+        159,
+        161
+      ],
+      "requiredSkills": [
+        {
+          "skill": "mechanic",
+          "min": 300
+        }
+      ],
+      "perDay": 1
+    },
+    "7": {
+      "outcome": 246,
+      "outcomeAmount": 1,
+      "requiredMaterials": [
+        {
+          "type": 138,
+          "amount": 1
+        }
+      ],
+      "requiredTools": [
+        159,
+        161
+      ],
+      "requiredSkills": [
+        {
+          "skill": "mechanic",
+          "min": 350
+        }
+      ],
+      "perDay": 1
+    },
+    "8": {
+      "outcome": 247,
+      "outcomeAmount": 1,
+      "requiredMaterials": [
+        {
+          "type": 22,
+          "amount": 1
+        }
+      ],
+      "requiredTools": [
+        159,
+        161,
+        162
+      ],
+      "requiredSkills": [
+        {
+          "skill": "mechanic",
+          "min": 650
+        }
+      ],
+      "perDay": 1
+    },
+    "9": {
+      "outcome": 248,
+      "outcomeAmount": 1,
+      "requiredMaterials": [
+        {
+          "type": 125,
+          "amount": 1
+        }
+      ],
+      "requiredTools": [
+        159,
+        161,
+        162
+      ],
+      "requiredSkills": [
+        {
+          "skill": "mechanic",
+          "min": 600
+        }
+      ],
+      "perDay": 1
+    },
+    "10": {
+      "outcome": 249,
+      "outcomeAmount": 1,
+      "requiredMaterials": [
+        {
+          "type": 128,
+          "amount": 1
+        }
+      ],
+      "requiredTools": [
+        159,
+        161,
+        162
+      ],
+      "requiredSkills": [
+        {
+          "skill": "mechanic",
+          "min": 600
+        }
+      ],
+      "perDay": 1
+    },
+    "11": {
+      "outcome": 250,
+      "outcomeAmount": 1,
+      "requiredMaterials": [
+        {
+          "type": 120,
+          "amount": 1
+        }
+      ],
+      "requiredTools": [
+        159,
+        161,
+        162
+      ],
+      "requiredSkills": [
+        {
+          "skill": "mechanic",
+          "min": 660
+        }
+      ],
+      "perDay": 1
+    },
+    "12": {
+      "outcome": 251,
+      "outcomeAmount": 1,
+      "requiredMaterials": [
+        {
+          "type": 146,
+          "amount": 1
+        }
+      ],
+      "requiredTools": [
+        159,
+        161,
+        162
+      ],
+      "requiredSkills": [
+        {
+          "skill": "mechanic",
+          "min": 650
+        }
+      ],
+      "perDay": 1
+    },
+    "13": {
+      "outcome": 252,
+      "outcomeAmount": 1,
+      "requiredMaterials": [
+        {
+          "type": 236,
+          "amount": 1
+        }
+      ],
+      "requiredTools": [
+        159,
+        161,
+        162
+      ],
+      "requiredSkills": [
+        {
+          "skill": "mechanic",
+          "min": 660
+        }
+      ],
+      "perDay": 1
+    },
+    "14": {
+      "outcome": 253,
+      "outcomeAmount": 1,
+      "requiredMaterials": [
+        {
+          "type": 213,
+          "amount": 1
+        }
+      ],
+      "requiredTools": [
+        159,
+        161,
+        162
+      ],
+      "requiredSkills": [
+        {
+          "skill": "mechanic",
+          "min": 900
+        }
+      ],
+      "perDay": 1
+    },
+    "15": {
+      "outcome": 254,
+      "outcomeAmount": 1,
+      "requiredMaterials": [
+        {
+          "type": 238,
+          "amount": 1
+        }
+      ],
+      "requiredTools": [
+        159,
+        161,
+        162
+      ],
+      "requiredSkills": [
+        {
+          "skill": "mechanic",
+          "min": 850
+        }
+      ],
+      "perDay": 1
+    }
+  },
+  "modTownAssortments": [
+    {
+      "town": 36,
+      "location": 4,
+      "entry": {
+        "item": 236,
+        "amount": 0.5
+      }
+    },
+    {
+      "town": 38,
+      "location": 1,
+      "entry": {
+        "item": 236,
+        "amount": 0.4
+      }
+    },
+    {
+      "town": 48,
+      "location": 2,
+      "entry": {
+        "item": 236,
+        "amount": 1
+      }
+    },
+    {
+      "town": 53,
+      "location": 3,
+      "entry": {
+        "item": 236,
+        "amount": 2
+      }
+    },
+    {
+      "town": 5,
+      "location": 2,
+      "entry": {
+        "item": 236,
+        "amount": 1.5
+      }
+    },
+    {
+      "town": 82,
+      "location": 3,
+      "entry": {
+        "item": 236,
+        "amount": 1
+      }
+    },
+    {
+      "town": 12,
+      "location": 2,
+      "entry": {
+        "item": 236,
+        "amount": 1
+      }
+    },
+    {
+      "town": 55,
+      "location": 2,
+      "entry": {
+        "item": 236,
+        "amount": 1
+      }
+    },
+    {
+      "town": 36,
+      "location": 4,
+      "entry": {
+        "item": 210,
+        "amount": 15
+      }
+    },
+    {
+      "town": 36,
+      "location": 4,
+      "entry": {
+        "item": 211,
+        "amount": 5
+      }
+    },
+    {
+      "town": 38,
+      "location": 1,
+      "entry": {
+        "item": 210,
+        "amount": 25
+      }
+    },
+    {
+      "town": 48,
+      "location": 2,
+      "entry": {
+        "item": 210,
+        "amount": 30
+      }
+    },
+    {
+      "town": 48,
+      "location": 2,
+      "entry": {
+        "item": 211,
+        "amount": 10
+      }
+    },
+    {
+      "town": 55,
+      "location": 2,
+      "entry": {
+        "item": 210,
+        "amount": 40
+      }
+    },
+    {
+      "town": 55,
+      "location": 2,
+      "entry": {
+        "item": 211,
+        "amount": 20
+      }
+    },
+    {
+      "town": 5,
+      "location": 2,
+      "entry": {
+        "item": 237,
+        "amount": 2
+      }
+    },
+    {
+      "town": 53,
+      "location": 3,
+      "entry": {
+        "item": 237,
+        "amount": 2
+      }
+    },
+    {
+      "town": 12,
+      "location": 2,
+      "entry": {
+        "item": 237,
+        "amount": 1
+      }
+    },
+    {
+      "town": 48,
+      "location": 2,
+      "entry": {
+        "item": 237,
+        "amount": 0.7
+      }
+    },
+    {
+      "town": 82,
+      "location": 3,
+      "entry": {
+        "item": 237,
+        "amount": 1
+      }
+    },
+    {
+      "town": 5,
+      "location": 2,
+      "entry": {
+        "item": 238,
+        "amount": 1
+      }
+    },
+    {
+      "town": 53,
+      "location": 3,
+      "entry": {
+        "item": 238,
+        "amount": 1
+      }
+    },
+    {
+      "town": 55,
+      "location": 2,
+      "entry": {
+        "item": 238,
+        "amount": 0.5
+      }
+    },
+    {
+      "town": 82,
+      "location": 3,
+      "entry": {
+        "item": 238,
+        "amount": 0.5
+      }
+    },
+    {
+      "town": 12,
+      "location": 2,
+      "entry": {
+        "item": 238,
+        "amount": 0.5
+      }
+    },
+    {
+      "town": 5,
+      "location": 2,
+      "entry": {
+        "item": 129,
+        "amount": 20
+      }
+    },
+    {
+      "town": 5,
+      "location": 2,
+      "entry": {
+        "item": 130,
+        "amount": 20
+      }
+    },
+    {
+      "town": 5,
+      "location": 2,
+      "entry": {
+        "item": 131,
+        "amount": 15
+      }
+    },
+    {
+      "town": 53,
+      "location": 3,
+      "entry": {
+        "item": 129,
+        "amount": 30
+      }
+    },
+    {
+      "town": 53,
+      "location": 3,
+      "entry": {
+        "item": 130,
+        "amount": 15
+      }
+    },
+    {
+      "town": 53,
+      "location": 3,
+      "entry": {
+        "item": 131,
+        "amount": 10
+      }
+    },
+    {
+      "town": 55,
+      "location": 2,
+      "entry": {
+        "item": 129,
+        "amount": 10
+      }
+    },
+    {
+      "town": 55,
+      "location": 2,
+      "entry": {
+        "item": 130,
+        "amount": 5
+      }
+    },
+    {
+      "town": 82,
+      "location": 3,
+      "entry": {
+        "item": 129,
+        "amount": 15
+      }
+    },
+    {
+      "town": 82,
+      "location": 3,
+      "entry": {
+        "item": 131,
+        "amount": 10
+      }
+    },
+    {
+      "town": 5,
+      "location": 2,
+      "entry": {
+        "item": 239,
+        "amount": 0.8
+      }
+    },
+    {
+      "town": 53,
+      "location": 3,
+      "entry": {
+        "item": 239,
+        "amount": 1
+      }
+    },
+    {
+      "town": 5,
+      "location": 2,
+      "entry": {
+        "item": 240,
+        "amount": 10
+      }
+    },
+    {
+      "town": 5,
+      "location": 2,
+      "entry": {
+        "item": 241,
+        "amount": 10
+      }
+    },
+    {
+      "town": 5,
+      "location": 2,
+      "entry": {
+        "item": 242,
+        "amount": 10
+      }
+    },
+    {
+      "town": 5,
+      "location": 2,
+      "entry": {
+        "item": 243,
+        "amount": 5
+      }
+    },
+    {
+      "town": 53,
+      "location": 3,
+      "entry": {
+        "item": 240,
+        "amount": 5
+      }
+    },
+    {
+      "town": 53,
+      "location": 3,
+      "entry": {
+        "item": 241,
+        "amount": 7
+      }
+    },
+    {
+      "town": 53,
+      "location": 3,
+      "entry": {
+        "item": 242,
+        "amount": 4
+      }
+    },
+    {
+      "town": 53,
+      "location": 3,
+      "entry": {
+        "item": 243,
+        "amount": 5
+      }
+    },
+    {
+      "town": 55,
+      "location": 2,
+      "entry": {
+        "item": 240,
+        "amount": 5
+      }
+    },
+    {
+      "town": 55,
+      "location": 2,
+      "entry": {
+        "item": 241,
+        "amount": 3
+      }
+    },
+    {
+      "town": 55,
+      "location": 2,
+      "entry": {
+        "item": 242,
+        "amount": 5
+      }
+    },
+    {
+      "town": 82,
+      "location": 3,
+      "entry": {
+        "item": 240,
+        "amount": 3
+      }
+    },
+    {
+      "town": 82,
+      "location": 3,
+      "entry": {
+        "item": 241,
+        "amount": 3
+      }
+    },
+    {
+      "town": 12,
+      "location": 2,
+      "entry": {
+        "item": 240,
+        "amount": 8
+      }
+    },
+    {
+      "town": 5,
+      "location": 2,
+      "entry": {
+        "item": 244,
+        "amount": 1
+      }
+    },
+    {
+      "town": 53,
+      "location": 3,
+      "entry": {
+        "item": 244,
+        "amount": 1
+      }
+    },
+    {
+      "town": 55,
+      "location": 2,
+      "entry": {
+        "item": 244,
+        "amount": 1
+      }
+    },
+    {
+      "town": 82,
+      "location": 3,
+      "entry": {
+        "item": 244,
+        "amount": 1
+      }
+    },
+    {
+      "town": 12,
+      "location": 2,
+      "entry": {
+        "item": 244,
+        "amount": 1
+      }
+    },
+    {
+      "town": 36,
+      "location": 4,
+      "entry": {
+        "item": 244,
+        "amount": 0.8
+      }
+    },
+    {
+      "town": 38,
+      "location": 1,
+      "entry": {
+        "item": 244,
+        "amount": 0.7
+      }
+    },
+    {
+      "town": 48,
+      "location": 2,
+      "entry": {
+        "item": 244,
+        "amount": 0.8
+      }
+    },
+    {
+      "town": 37,
+      "location": 3,
+      "entry": {
+        "item": 244,
+        "amount": 0.7
+      }
+    },
+    {
+      "town": 27,
+      "location": 5,
+      "entry": {
+        "item": 244,
+        "amount": 0.5
+      }
+    }
+  ]
+}

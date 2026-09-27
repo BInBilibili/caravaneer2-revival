@@ -1,0 +1,38 @@
+{
+  "id": "welcome-to-games-of-honor",
+  "name": "Welcome to Games of Honor",
+  "names": {
+    "1": "Welcome to Games of Honor",
+    "18": "欢迎来到荣誉游戏",
+    "19": "歡迎來到榮譽遊戲"
+  },
+  "version": "1.0.0",
+  "enabled": true,
+  "apiVersion": 1,
+  "data": {
+    "gamedata": "data/gamedata.json",
+    "battleDoll": "data/battleDoll.json",
+    "items": "data/items.json",
+    "weapons": "data/weapons.json",
+    "presets": "data/presets.json",
+    "texts": "data/texts.json",
+    "dialogues": "data/dialogues.json",
+    "manifest": "data/asset-manifest.json"
+  },
+  "assets": {
+    "armorIcon28.png": "images/10_armorIcon28.png",
+    "armorIcon29.png": "images/11_armorIcon29.png",
+    "itemIcon117.png": "images/12_itemIcon117.png",
+    "town84.png": "images/13_town84.png",
+    "weaponIcon49.png": "images/14_weaponIcon49.png",
+    "Body9.png": "images/1_Body9.png",
+    "Head12.png": "images/2_Head12.png",
+    "LeftForearm4.png": "images/3_LeftForearm4.png",
+    "LeftTopArm3.png": "images/4_LeftTopArm3.png",
+    "Legs3.png": "images/5_Legs3.png",
+    "RightForearm4.png": "images/6_RightForearm4.png",
+    "RightTopArm3.png": "images/7_RightTopArm3.png",
+    "ShoulderPlates1.png": "images/8_ShoulderPlates1.png",
+    "Weapon35.png": "images/9_Weapon35.png"
+  }
+}

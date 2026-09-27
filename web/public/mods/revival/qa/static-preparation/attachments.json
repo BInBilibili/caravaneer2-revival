@@ -1,0 +1,6072 @@
+{
+  "version": 1,
+  "status": "preparation-only-not-installed",
+  "image": "attachments.png",
+  "width": 512,
+  "height": 261,
+  "sources": {
+    "BackHair1.png": {
+      "url": "assets/images/945_BackHair1.png.png",
+      "sha256": "d766670eb4428466090ea9515a04025c3d24d3706297c74c8f3631a1145c6aba"
+    },
+    "BackHair2.png": {
+      "url": "assets/images/946_BackHair2.png.png",
+      "sha256": "8ebc70df0e37dc4a2ffae7e6d0f84b1f193d38f8715dfb048604c1e9fc2dbc64"
+    },
+    "Beard1.png": {
+      "url": "assets/images/947_Beard1.png.png",
+      "sha256": "df266690778cec604063ede8bffb8908bab6708773e18fa325471e775486b4af"
+    },
+    "Beard2.png": {
+      "url": "assets/images/948_Beard2.png.png",
+      "sha256": "a2c61103a599359bf6c851e8930b7438b3f66a5f97b560b01f01b15fc6251691"
+    },
+    "Beard3.png": {
+      "url": "assets/images/949_Beard3.png.png",
+      "sha256": "571514b3393eac85b70e895193c264bee4279ca1b66c91d7dc0eb5c7ad2a73e8"
+    },
+    "Beard4.png": {
+      "url": "assets/images/950_Beard4.png.png",
+      "sha256": "635b39c8d79d7ebdc6cebac07aa59877a83ae13c798c0b0d52028924beb40077"
+    },
+    "Body1.png": {
+      "url": "assets/images/952_Body1.png.png",
+      "sha256": "b210635bed95d877763ec2bc91d165a05b89d8bb6d292e9e8e970380b7072cd5"
+    },
+    "Body2.png": {
+      "url": "assets/images/953_Body2.png.png",
+      "sha256": "633c8d2510c5ab6cabbeda06f362718f898c3fd0a25fd383b94b007b0c646d61"
+    },
+    "Body3.png": {
+      "url": "assets/images/954_Body3.png.png",
+      "sha256": "1b75ffdb7594e8a88c710fcea8a4a3b987d0e6b05d5136a6b9a5c012cb989c9a"
+    },
+    "Body4.png": {
+      "url": "assets/images/955_Body4.png.png",
+      "sha256": "99712cd56de27772043cfe0610c796d6a5847c2e10616eb04a03b4d9be8fb523"
+    },
+    "Body5.png": {
+      "url": "assets/images/956_Body5.png.png",
+      "sha256": "ead63afe24cdd1acaf2ab3dad53270e4001b09cfaf5aa3394c3c7ec317196a8d"
+    },
+    "Body6.png": {
+      "url": "assets/images/957_Body6.png.png",
+      "sha256": "444931332fb8c79b85446bff93bc64687d40d9df5a8c78597b33d8e76912b4e8"
+    },
+    "Body7.png": {
+      "url": "assets/images/300_Body7.png.png",
+      "sha256": "1b1f84e68167b083c662f1bb6cf619dc106e1560af07657521d1148cbc795062"
+    },
+    "Body8.png": {
+      "url": "assets/images/301_Body8.png.png",
+      "sha256": "eb678a41d1ad607c2154c61a866ebf09c8d9d66fc3908f44808255c0e687695c"
+    },
+    "Head1.png": {
+      "url": "assets/images/978_Head1.png.png",
+      "sha256": "0fb019e2484992a8e1ab61c4481a0f0ef3588e52444d9b09be70b462be22ec68"
+    },
+    "Head2.png": {
+      "url": "assets/images/979_Head2.png.png",
+      "sha256": "8210ed792d06cb21f225760f473179e9e953b031fb5178a24a2646731b80e323"
+    },
+    "Head3.png": {
+      "url": "assets/images/980_Head3.png.png",
+      "sha256": "ff54ea35cde6e408d414327ccf3546ab1a68ebfa9dbd42957e0673ca4aaa4fe1"
+    },
+    "Head4.png": {
+      "url": "assets/images/981_Head4.png.png",
+      "sha256": "3ef6dd3c0910a84ffec05e0e1d0565cff906d503853609849a58bb732f88c2bd"
+    },
+    "Head5.png": {
+      "url": "assets/images/982_Head5.png.png",
+      "sha256": "361dfead61e43672d5b8a24000a5a7cd3a647a099f8d8408291092ab317019a8"
+    },
+    "Head6.png": {
+      "url": "assets/images/983_Head6.png.png",
+      "sha256": "11522d85b4f7b8815227a288210f8a97935058841fe755ec4155f53e7a101475"
+    },
+    "Head7.png": {
+      "url": "assets/images/984_Head7.png.png",
+      "sha256": "7472b9cf216f6fa8d633113a6848ed21731c8d4b0ca1e6edd293ec8208ad3257"
+    },
+    "Head8.png": {
+      "url": "assets/images/317_Head8.png.png",
+      "sha256": "4f4b5a64acb39e86e3468d3a10afec578f4cc9311477556641f2e7ba5b67de60"
+    },
+    "Head9.png": {
+      "url": "assets/images/318_Head9.png.png",
+      "sha256": "236cf9de677fa07c947830f89963fecc3f6f8622aade7634b5c557d65c73faeb"
+    },
+    "Head10.png": {
+      "url": "assets/images/315_Head10.png.png",
+      "sha256": "def5445e1a6a17d63b6d295163caafd982e0a730f676f4b80860718558a91fc3"
+    },
+    "Head11.png": {
+      "url": "assets/images/316_Head11.png.png",
+      "sha256": "524432d57f3057c3603214ccebfdd3193027c060c727d0d99bd4417c15644a7c"
+    },
+    "LeftTopArm1.png": {
+      "url": "assets/images/988_LeftTopArm1.png.png",
+      "sha256": "39f1f0d7b38d94aa1424e5376c9adfbd5e62dae2ca53c5e852b356392323e6f4"
+    },
+    "LeftTopArm2.png": {
+      "url": "assets/images/989_LeftTopArm2.png.png",
+      "sha256": "17dfaaf6261bb8d75ba75f94bc93e0514e4b72c439b9502f3aaaae64d7751e41"
+    },
+    "RightTopArm1.png": {
+      "url": "assets/images/894_RightTopArm1.png.png",
+      "sha256": "edea119e52593e9cc19ea130c16a2d08559754fd9289cb4d1e7cec7fe963454f"
+    },
+    "RightTopArm2.png": {
+      "url": "assets/images/895_RightTopArm2.png.png",
+      "sha256": "2dbd24148b86254cf15cf10abcd2e902f967c396e070f9ca5f0d5f128b6bf179"
+    },
+    "LeftForearm1.png": {
+      "url": "assets/images/985_LeftForearm1.png.png",
+      "sha256": "c51f686fe4a526aeceeade36d827889593c2242692cdc7336bc55e5cee42b200"
+    },
+    "LeftForearm2.png": {
+      "url": "assets/images/986_LeftForearm2.png.png",
+      "sha256": "61e54fab38420b713b69bd2389f87b21cd9d2c747f160f1a1edd285ceedb77cd"
+    },
+    "LeftForearm3.png": {
+      "url": "assets/images/987_LeftForearm3.png.png",
+      "sha256": "73033391cc92ccbdc72055aea0db25f899a97195030c32ccaac2ad023ccf8eb8"
+    },
+    "RightForearm1.png": {
+      "url": "assets/images/891_RightForearm1.png.png",
+      "sha256": "bf020fbdffc2e33eedfdaa3f09733aba812eb58f8e08a61460e401b2f7d61b3d"
+    },
+    "RightForearm2.png": {
+      "url": "assets/images/892_RightForearm2.png.png",
+      "sha256": "5dd3f0bd603e97b3d0b2368f17e6fb5031903621a70afc73766066bd04a76367"
+    },
+    "RightForearm3.png": {
+      "url": "assets/images/893_RightForearm3.png.png",
+      "sha256": "d9ec2edf12f0b405e374be2aa073ad7aeae8c08c37fa3d9b6b2890ea4e082840"
+    },
+    "Legs1.png": {
+      "url": "assets/images/990_Legs1.png.png",
+      "sha256": "4f3fb6198833d66a63dab56ea3634bd93d8812b66d601c838298847cd4a686ef"
+    },
+    "Legs2.png": {
+      "url": "assets/images/991_Legs2.png.png",
+      "sha256": "63fad1e6082c63b7bbb004c9c3f8b8e0f68ddcf229735544aa2377c7314c0d6d"
+    },
+    "BigGunBackpack1.png": {
+      "url": "assets/images/951_BigGunBackpack1.png.png",
+      "sha256": "9080c62ad3e97ae0feb6eb92649bde4ab157e730a8a0370c5f5c9d7925847955"
+    },
+    "Weapon1.png": {
+      "url": "assets/images/927_Weapon1.png.png",
+      "sha256": "fb5861966197a80f3e2110bb1efbbcb9cd3026a97e4f23133ad53e0f9a6d26d5"
+    },
+    "Weapon2.png": {
+      "url": "assets/images/937_Weapon2.png.png",
+      "sha256": "311d65b66fd70344970ea1b0eb79bbf602703986943093faf17fe988b2787648"
+    },
+    "Weapon3.png": {
+      "url": "assets/images/938_Weapon3.png.png",
+      "sha256": "f1a54b47d8e9b1043031528b9b888734c6d9666052c550bd6f2413b643460fcb"
+    },
+    "Weapon4.png": {
+      "url": "assets/images/939_Weapon4.png.png",
+      "sha256": "bc992d00e0cd876421ab2ae18987d2e6824fb8550bc4fed38be8a35fc1601eb1"
+    },
+    "Weapon5.png": {
+      "url": "assets/images/940_Weapon5.png.png",
+      "sha256": "5d2273ac2f1ba426a797d9e4be61eefb0ae096e23e704820be7a98b1499bfbe9"
+    },
+    "Weapon6.png": {
+      "url": "assets/images/941_Weapon6.png.png",
+      "sha256": "bed9b31eeebd63965f224cf420333abe45a487b94e49c63a2ce45abf59100bd2"
+    },
+    "Weapon7.png": {
+      "url": "assets/images/942_Weapon7.png.png",
+      "sha256": "1e728a9e7eec62c795e65855192e6ac06440c39a910e9d111d10aab8e2247e83"
+    },
+    "Weapon8.png": {
+      "url": "assets/images/943_Weapon8.png.png",
+      "sha256": "517534eeea211e4f24933654c671839dad0efef103dfae7946b47ab46d2144b5"
+    },
+    "Weapon9.png": {
+      "url": "assets/images/944_Weapon9.png.png",
+      "sha256": "544249490a60b875cf21d7696bac32825b02bc4f8a7778b76bbfa943cfb69b0f"
+    },
+    "Weapon10.png": {
+      "url": "assets/images/917_Weapon10.png.png",
+      "sha256": "1e9403f70894f7dd14423977214e8102bc8e52750d36db431ccba64535f871ab"
+    },
+    "Weapon11.png": {
+      "url": "assets/images/918_Weapon11.png.png",
+      "sha256": "5717c51b73091b3d12f236b6485f3ecef64453fb92ef354893d19b1efd01d487"
+    },
+    "Weapon12.png": {
+      "url": "assets/images/919_Weapon12.png.png",
+      "sha256": "3f668183171ec0cbb88d5a4fb90056a84eb21cc4b91e72692c6064c1dad1ae9e"
+    },
+    "Weapon13.png": {
+      "url": "assets/images/920_Weapon13.png.png",
+      "sha256": "587a15a47dc0c160c459fd9be9461e1351d342ff324f09ed9bf68b9edf27ce41"
+    },
+    "Weapon14.png": {
+      "url": "assets/images/921_Weapon14.png.png",
+      "sha256": "db6fff751acb3a80ff413fe3c30b9633672549ca8d906ae7e072d343fce7dfbb"
+    },
+    "Weapon15.png": {
+      "url": "assets/images/922_Weapon15.png.png",
+      "sha256": "b9fe61cd82e1172a1a32e51ed2a89004110a4f0b45e47e50dfd7f15b7a6dfdf3"
+    },
+    "Weapon16.png": {
+      "url": "assets/images/923_Weapon16.png.png",
+      "sha256": "f474a3584ab1e86da7c68db0b122bc95619dc9da42581a9befc12e49ad251af4"
+    },
+    "Weapon17.png": {
+      "url": "assets/images/924_Weapon17.png.png",
+      "sha256": "d66517c2dc86d1d1a2a124853179cd3bb0d12e7205918cb79aa1808ba9f92fb5"
+    },
+    "Weapon18.png": {
+      "url": "assets/images/925_Weapon18.png.png",
+      "sha256": "d269e81abc1dfe64b25234fcfa181bedbf9fe635de6b1a9173abad1e34225513"
+    },
+    "Weapon19.png": {
+      "url": "assets/images/926_Weapon19.png.png",
+      "sha256": "dc6974c9a94f475bd7ce2d11f3c4c7c60855b8ea3e1eda68667cd48836b7eacf"
+    },
+    "Weapon20.png": {
+      "url": "assets/images/928_Weapon20.png.png",
+      "sha256": "30ecc0a83a7803ae1f7dd3584e63f22e9fe24a74f14d45dd2fe116d18e73b3df"
+    },
+    "Weapon21.png": {
+      "url": "assets/images/929_Weapon21.png.png",
+      "sha256": "cb965a4bdd16677b87d6fc4b09adc13a4007b0ee5436c16fa36ef6ef631a8874"
+    },
+    "Weapon22.png": {
+      "url": "assets/images/930_Weapon22.png.png",
+      "sha256": "e0b5be1490be4c850228162340b44ed11f2c1ae97a0683d87104d90a959fa4d0"
+    },
+    "Weapon23.png": {
+      "url": "assets/images/931_Weapon23.png.png",
+      "sha256": "8db7fda8d06aee964c8aa1199668db2b3a5a6dbb3ce73b20b5569683d5e7ea48"
+    },
+    "Weapon24.png": {
+      "url": "assets/images/932_Weapon24.png.png",
+      "sha256": "42d4c804703bfc9b763752f9c1995c8db21994cafdc97f3ee4258180b23bcdcb"
+    },
+    "Weapon25.png": {
+      "url": "assets/images/933_Weapon25.png.png",
+      "sha256": "21088d66b99b8ef9524a7d5fb36ba6be820cab6dfdb43aa658e6640fe565238e"
+    },
+    "Weapon26.png": {
+      "url": "assets/images/934_Weapon26.png.png",
+      "sha256": "5876e4ebfd3950ed9f0053236292f0842f16e364eeb246ccb44f95c72aa5a2fd"
+    },
+    "Weapon27.png": {
+      "url": "assets/images/935_Weapon27.png.png",
+      "sha256": "673907c84017e11f9fc93aec8feb8e60e351afeb93553a8b87af6e4df9f268d2"
+    },
+    "Weapon28.png": {
+      "url": "assets/images/936_Weapon28.png.png",
+      "sha256": "bf76434961348cb919650ce84951444ce88d2133656577f7f5bac28526011096"
+    },
+    "Weapon29.png": {
+      "url": "assets/images/372_Weapon29.png.png",
+      "sha256": "2dab26df3d63e83118ac85b8ddb457912144d88fb03ff4f1584dba12bed3b780"
+    },
+    "Weapon30.png": {
+      "url": "assets/images/373_Weapon30.png.png",
+      "sha256": "9980689f934f932ddd97c7b43da3224e87cc359d9959bbb1da5bb9a0fea1f2fc"
+    },
+    "Weapon31.png": {
+      "url": "assets/images/374_Weapon31.png.png",
+      "sha256": "8d1f0b9a4078bda267a8e0e7b883d77986d0322e583058bb80cc1b1875e35b9c"
+    },
+    "Weapon32.png": {
+      "url": "assets/images/375_Weapon32.png.png",
+      "sha256": "8491e979bb3a28dd6461394c762eee3c3b00858feaeac10022eb371ccf87716b"
+    },
+    "Weapon33.png": {
+      "url": "assets/images/376_Weapon33.png.png",
+      "sha256": "092db8b13fae3d25fb0c90f281fb85feec17b74fa10a7273e41e6c2f19d81427"
+    },
+    "Shadows1.png": {
+      "url": "assets/images/898_Shadows1.png.png",
+      "sha256": "17adbbcd5664ddec7669d88bba93a1f8c53c934d4fe74290743bd1b9c3d91bf8"
+    }
+  },
+  "coverage": {
+    "parts": 12,
+    "appearanceVariants": 72,
+    "directions": 4,
+    "attachments": 288
+  },
+  "limitations": [
+    "Source is baked raster art, not original skeletal keyframes.",
+    "Legs contains both legs; extracting a crop does not separate hips, thighs, shins or feet.",
+    "Occluded limb surfaces and directional death poses still need authoring.",
+    "No animation tracks are generated, and this atlas is not installed in gameplay.",
+    "Base-game variants only; third-party replacement art needs its own rig/skin."
+  ],
+  "attachments": {
+    "BackHair/1/0": {
+      "source": "BackHair1.png",
+      "part": "BackHair",
+      "type": "1",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 27
+      },
+      "sha256": "43306b1ce53be640a72ea0951135696b231a51dbe63c519890e786d1b0285ed3",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 1,
+        "y": 1,
+        "width": 6,
+        "height": 11
+      }
+    },
+    "BackHair/1/1": {
+      "source": "BackHair1.png",
+      "part": "BackHair",
+      "type": "1",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 25
+      },
+      "sha256": "48554cecd68064b90e5ef7e3c5946dfe5147dcc2ad7c59da996033a21cb74320",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 9,
+        "y": 1,
+        "width": 6,
+        "height": 8
+      }
+    },
+    "BackHair/1/2": {
+      "source": "BackHair1.png",
+      "part": "BackHair",
+      "type": "1",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 50,
+        "y": 24
+      },
+      "sha256": "66941c765bc0092459744e90ab1934bff937a67eff4ff26861925f86a6ebc1ad",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 17,
+        "y": 1,
+        "width": 6,
+        "height": 10
+      }
+    },
+    "BackHair/1/3": {
+      "source": "BackHair1.png",
+      "part": "BackHair",
+      "type": "1",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 49,
+        "y": 27
+      },
+      "sha256": "f34d6a93bfee46116dd567cd261a459ebaacae78650084c4da17b5ddf626fb69",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 25,
+        "y": 1,
+        "width": 7,
+        "height": 11
+      }
+    },
+    "BackHair/2/0": {
+      "source": "BackHair2.png",
+      "part": "BackHair",
+      "type": "2",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 28
+      },
+      "sha256": "7adf8688ed7d6bfe8759dd45dc9d2f8e76e596ebe6b7426c0f3a27903fc6b159",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 34,
+        "y": 1,
+        "width": 3,
+        "height": 6
+      }
+    },
+    "BackHair/2/1": {
+      "source": "BackHair2.png",
+      "part": "BackHair",
+      "type": "2",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 25
+      },
+      "sha256": "4f474218a0d0cdcac3ec7f5d0e8b729e88c5843fe6fb4899767f78e7c3d5d080",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 39,
+        "y": 1,
+        "width": 3,
+        "height": 5
+      }
+    },
+    "BackHair/2/2": {
+      "source": "BackHair2.png",
+      "part": "BackHair",
+      "type": "2",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 51,
+        "y": 25
+      },
+      "sha256": "2320522b2f1b909a102086496bef9ba4b49d90083874df70570a26e03c34f007",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 44,
+        "y": 1,
+        "width": 3,
+        "height": 6
+      }
+    },
+    "BackHair/2/3": {
+      "source": "BackHair2.png",
+      "part": "BackHair",
+      "type": "2",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 51,
+        "y": 28
+      },
+      "sha256": "ab60e7c15bd41aa5c5c9ea0bba05f3eecf8fc4fe1545ac423ce78317053e3731",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 49,
+        "y": 1,
+        "width": 3,
+        "height": 6
+      }
+    },
+    "Beard/1/0": {
+      "source": "Beard1.png",
+      "part": "Beard",
+      "type": "1",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 51,
+        "y": 25
+      },
+      "sha256": "99549108be71260e14b7f678febb9750ea6fde3bd61d87230a4dee21bec6c2e4",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 54,
+        "y": 1,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "Beard/1/1": {
+      "source": "Beard1.png",
+      "part": "Beard",
+      "type": "1",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 51,
+        "y": 28
+      },
+      "sha256": "5fe3511e9d5d19e596853f0995f2da137cc9586528f095db6a4d33e95761b536",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 59,
+        "y": 1,
+        "width": 3,
+        "height": 2
+      }
+    },
+    "Beard/1/2": {
+      "source": "Beard1.png",
+      "part": "Beard",
+      "type": "1",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 28
+      },
+      "sha256": "1fb28b35a64841bf0e0c847a6cb46c64d462d5af34ca766d7cb6d7c4b18af042",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 64,
+        "y": 1,
+        "width": 3,
+        "height": 2
+      }
+    },
+    "Beard/1/3": {
+      "source": "Beard1.png",
+      "part": "Beard",
+      "type": "1",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 25
+      },
+      "sha256": "4e90a12e449345dd27b8ab259a591def7dcd94f6d6e6faf637d1851ed04de2b3",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 69,
+        "y": 1,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "Beard/2/0": {
+      "source": "Beard2.png",
+      "part": "Beard",
+      "type": "2",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 51,
+        "y": 25
+      },
+      "sha256": "0d7aea632f93c712e18cf2cdd7fe3f51c0cd27e6bc5151d43ca74790abcf17b2",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 74,
+        "y": 1,
+        "width": 2,
+        "height": 3
+      }
+    },
+    "Beard/2/1": {
+      "source": "Beard2.png",
+      "part": "Beard",
+      "type": "2",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 51,
+        "y": 28
+      },
+      "sha256": "66be08664333cb28f6a93dc7a6cb4664db555c46092389936a975d793d3d26a9",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 78,
+        "y": 1,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "Beard/2/2": {
+      "source": "Beard2.png",
+      "part": "Beard",
+      "type": "2",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 28
+      },
+      "sha256": "fad733564fe3feaf65d69be00a90ce1f0f72d833c13ae4844c18773f03972857",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 83,
+        "y": 1,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "Beard/2/3": {
+      "source": "Beard2.png",
+      "part": "Beard",
+      "type": "2",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 25
+      },
+      "sha256": "0eca8b34bc210fe3134f0732a3efb348f42a3189de9e3f3c541ef16a151546f4",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 88,
+        "y": 1,
+        "width": 3,
+        "height": 3
+      }
+    },
+    "Beard/3/0": {
+      "source": "Beard3.png",
+      "part": "Beard",
+      "type": "3",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 51,
+        "y": 25
+      },
+      "sha256": "b2ded6ee422189579719b2a9f2fc570fe9b5dd40c3892776841c7ca3e60575b1",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 93,
+        "y": 1,
+        "width": 2,
+        "height": 5
+      }
+    },
+    "Beard/3/1": {
+      "source": "Beard3.png",
+      "part": "Beard",
+      "type": "3",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 51,
+        "y": 28
+      },
+      "sha256": "a02025e9ee1860f5dc205f154a5f0ded21b3410473c2b1cddd2b63a815ef767d",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 97,
+        "y": 1,
+        "width": 2,
+        "height": 5
+      }
+    },
+    "Beard/3/2": {
+      "source": "Beard3.png",
+      "part": "Beard",
+      "type": "3",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 28
+      },
+      "sha256": "93c5d80bb958023227ee14253e61ea2adb54798a8e3ee42bd5aeb9c58704e1c4",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 101,
+        "y": 1,
+        "width": 3,
+        "height": 5
+      }
+    },
+    "Beard/3/3": {
+      "source": "Beard3.png",
+      "part": "Beard",
+      "type": "3",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 25
+      },
+      "sha256": "4ab3c1d76dd54c6f48cf7f0569384df120aa2dcd00289ed0bd26477bf0201b80",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 106,
+        "y": 1,
+        "width": 3,
+        "height": 5
+      }
+    },
+    "Beard/4/0": {
+      "source": "Beard4.png",
+      "part": "Beard",
+      "type": "4",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 49,
+        "y": 25
+      },
+      "sha256": "0daa3f22defcba095a791d80860eb9c07d0bbada1331e66168ffbf852460c2b0",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 111,
+        "y": 1,
+        "width": 5,
+        "height": 4
+      }
+    },
+    "Beard/4/1": {
+      "source": "Beard4.png",
+      "part": "Beard",
+      "type": "4",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 48,
+        "y": 27
+      },
+      "sha256": "20ac3e86ea9343e5a32a3d284fb7024114ba9d6adcbec37691e88658f75e99e4",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 118,
+        "y": 1,
+        "width": 6,
+        "height": 5
+      }
+    },
+    "Beard/4/2": {
+      "source": "Beard4.png",
+      "part": "Beard",
+      "type": "4",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 27
+      },
+      "sha256": "ee3acff5ee4f94b7a27ecf89ad043826417acd3f0896534467dd61d6df7640d6",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 126,
+        "y": 1,
+        "width": 5,
+        "height": 5
+      }
+    },
+    "Beard/4/3": {
+      "source": "Beard4.png",
+      "part": "Beard",
+      "type": "4",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 25
+      },
+      "sha256": "aff39caa56c53181ca7fdc5cbd15ddd2460f5d115e53ecff4c38b0ec2b258b16",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 133,
+        "y": 1,
+        "width": 5,
+        "height": 4
+      }
+    },
+    "Body/1/0": {
+      "source": "Body1.png",
+      "part": "Body",
+      "type": "1",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 27
+      },
+      "sha256": "aa0e06625947bf19d34fc25d5959cac0e5156c28731704882ebe613db70538f9",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 140,
+        "y": 1,
+        "width": 8,
+        "height": 19
+      }
+    },
+    "Body/1/1": {
+      "source": "Body1.png",
+      "part": "Body",
+      "type": "1",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 26
+      },
+      "sha256": "fdad56d9380e2e06a07cfe8664214da6853a38092cb69923d9e9cf2fda3202ac",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 150,
+        "y": 1,
+        "width": 12,
+        "height": 19
+      }
+    },
+    "Body/1/2": {
+      "source": "Body1.png",
+      "part": "Body",
+      "type": "1",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 27
+      },
+      "sha256": "16a5aa5b478acce08c205843419f6e99464795471f0bf86977bbf9571f1e5b65",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 164,
+        "y": 1,
+        "width": 8,
+        "height": 19
+      }
+    },
+    "Body/1/3": {
+      "source": "Body1.png",
+      "part": "Body",
+      "type": "1",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 27
+      },
+      "sha256": "f4e1a22b3eff360ddbbae5a88af57d30dc19bb6edffb36d270d7d8cd23b3685f",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 174,
+        "y": 1,
+        "width": 12,
+        "height": 19
+      }
+    },
+    "Body/2/0": {
+      "source": "Body2.png",
+      "part": "Body",
+      "type": "2",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 27
+      },
+      "sha256": "5b7c171b050df12ad5972ae512cab898aa94e695a337768f692c7c305e4c6306",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 188,
+        "y": 1,
+        "width": 10,
+        "height": 20
+      }
+    },
+    "Body/2/1": {
+      "source": "Body2.png",
+      "part": "Body",
+      "type": "2",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 26
+      },
+      "sha256": "e355957ff4f59b7575ba25fba378e3a1cd79a343781c3544cbca608cb5c400c3",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 200,
+        "y": 1,
+        "width": 14,
+        "height": 20
+      }
+    },
+    "Body/2/2": {
+      "source": "Body2.png",
+      "part": "Body",
+      "type": "2",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 27
+      },
+      "sha256": "045f04002acc6a8a6ec4756c2d96b441abb698204e11a257099169b837796922",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 216,
+        "y": 1,
+        "width": 10,
+        "height": 20
+      }
+    },
+    "Body/2/3": {
+      "source": "Body2.png",
+      "part": "Body",
+      "type": "2",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 27
+      },
+      "sha256": "2fc4508bf5e810890f17c59a74a4bfffe6de0d9974df89fc2464167beacc0a1b",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 228,
+        "y": 1,
+        "width": 14,
+        "height": 19
+      }
+    },
+    "Body/3/0": {
+      "source": "Body3.png",
+      "part": "Body",
+      "type": "3",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 27
+      },
+      "sha256": "1e46eeb7733c06607fe12a1069106c227c959f9f20afe0dc80794f7030febbb0",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 244,
+        "y": 1,
+        "width": 10,
+        "height": 23
+      }
+    },
+    "Body/3/1": {
+      "source": "Body3.png",
+      "part": "Body",
+      "type": "3",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 26
+      },
+      "sha256": "bf8892c15deaa2355c0ccd9062a79175d262384674dcb94d7cd8c652b04f1ace",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 256,
+        "y": 1,
+        "width": 14,
+        "height": 23
+      }
+    },
+    "Body/3/2": {
+      "source": "Body3.png",
+      "part": "Body",
+      "type": "3",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 27
+      },
+      "sha256": "88d84513bfb9c7697b6a31a65067674272ec0e0101c0b0f1b5e566de92a7f4a2",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 272,
+        "y": 1,
+        "width": 10,
+        "height": 23
+      }
+    },
+    "Body/3/3": {
+      "source": "Body3.png",
+      "part": "Body",
+      "type": "3",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 27
+      },
+      "sha256": "3e39bb82abeeebbd0c50d1358f278fc297a5d2679f81a8f5aecd73243e782132",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 284,
+        "y": 1,
+        "width": 14,
+        "height": 22
+      }
+    },
+    "Body/4/0": {
+      "source": "Body4.png",
+      "part": "Body",
+      "type": "4",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 27
+      },
+      "sha256": "aaf82d1dd92fca4cd343c4d298139fbb41099f55e98b8eab6ca578047f45653c",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 300,
+        "y": 1,
+        "width": 10,
+        "height": 22
+      }
+    },
+    "Body/4/1": {
+      "source": "Body4.png",
+      "part": "Body",
+      "type": "4",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 26
+      },
+      "sha256": "0af5e956ce13f2f02eea45cd226c8fa1b501ed9f837b5e53d17bc0ad1f4429d1",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 312,
+        "y": 1,
+        "width": 14,
+        "height": 23
+      }
+    },
+    "Body/4/2": {
+      "source": "Body4.png",
+      "part": "Body",
+      "type": "4",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 27
+      },
+      "sha256": "d4c5523b3c98c512f180a57a92b3cdc9c28f258d39aa597dd8aaca82767fb5ef",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 328,
+        "y": 1,
+        "width": 10,
+        "height": 22
+      }
+    },
+    "Body/4/3": {
+      "source": "Body4.png",
+      "part": "Body",
+      "type": "4",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 27
+      },
+      "sha256": "4df494ec2fda4d5e495339997430b491f65d56e217cba14b58daa41731d454dd",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 340,
+        "y": 1,
+        "width": 14,
+        "height": 22
+      }
+    },
+    "Body/5/0": {
+      "source": "Body5.png",
+      "part": "Body",
+      "type": "5",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 28
+      },
+      "sha256": "9520068c069a6053e0e56ade4ae565d053b7d9f8d54588db7caad06c0a4e425c",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 356,
+        "y": 1,
+        "width": 10,
+        "height": 20
+      }
+    },
+    "Body/5/1": {
+      "source": "Body5.png",
+      "part": "Body",
+      "type": "5",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 29
+      },
+      "sha256": "018cefa8bb358abb350f427f03338c5ebbfdea3dcc4879c0a61b0b0d8f17f084",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 368,
+        "y": 1,
+        "width": 13,
+        "height": 17
+      }
+    },
+    "Body/5/2": {
+      "source": "Body5.png",
+      "part": "Body",
+      "type": "5",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 28
+      },
+      "sha256": "d3ed3db1e4226514c757e155f3491909da8991f86a8f20b42acc27165668d5e4",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 383,
+        "y": 1,
+        "width": 9,
+        "height": 20
+      }
+    },
+    "Body/5/3": {
+      "source": "Body5.png",
+      "part": "Body",
+      "type": "5",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 29
+      },
+      "sha256": "7399c5746fa7e6bd4799bee7049d37ee21d1d13da29a875316b6f7112058e306",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 394,
+        "y": 1,
+        "width": 13,
+        "height": 18
+      }
+    },
+    "Body/6/0": {
+      "source": "Body6.png",
+      "part": "Body",
+      "type": "6",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 27
+      },
+      "sha256": "5834276ff23b82e7d84f5ff8a90599b924331eaa0ce3e15616a7d46818e238c9",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 409,
+        "y": 1,
+        "width": 11,
+        "height": 23
+      }
+    },
+    "Body/6/1": {
+      "source": "Body6.png",
+      "part": "Body",
+      "type": "6",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 29
+      },
+      "sha256": "f0f06daf18a9c5707db7c9fcf712869d4e314b3b461fca3d0fc7af3bdb46d3fe",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 422,
+        "y": 1,
+        "width": 14,
+        "height": 20
+      }
+    },
+    "Body/6/2": {
+      "source": "Body6.png",
+      "part": "Body",
+      "type": "6",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 27
+      },
+      "sha256": "f1beeac3c8b172927ac74e443ddd4e501cdb56ecebc18d6a49c0b65cc3a0c1c3",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 438,
+        "y": 1,
+        "width": 11,
+        "height": 23
+      }
+    },
+    "Body/6/3": {
+      "source": "Body6.png",
+      "part": "Body",
+      "type": "6",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 29
+      },
+      "sha256": "01f0769a39b40106431636e92f68b10cd3a396c9efb7986f34295bf819268ee9",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 451,
+        "y": 1,
+        "width": 14,
+        "height": 20
+      }
+    },
+    "Body/7/0": {
+      "source": "Body7.png",
+      "part": "Body",
+      "type": "7",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 25
+      },
+      "sha256": "1870a2ab53e9b46db6a7bf823de58b4d546eabd514e3fb66cb0dfad7a83fb4b2",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 467,
+        "y": 1,
+        "width": 10,
+        "height": 22
+      }
+    },
+    "Body/7/1": {
+      "source": "Body7.png",
+      "part": "Body",
+      "type": "7",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 41,
+        "y": 28
+      },
+      "sha256": "09422f457a453be190c3debcc933a80790ad3971657ad716012c5ed35f4f4ac4",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 479,
+        "y": 1,
+        "width": 19,
+        "height": 20
+      }
+    },
+    "Body/7/2": {
+      "source": "Body7.png",
+      "part": "Body",
+      "type": "7",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 25
+      },
+      "sha256": "81da10dfceab9d86b35a8efba3326fcc73c12114125d8b925bd1c9cebad2c068",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 500,
+        "y": 1,
+        "width": 11,
+        "height": 23
+      }
+    },
+    "Body/7/3": {
+      "source": "Body7.png",
+      "part": "Body",
+      "type": "7",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 40,
+        "y": 27
+      },
+      "sha256": "7b1b1ce18b7564e843fe84eacb6215ba2b9d3af2a48da14de04a9ff7605be21d",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 1,
+        "y": 26,
+        "width": 20,
+        "height": 20
+      }
+    },
+    "Body/8/0": {
+      "source": "Body8.png",
+      "part": "Body",
+      "type": "8",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 26
+      },
+      "sha256": "5c923bb802d5a38c460443c31a738d3250a30b926ee11081d865edea63b327f8",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 23,
+        "y": 26,
+        "width": 12,
+        "height": 22
+      }
+    },
+    "Body/8/1": {
+      "source": "Body8.png",
+      "part": "Body",
+      "type": "8",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 42,
+        "y": 25
+      },
+      "sha256": "2767241d1f6172f969e56b1ad06a8f27d6a7806c250268304ac655d069c6887e",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 37,
+        "y": 26,
+        "width": 15,
+        "height": 27
+      }
+    },
+    "Body/8/2": {
+      "source": "Body8.png",
+      "part": "Body",
+      "type": "8",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 25
+      },
+      "sha256": "e5f3ae648d8f2887034246d6b8f7920e1ab852220d82dd670f82e2ea22d37690",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 54,
+        "y": 26,
+        "width": 12,
+        "height": 26
+      }
+    },
+    "Body/8/3": {
+      "source": "Body8.png",
+      "part": "Body",
+      "type": "8",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 26
+      },
+      "sha256": "b44b62ae3b1be7ec29d101c1e7ad7e2247aaaf807d364c5bc32facc9752e6095",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 68,
+        "y": 26,
+        "width": 15,
+        "height": 21
+      }
+    },
+    "Head/1/0": {
+      "source": "Head1.png",
+      "part": "Head",
+      "type": "1",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 21
+      },
+      "sha256": "f68e6e284565329fa3d96f7fb62f3664ef13ae2ecad74e6466dcd951ca96b177",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 85,
+        "y": 26,
+        "width": 8,
+        "height": 8
+      }
+    },
+    "Head/1/1": {
+      "source": "Head1.png",
+      "part": "Head",
+      "type": "1",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 22
+      },
+      "sha256": "b6e90f2961a0baaf8a76bc833124d7a0d19953d4a2e462d684ad2f7dd637f96a",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 95,
+        "y": 26,
+        "width": 8,
+        "height": 9
+      }
+    },
+    "Head/1/2": {
+      "source": "Head1.png",
+      "part": "Head",
+      "type": "1",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 22
+      },
+      "sha256": "2f0f858658f3d4a33d53f10d3d614ea91980905c6d510241c8affa3fe16476af",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 105,
+        "y": 26,
+        "width": 7,
+        "height": 9
+      }
+    },
+    "Head/1/3": {
+      "source": "Head1.png",
+      "part": "Head",
+      "type": "1",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 21
+      },
+      "sha256": "2e2c087d2399b95f1f49a6db7d3bbef9caf2df05ca404e1990042a8682231749",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 114,
+        "y": 26,
+        "width": 8,
+        "height": 8
+      }
+    },
+    "Head/2/0": {
+      "source": "Head2.png",
+      "part": "Head",
+      "type": "2",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 20
+      },
+      "sha256": "ba35b821ec4663283cb8fecbedbe767cde8e2430de787cfb86afa8cc94b7f18f",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 124,
+        "y": 26,
+        "width": 9,
+        "height": 9
+      }
+    },
+    "Head/2/1": {
+      "source": "Head2.png",
+      "part": "Head",
+      "type": "2",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 19
+      },
+      "sha256": "1c35d5d002efd69f222cbb9013f0db16ffe365ab381328b301f81f90e51b439f",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 135,
+        "y": 26,
+        "width": 9,
+        "height": 12
+      }
+    },
+    "Head/2/2": {
+      "source": "Head2.png",
+      "part": "Head",
+      "type": "2",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 20
+      },
+      "sha256": "03a1fbd559ed1547b5044dacdf00b80fd46b2ee3e9604837e5dfdeb61e90342c",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 146,
+        "y": 26,
+        "width": 9,
+        "height": 11
+      }
+    },
+    "Head/2/3": {
+      "source": "Head2.png",
+      "part": "Head",
+      "type": "2",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 20
+      },
+      "sha256": "167daf607964e8c51fe9049fd196c4958535430c78d82f64d0fcf3f8b02ef3ce",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 157,
+        "y": 26,
+        "width": 9,
+        "height": 9
+      }
+    },
+    "Head/3/0": {
+      "source": "Head3.png",
+      "part": "Head",
+      "type": "3",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 21
+      },
+      "sha256": "698f6bfc96f4b9f2786424fe8aa77bb58051b161f45dc85610415bb3bc652fd1",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 168,
+        "y": 26,
+        "width": 9,
+        "height": 10
+      }
+    },
+    "Head/3/1": {
+      "source": "Head3.png",
+      "part": "Head",
+      "type": "3",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 20
+      },
+      "sha256": "aa732973da88ebef284e47da6822d4248c2ff6f65865a30ec1ac0e63997b55eb",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 179,
+        "y": 26,
+        "width": 9,
+        "height": 11
+      }
+    },
+    "Head/3/2": {
+      "source": "Head3.png",
+      "part": "Head",
+      "type": "3",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 20
+      },
+      "sha256": "eeb34f0c1e2c21a9cdeea6fe4ded73b4f9b8bbf4aff250578927b9cf2c2c864b",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 190,
+        "y": 26,
+        "width": 9,
+        "height": 11
+      }
+    },
+    "Head/3/3": {
+      "source": "Head3.png",
+      "part": "Head",
+      "type": "3",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 21
+      },
+      "sha256": "7f28738bc2068d071b88dcdf41822a00ae4fee268cef44bbd6fb99794b195fd1",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 201,
+        "y": 26,
+        "width": 9,
+        "height": 10
+      }
+    },
+    "Head/4/0": {
+      "source": "Head4.png",
+      "part": "Head",
+      "type": "4",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 20
+      },
+      "sha256": "70cbefa4c25cd48e301649e2f0444a7414f9b63668a98eb9e0543551d26f994f",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 212,
+        "y": 26,
+        "width": 8,
+        "height": 9
+      }
+    },
+    "Head/4/1": {
+      "source": "Head4.png",
+      "part": "Head",
+      "type": "4",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 21
+      },
+      "sha256": "003adcb4aad2372169258ea292e9f14b1d6bc61fd758e0188b1ad147f81138d0",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 222,
+        "y": 26,
+        "width": 8,
+        "height": 10
+      }
+    },
+    "Head/4/2": {
+      "source": "Head4.png",
+      "part": "Head",
+      "type": "4",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 21
+      },
+      "sha256": "df77888e849ed332a8b438cf90666ed06c305ff303a61c14690aca7cc7f7e28c",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 232,
+        "y": 26,
+        "width": 7,
+        "height": 10
+      }
+    },
+    "Head/4/3": {
+      "source": "Head4.png",
+      "part": "Head",
+      "type": "4",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 20
+      },
+      "sha256": "55afa7999ca90a64fa30502cb65559ade03cc6abdfad94659d94e6d93a083d59",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 241,
+        "y": 26,
+        "width": 8,
+        "height": 9
+      }
+    },
+    "Head/5/0": {
+      "source": "Head5.png",
+      "part": "Head",
+      "type": "5",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 21
+      },
+      "sha256": "a54744f04fcef2f09efb4380579fd1c05162b5a64734a54b254e58c1c2d6744f",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 251,
+        "y": 26,
+        "width": 8,
+        "height": 8
+      }
+    },
+    "Head/5/1": {
+      "source": "Head5.png",
+      "part": "Head",
+      "type": "5",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 20
+      },
+      "sha256": "69c460fd3f164b834e209a5ab687d2d1ee9654ec7cc027aff271beb7de47a519",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 261,
+        "y": 26,
+        "width": 8,
+        "height": 11
+      }
+    },
+    "Head/5/2": {
+      "source": "Head5.png",
+      "part": "Head",
+      "type": "5",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 20
+      },
+      "sha256": "6315d6cc3d8f9f6c1f911a758458598c065993a81bb5782743bab566e2261ece",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 271,
+        "y": 26,
+        "width": 7,
+        "height": 11
+      }
+    },
+    "Head/5/3": {
+      "source": "Head5.png",
+      "part": "Head",
+      "type": "5",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 21
+      },
+      "sha256": "17f4bc25972befc470dbaf3f9a8d00e6acd226e0e86cd8d63c7503beecdf1771",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 280,
+        "y": 26,
+        "width": 8,
+        "height": 8
+      }
+    },
+    "Head/6/0": {
+      "source": "Head6.png",
+      "part": "Head",
+      "type": "6",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 21
+      },
+      "sha256": "8a017a01b3904524581f254bdc56b9c7691023b39212cb397b28df23f23cb846",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 290,
+        "y": 26,
+        "width": 10,
+        "height": 10
+      }
+    },
+    "Head/6/1": {
+      "source": "Head6.png",
+      "part": "Head",
+      "type": "6",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 21
+      },
+      "sha256": "a56b7f6675f1cd172801a8f4a9747f1b60e799f9c25ae47a753fe6ddeae7ee10",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 302,
+        "y": 26,
+        "width": 10,
+        "height": 11
+      }
+    },
+    "Head/6/2": {
+      "source": "Head6.png",
+      "part": "Head",
+      "type": "6",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 21
+      },
+      "sha256": "493e2f2704ec42ccf29150598f44a857d7e96f6a9c691e052b6aa85d2e4bebbd",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 314,
+        "y": 26,
+        "width": 10,
+        "height": 11
+      }
+    },
+    "Head/6/3": {
+      "source": "Head6.png",
+      "part": "Head",
+      "type": "6",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 21
+      },
+      "sha256": "8843b9f8105f4add53c86fbc97892ac8dd57bcb7d2a6eaf1b4f5bf74df5b7876",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 326,
+        "y": 26,
+        "width": 10,
+        "height": 10
+      }
+    },
+    "Head/7/0": {
+      "source": "Head7.png",
+      "part": "Head",
+      "type": "7",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 21
+      },
+      "sha256": "f6bbbf94147501addbefaedcb2a84803b86a8cb211912261c348dffdead1b212",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 338,
+        "y": 26,
+        "width": 9,
+        "height": 10
+      }
+    },
+    "Head/7/1": {
+      "source": "Head7.png",
+      "part": "Head",
+      "type": "7",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 21
+      },
+      "sha256": "2fe48b7292672dc3fffcbcb0cfb43a8570e65a771187856fb0cced5ad987b8b4",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 349,
+        "y": 26,
+        "width": 9,
+        "height": 14
+      }
+    },
+    "Head/7/2": {
+      "source": "Head7.png",
+      "part": "Head",
+      "type": "7",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 21
+      },
+      "sha256": "f3e5b3111fa92eab050386df100b230b72e534680427ac5dd06ec5443264cc72",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 360,
+        "y": 26,
+        "width": 9,
+        "height": 14
+      }
+    },
+    "Head/7/3": {
+      "source": "Head7.png",
+      "part": "Head",
+      "type": "7",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 21
+      },
+      "sha256": "aaa5e3c677be3541a164a58494f7941b8671e337381a7a77d857bde4c8a9db83",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 371,
+        "y": 26,
+        "width": 9,
+        "height": 10
+      }
+    },
+    "Head/8/0": {
+      "source": "Head8.png",
+      "part": "Head",
+      "type": "8",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 18
+      },
+      "sha256": "af7996d64cee37da0b621b1f309ebec4542bd366e6473bf6da3a775926f6c34f",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 382,
+        "y": 26,
+        "width": 9,
+        "height": 11
+      }
+    },
+    "Head/8/1": {
+      "source": "Head8.png",
+      "part": "Head",
+      "type": "8",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 19
+      },
+      "sha256": "72ced6d6722d2322d790a7333feb042ee8dc8d49106f2f2ffb6529c772817572",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 393,
+        "y": 26,
+        "width": 9,
+        "height": 12
+      }
+    },
+    "Head/8/2": {
+      "source": "Head8.png",
+      "part": "Head",
+      "type": "8",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 19
+      },
+      "sha256": "fb2a1943e4aae01b96dbf0040cabe9c2473f0791ed533e8e044fa2f3a11de172",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 404,
+        "y": 26,
+        "width": 9,
+        "height": 12
+      }
+    },
+    "Head/8/3": {
+      "source": "Head8.png",
+      "part": "Head",
+      "type": "8",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 18
+      },
+      "sha256": "fa6b92763ce8d1ad89ae33133c0e95fe3e19aafbbf71cdca66820331e30a1d36",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 415,
+        "y": 26,
+        "width": 9,
+        "height": 11
+      }
+    },
+    "Head/9/0": {
+      "source": "Head9.png",
+      "part": "Head",
+      "type": "9",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 21
+      },
+      "sha256": "822be039e4bc9a3cc3f06126ff179a3dcb428ba207ed45621cb4ebc59b40d190",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 426,
+        "y": 26,
+        "width": 9,
+        "height": 8
+      }
+    },
+    "Head/9/1": {
+      "source": "Head9.png",
+      "part": "Head",
+      "type": "9",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 21
+      },
+      "sha256": "d23925af48d6cb9648bfa65128fa85a1b500bd312b21db64404b0c0812eb5544",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 437,
+        "y": 26,
+        "width": 9,
+        "height": 10
+      }
+    },
+    "Head/9/2": {
+      "source": "Head9.png",
+      "part": "Head",
+      "type": "9",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 21
+      },
+      "sha256": "7f7544e160bd2cbb30c34e7292e6ea1214bcec7107aad6915284ff8bbce7d8f9",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 448,
+        "y": 26,
+        "width": 9,
+        "height": 10
+      }
+    },
+    "Head/9/3": {
+      "source": "Head9.png",
+      "part": "Head",
+      "type": "9",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 20
+      },
+      "sha256": "62f7a4840908dfac9a44b3d51c13db9edf38a3447a293cab0e01733b011da07f",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 459,
+        "y": 26,
+        "width": 9,
+        "height": 9
+      }
+    },
+    "Head/10/0": {
+      "source": "Head10.png",
+      "part": "Head",
+      "type": "10",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 20
+      },
+      "sha256": "dc56be8561a6010e3bb950115b5f3691f04c7f7820a1ac5e7be4cbe9aa49d830",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 470,
+        "y": 26,
+        "width": 10,
+        "height": 10
+      }
+    },
+    "Head/10/1": {
+      "source": "Head10.png",
+      "part": "Head",
+      "type": "10",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 20
+      },
+      "sha256": "a3b9e6cae8d489e7fc1bbf1dc2dde4197f73dac3c9d83150cb49940f6d0bd7f7",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 482,
+        "y": 26,
+        "width": 10,
+        "height": 13
+      }
+    },
+    "Head/10/2": {
+      "source": "Head10.png",
+      "part": "Head",
+      "type": "10",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 20
+      },
+      "sha256": "b2b9aac2d615e961fa82b140203e6583a9433baa7452e6c58cf2160a02f7d7f4",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 494,
+        "y": 26,
+        "width": 10,
+        "height": 13
+      }
+    },
+    "Head/10/3": {
+      "source": "Head10.png",
+      "part": "Head",
+      "type": "10",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 20
+      },
+      "sha256": "5f3ec79a3ff388897d5d27deb68c7100cfc84c560b77631b6fc97831f04be9a7",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 1,
+        "y": 55,
+        "width": 10,
+        "height": 10
+      }
+    },
+    "Head/11/0": {
+      "source": "Head11.png",
+      "part": "Head",
+      "type": "11",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 18
+      },
+      "sha256": "70f97f96138ffb81ce155e030f67185e0f5ea8cad9213c893f5381e1458ef780",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 13,
+        "y": 55,
+        "width": 10,
+        "height": 11
+      }
+    },
+    "Head/11/1": {
+      "source": "Head11.png",
+      "part": "Head",
+      "type": "11",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 18
+      },
+      "sha256": "6a6a8cdd6693f914207918840b57aa5396809113a9d6da61773b17cf68e1c14f",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 25,
+        "y": 55,
+        "width": 10,
+        "height": 10
+      }
+    },
+    "Head/11/2": {
+      "source": "Head11.png",
+      "part": "Head",
+      "type": "11",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 18
+      },
+      "sha256": "203957444660c916d72b1b6f3950fcf64274569d7035b951c2bf545599d2463d",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 37,
+        "y": 55,
+        "width": 10,
+        "height": 10
+      }
+    },
+    "Head/11/3": {
+      "source": "Head11.png",
+      "part": "Head",
+      "type": "11",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 18
+      },
+      "sha256": "526f6fe97e2f08d9496c512b3a477ae26b2c7df2efaa1adcb3ecdeea4d8fd53d",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 49,
+        "y": 55,
+        "width": 10,
+        "height": 10
+      }
+    },
+    "LeftTopArm/1/0": {
+      "source": "LeftTopArm1.png",
+      "part": "LeftTopArm",
+      "type": "1",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 47,
+        "y": 27
+      },
+      "sha256": "6d0aaa5876b82652e56399c7b6eae2594146825bf9ad4aa5e9c441807aafe846",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 61,
+        "y": 55,
+        "width": 10,
+        "height": 8
+      }
+    },
+    "LeftTopArm/1/1": {
+      "source": "LeftTopArm1.png",
+      "part": "LeftTopArm",
+      "type": "1",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 30
+      },
+      "sha256": "237284cafdd1494e7004f0c9948ad965b8a6fa9bf38c5430164a199b6044db72",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 73,
+        "y": 55,
+        "width": 6,
+        "height": 13
+      }
+    },
+    "LeftTopArm/1/2": {
+      "source": "LeftTopArm1.png",
+      "part": "LeftTopArm",
+      "type": "1",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 34
+      },
+      "sha256": "ec4a3ae169a405beb8af414ff9585907803e3f12cb22cc64f4fc6a1c84938e8c",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 81,
+        "y": 55,
+        "width": 10,
+        "height": 11
+      }
+    },
+    "LeftTopArm/1/3": {
+      "source": "LeftTopArm1.png",
+      "part": "LeftTopArm",
+      "type": "1",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 40,
+        "y": 31
+      },
+      "sha256": "a42007b19478ae7e476392a2465afc129145216565aa0df11cdfcb5c1d9d892d",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 93,
+        "y": 55,
+        "width": 6,
+        "height": 6
+      }
+    },
+    "LeftTopArm/2/0": {
+      "source": "LeftTopArm2.png",
+      "part": "LeftTopArm",
+      "type": "2",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 47,
+        "y": 27
+      },
+      "sha256": "5d73c0df2c531aed118bc74be41014d2224100c82ca0a12d82b3e80c242f33ea",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 101,
+        "y": 55,
+        "width": 10,
+        "height": 8
+      }
+    },
+    "LeftTopArm/2/1": {
+      "source": "LeftTopArm2.png",
+      "part": "LeftTopArm",
+      "type": "2",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 30
+      },
+      "sha256": "b7a38d3a9bf78a5faa665c989c38e54cd5b42c3f531f533e868f10f386f3e1bf",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 113,
+        "y": 55,
+        "width": 7,
+        "height": 13
+      }
+    },
+    "LeftTopArm/2/2": {
+      "source": "LeftTopArm2.png",
+      "part": "LeftTopArm",
+      "type": "2",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 34
+      },
+      "sha256": "c9d5d808a8730e251e56c9ed251d41750f6a9f38fc0578e2429ccab1695c80a6",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 122,
+        "y": 55,
+        "width": 10,
+        "height": 11
+      }
+    },
+    "LeftTopArm/2/3": {
+      "source": "LeftTopArm2.png",
+      "part": "LeftTopArm",
+      "type": "2",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 39,
+        "y": 31
+      },
+      "sha256": "f0af14032b9b9d8a38d675ed1a66ad0b48d663b6c1bee326504cfa374af66e8f",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 134,
+        "y": 55,
+        "width": 7,
+        "height": 6
+      }
+    },
+    "RightTopArm/1/0": {
+      "source": "RightTopArm1.png",
+      "part": "RightTopArm",
+      "type": "1",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 48,
+        "y": 34
+      },
+      "sha256": "f12c558601c8a165a349cde20e09ea6e7216e121a4d99a78cf4d29d03979d4ab",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 143,
+        "y": 55,
+        "width": 9,
+        "height": 11
+      }
+    },
+    "RightTopArm/1/1": {
+      "source": "RightTopArm1.png",
+      "part": "RightTopArm",
+      "type": "1",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 42,
+        "y": 31
+      },
+      "sha256": "b4e55954d9af108e26fec0da9a29daa3902ad0227f3c12879cb0ba41bba7f703",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 154,
+        "y": 55,
+        "width": 4,
+        "height": 13
+      }
+    },
+    "RightTopArm/1/2": {
+      "source": "RightTopArm1.png",
+      "part": "RightTopArm",
+      "type": "1",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 27
+      },
+      "sha256": "d3ebe515c5e537e1a8aa9b9d79de914fe3fce7a1afab151f72d9cac37c8b32af",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 160,
+        "y": 55,
+        "width": 9,
+        "height": 10
+      }
+    },
+    "RightTopArm/1/3": {
+      "source": "RightTopArm1.png",
+      "part": "RightTopArm",
+      "type": "1",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 30
+      },
+      "sha256": "ad567ed840b19576b8471656e3bffc7e9b3f2934e1b8a67294652b25fd80f7ca",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 171,
+        "y": 55,
+        "width": 4,
+        "height": 8
+      }
+    },
+    "RightTopArm/2/0": {
+      "source": "RightTopArm2.png",
+      "part": "RightTopArm",
+      "type": "2",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 48,
+        "y": 34
+      },
+      "sha256": "ad93082627c1da401f3e76163cd2d87fed9b1924ba1a401c893fc5eda0b0756e",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 177,
+        "y": 55,
+        "width": 9,
+        "height": 11
+      }
+    },
+    "RightTopArm/2/1": {
+      "source": "RightTopArm2.png",
+      "part": "RightTopArm",
+      "type": "2",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 40,
+        "y": 31
+      },
+      "sha256": "28b4e23f9b1580d727ba9501f124f50b1e59a12877d60713f93b26ed9347ab0a",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 188,
+        "y": 55,
+        "width": 6,
+        "height": 13
+      }
+    },
+    "RightTopArm/2/2": {
+      "source": "RightTopArm2.png",
+      "part": "RightTopArm",
+      "type": "2",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 27
+      },
+      "sha256": "4bad734bebd873597ed59ba2ed5748d8e8bef0a726ded1d40bbf5a4936436513",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 196,
+        "y": 55,
+        "width": 9,
+        "height": 10
+      }
+    },
+    "RightTopArm/2/3": {
+      "source": "RightTopArm2.png",
+      "part": "RightTopArm",
+      "type": "2",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 30
+      },
+      "sha256": "eed10d5bb641a82a7baa18209c32a988655b691ad673f3c8fdbdd7065d2cac7d",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 207,
+        "y": 55,
+        "width": 6,
+        "height": 8
+      }
+    },
+    "LeftForearm/1/0": {
+      "source": "LeftForearm1.png",
+      "part": "LeftForearm",
+      "type": "1",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 25
+      },
+      "sha256": "68bc13470fa84432b5dba0a6791b524f24a5e9b2162e5bf373c3d3220526df5f",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 215,
+        "y": 55,
+        "width": 9,
+        "height": 10
+      }
+    },
+    "LeftForearm/1/1": {
+      "source": "LeftForearm1.png",
+      "part": "LeftForearm",
+      "type": "1",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 34
+      },
+      "sha256": "29454faf9bbf1f4ea9c5d8db3720b4c03b83af281b60290e638175d299973f64",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 226,
+        "y": 55,
+        "width": 6,
+        "height": 9
+      }
+    },
+    "LeftForearm/1/2": {
+      "source": "LeftForearm1.png",
+      "part": "LeftForearm",
+      "type": "1",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 37,
+        "y": 31
+      },
+      "sha256": "32e8ad7de57b08536a04b10f933c3dcb9ab634bb53e60c976eb9c21106c46bfa",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 234,
+        "y": 55,
+        "width": 9,
+        "height": 14
+      }
+    },
+    "LeftForearm/1/3": {
+      "source": "LeftForearm1.png",
+      "part": "LeftForearm",
+      "type": "1",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 40,
+        "y": 22
+      },
+      "sha256": "a0b5838f9264c7c2449e91d23351b33490db383e91fcafca19926808c28335f7",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 245,
+        "y": 55,
+        "width": 6,
+        "height": 15
+      }
+    },
+    "LeftForearm/2/0": {
+      "source": "LeftForearm2.png",
+      "part": "LeftForearm",
+      "type": "2",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 25
+      },
+      "sha256": "d8edbe0c95004082c880748f6258e9681792522371e736cdfe34fd9fa7e965d1",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 253,
+        "y": 55,
+        "width": 9,
+        "height": 10
+      }
+    },
+    "LeftForearm/2/1": {
+      "source": "LeftForearm2.png",
+      "part": "LeftForearm",
+      "type": "2",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 34
+      },
+      "sha256": "76a5e334df101c01a6c776c22389292dee8c4e6358c0b02d5a1fddf87f9bdf74",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 264,
+        "y": 55,
+        "width": 6,
+        "height": 9
+      }
+    },
+    "LeftForearm/2/2": {
+      "source": "LeftForearm2.png",
+      "part": "LeftForearm",
+      "type": "2",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 37,
+        "y": 31
+      },
+      "sha256": "1c2dfbc2b68f01c80d34132b4e85672028a47498cbe510ff351d220ef06112b3",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 272,
+        "y": 55,
+        "width": 9,
+        "height": 14
+      }
+    },
+    "LeftForearm/2/3": {
+      "source": "LeftForearm2.png",
+      "part": "LeftForearm",
+      "type": "2",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 40,
+        "y": 22
+      },
+      "sha256": "fa193eead98e2ab6ac38ad67324f00ce436e2372fe8dd1344d2a149991ec53cf",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 283,
+        "y": 55,
+        "width": 6,
+        "height": 15
+      }
+    },
+    "LeftForearm/3/0": {
+      "source": "LeftForearm3.png",
+      "part": "LeftForearm",
+      "type": "3",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 25
+      },
+      "sha256": "37946c26cb386f5905c772145fc95d5ea97d6d96cb691ba7791cd79e570c87b2",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 291,
+        "y": 55,
+        "width": 9,
+        "height": 10
+      }
+    },
+    "LeftForearm/3/1": {
+      "source": "LeftForearm3.png",
+      "part": "LeftForearm",
+      "type": "3",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 34
+      },
+      "sha256": "fac5823d7a06f2cc84fe340a78bf083ae5f56ae760ffd6c854e60617eccf6019",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 302,
+        "y": 55,
+        "width": 6,
+        "height": 9
+      }
+    },
+    "LeftForearm/3/2": {
+      "source": "LeftForearm3.png",
+      "part": "LeftForearm",
+      "type": "3",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 37,
+        "y": 31
+      },
+      "sha256": "1f8b0d6236939aa10ca4b018ca0cb3078ff88ed2d555a0319fd60296355c006b",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 310,
+        "y": 55,
+        "width": 9,
+        "height": 14
+      }
+    },
+    "LeftForearm/3/3": {
+      "source": "LeftForearm3.png",
+      "part": "LeftForearm",
+      "type": "3",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 40,
+        "y": 21
+      },
+      "sha256": "02b3fdaedf3e67a7dfc0c34fa22b760718bcbbfb196c71e4ac903323f0df5a9c",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 321,
+        "y": 55,
+        "width": 6,
+        "height": 16
+      }
+    },
+    "RightForearm/1/0": {
+      "source": "RightForearm1.png",
+      "part": "RightForearm",
+      "type": "1",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 30
+      },
+      "sha256": "225201838bf98eda0832d6a77c80a76d0cd69d49cbe75e37ad3904b837221606",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 329,
+        "y": 55,
+        "width": 8,
+        "height": 15
+      }
+    },
+    "RightForearm/1/1": {
+      "source": "RightForearm1.png",
+      "part": "RightForearm",
+      "type": "1",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 41,
+        "y": 37
+      },
+      "sha256": "a43ffecf0f5a1dd49cd2502a472067a6be6258d76962554675ace6c79f9012cc",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 339,
+        "y": 55,
+        "width": 12,
+        "height": 7
+      }
+    },
+    "RightForearm/1/2": {
+      "source": "RightForearm1.png",
+      "part": "RightForearm",
+      "type": "1",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 38,
+        "y": 33
+      },
+      "sha256": "840a201d9fb6e27aaacc390b4777a49a020484fc353b2b126da34d106c9f65c2",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 353,
+        "y": 55,
+        "width": 8,
+        "height": 4
+      }
+    },
+    "RightForearm/1/3": {
+      "source": "RightForearm1.png",
+      "part": "RightForearm",
+      "type": "1",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 47,
+        "y": 26
+      },
+      "sha256": "a28e9b479a06711fdae5b2dd01d06a54e210582eb2845dc24966512ebf86cb16",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 363,
+        "y": 55,
+        "width": 11,
+        "height": 12
+      }
+    },
+    "RightForearm/2/0": {
+      "source": "RightForearm2.png",
+      "part": "RightForearm",
+      "type": "2",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 30
+      },
+      "sha256": "29065c8588ff8c21aed4a84d3ffce673faefd01fd80e2b496004213a882ba4e2",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 376,
+        "y": 55,
+        "width": 8,
+        "height": 15
+      }
+    },
+    "RightForearm/2/1": {
+      "source": "RightForearm2.png",
+      "part": "RightForearm",
+      "type": "2",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 42,
+        "y": 37
+      },
+      "sha256": "7b1b8a09f801ae5b15eb4071fbd4785d62d55582b100e57c4d765ed0a226eb78",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 386,
+        "y": 55,
+        "width": 11,
+        "height": 7
+      }
+    },
+    "RightForearm/2/2": {
+      "source": "RightForearm2.png",
+      "part": "RightForearm",
+      "type": "2",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 38,
+        "y": 33
+      },
+      "sha256": "7b943d6ebdfa590fee5fa182dd4e01695522104b5530419af28d02cd66e5d14d",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 399,
+        "y": 55,
+        "width": 8,
+        "height": 4
+      }
+    },
+    "RightForearm/2/3": {
+      "source": "RightForearm2.png",
+      "part": "RightForearm",
+      "type": "2",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 47,
+        "y": 26
+      },
+      "sha256": "ed08f700781be42964e2cf7ac021a5890f9248b2afd85dbdcd911332bd9fadc8",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 409,
+        "y": 55,
+        "width": 11,
+        "height": 12
+      }
+    },
+    "RightForearm/3/0": {
+      "source": "RightForearm3.png",
+      "part": "RightForearm",
+      "type": "3",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 30
+      },
+      "sha256": "ced72a28a0b053868e52e502f5d22f9f205ce59e3a23c2a31b90a53f9ad0eb88",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 422,
+        "y": 55,
+        "width": 8,
+        "height": 15
+      }
+    },
+    "RightForearm/3/1": {
+      "source": "RightForearm3.png",
+      "part": "RightForearm",
+      "type": "3",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 41,
+        "y": 37
+      },
+      "sha256": "faee84cf1cd0e378c5d6b451e20aa0b771d0f30a1f0e283302928c169fd2b8ff",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 432,
+        "y": 55,
+        "width": 12,
+        "height": 8
+      }
+    },
+    "RightForearm/3/2": {
+      "source": "RightForearm3.png",
+      "part": "RightForearm",
+      "type": "3",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 38,
+        "y": 33
+      },
+      "sha256": "8ff6de6da32be86eed1b5558af6b444ce9f7ea345371370b1f79adab7414e1d5",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 446,
+        "y": 55,
+        "width": 8,
+        "height": 4
+      }
+    },
+    "RightForearm/3/3": {
+      "source": "RightForearm3.png",
+      "part": "RightForearm",
+      "type": "3",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 47,
+        "y": 26
+      },
+      "sha256": "a00f3000b4d5015dd06a1bc0bc7937bfd317b14d7698273e539a6be271e3efc8",
+      "requiresLegSeparation": false,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 456,
+        "y": 55,
+        "width": 12,
+        "height": 12
+      }
+    },
+    "Legs/1/0": {
+      "source": "Legs1.png",
+      "part": "Legs",
+      "type": "1",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 45,
+        "y": 41
+      },
+      "sha256": "e0825e2553fadabdd634b9d8ad0a70ceb02a05f3ad2689c47808e22ad314bcbe",
+      "requiresLegSeparation": true,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 470,
+        "y": 55,
+        "width": 12,
+        "height": 36
+      }
+    },
+    "Legs/1/1": {
+      "source": "Legs1.png",
+      "part": "Legs",
+      "type": "1",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 39,
+        "y": 41
+      },
+      "sha256": "b42e724672f13015c62efcca19c400148f3ef19a0b7b9c00f97d448f9964815e",
+      "requiresLegSeparation": true,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 484,
+        "y": 55,
+        "width": 22,
+        "height": 35
+      }
+    },
+    "Legs/1/2": {
+      "source": "Legs1.png",
+      "part": "Legs",
+      "type": "1",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 42,
+        "y": 41
+      },
+      "sha256": "47e5d4a2e969526e11fb39e4d71f9b103392f8030fb05a0bd60305ceedcab46f",
+      "requiresLegSeparation": true,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 1,
+        "y": 93,
+        "width": 12,
+        "height": 37
+      }
+    },
+    "Legs/1/3": {
+      "source": "Legs1.png",
+      "part": "Legs",
+      "type": "1",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 37,
+        "y": 41
+      },
+      "sha256": "367bda17905917ed3f7fc11fe1e3268d03ccc2217a63ecc497de3f6fb0b7e594",
+      "requiresLegSeparation": true,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 15,
+        "y": 93,
+        "width": 23,
+        "height": 32
+      }
+    },
+    "Legs/2/0": {
+      "source": "Legs2.png",
+      "part": "Legs",
+      "type": "2",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 44,
+        "y": 39
+      },
+      "sha256": "f9e2f7d8633998eea9ba2b0db1d20f9c0db30ba460eb023b3410ab5b2c9380de",
+      "requiresLegSeparation": true,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 40,
+        "y": 93,
+        "width": 14,
+        "height": 38
+      }
+    },
+    "Legs/2/1": {
+      "source": "Legs2.png",
+      "part": "Legs",
+      "type": "2",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 39,
+        "y": 40
+      },
+      "sha256": "0fc97ceb81c2906208209dc148367f2a17f3cd58beec53543858a46e313200ef",
+      "requiresLegSeparation": true,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 56,
+        "y": 93,
+        "width": 23,
+        "height": 36
+      }
+    },
+    "Legs/2/2": {
+      "source": "Legs2.png",
+      "part": "Legs",
+      "type": "2",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 42,
+        "y": 40
+      },
+      "sha256": "a0e168ff55b0bc9cc1dc469c4b13ab50855fef4d49cd8f050efe9cb9f2a3f00a",
+      "requiresLegSeparation": true,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 81,
+        "y": 93,
+        "width": 14,
+        "height": 38
+      }
+    },
+    "Legs/2/3": {
+      "source": "Legs2.png",
+      "part": "Legs",
+      "type": "2",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 38,
+        "y": 40
+      },
+      "sha256": "ebf398cbb654ac8199104c2eb86758225d8ede7670b0b18c9817927d2e8f3fe5",
+      "requiresLegSeparation": true,
+      "tint": "original-color-masks",
+      "rect": {
+        "x": 97,
+        "y": 93,
+        "width": 23,
+        "height": 33
+      }
+    },
+    "BigGunBackpack/1/0": {
+      "source": "BigGunBackpack1.png",
+      "part": "BigGunBackpack",
+      "type": "1",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 39,
+        "y": 26
+      },
+      "sha256": "002911386d8cde5db18e546ec55dfe2b03a3ed0713e9ef5ffc957cc9ed382ec0",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 122,
+        "y": 93,
+        "width": 9,
+        "height": 22
+      }
+    },
+    "BigGunBackpack/1/1": {
+      "source": "BigGunBackpack1.png",
+      "part": "BigGunBackpack",
+      "type": "1",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 41,
+        "y": 25
+      },
+      "sha256": "9c008a2fc01072dd4e3df826d2a8243a753520ed6f2ca5ef976e00a776867e66",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 133,
+        "y": 93,
+        "width": 15,
+        "height": 17
+      }
+    },
+    "BigGunBackpack/1/2": {
+      "source": "BigGunBackpack1.png",
+      "part": "BigGunBackpack",
+      "type": "1",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 52,
+        "y": 26
+      },
+      "sha256": "78bcd1058cc7cc590961f450c42f679f9d7b52689a952484caa839f9a1e86d9a",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 150,
+        "y": 93,
+        "width": 9,
+        "height": 21
+      }
+    },
+    "BigGunBackpack/1/3": {
+      "source": "BigGunBackpack1.png",
+      "part": "BigGunBackpack",
+      "type": "1",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 32
+      },
+      "sha256": "962fb56074d01b3ccc4f87e44af27d0c084ecb8928232a0b722c8080324b2d81",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 161,
+        "y": 93,
+        "width": 15,
+        "height": 15
+      }
+    },
+    "Weapon/1/0": {
+      "source": "Weapon1.png",
+      "part": "Weapon",
+      "type": "1",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 53
+      },
+      "sha256": "56c8aa0eddc6e0a9f4075672008d2861ef78536f10773fa81eb475b2996a4177",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 178,
+        "y": 93,
+        "width": 10,
+        "height": 5
+      }
+    },
+    "Weapon/1/1": {
+      "source": "Weapon1.png",
+      "part": "Weapon",
+      "type": "1",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 36,
+        "y": 52
+      },
+      "sha256": "95e8f6eb513ad95ca6efdb1309c7d1229714a8652c1f85d1a33ccddd4ca87cb3",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 190,
+        "y": 93,
+        "width": 2,
+        "height": 3
+      }
+    },
+    "Weapon/1/2": {
+      "source": "Weapon1.png",
+      "part": "Weapon",
+      "type": "1",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 35,
+        "y": 40
+      },
+      "sha256": "79eccefae66c4aa0b4b1558f147435949df4da10c62511ed2f2679f91850ffb8",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 194,
+        "y": 93,
+        "width": 10,
+        "height": 3
+      }
+    },
+    "Weapon/1/3": {
+      "source": "Weapon1.png",
+      "part": "Weapon",
+      "type": "1",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 61,
+        "y": 39
+      },
+      "sha256": "9fe7f656cd3f3a15dd33d4618377e064c984ae936d7e836a4c4435b599dbaf0a",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 206,
+        "y": 93,
+        "width": 2,
+        "height": 8
+      }
+    },
+    "Weapon/2/0": {
+      "source": "Weapon2.png",
+      "part": "Weapon",
+      "type": "2",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 52
+      },
+      "sha256": "49955c3b15334d18c7f3d6791480e16277636b78e8f2b0f00eadfd809a0cb030",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 210,
+        "y": 93,
+        "width": 14,
+        "height": 6
+      }
+    },
+    "Weapon/2/1": {
+      "source": "Weapon2.png",
+      "part": "Weapon",
+      "type": "2",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 36,
+        "y": 51
+      },
+      "sha256": "936a73a8bc099139128b2b53de0f9bca2ea0f0169a8ed65a66354c0866b87f6e",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 226,
+        "y": 93,
+        "width": 3,
+        "height": 5
+      }
+    },
+    "Weapon/2/2": {
+      "source": "Weapon2.png",
+      "part": "Weapon",
+      "type": "2",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 31,
+        "y": 39
+      },
+      "sha256": "5034b27cbc743631a99dc1200d37bccd4a81d24b0edaf1660d95b3d6148055e2",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 231,
+        "y": 93,
+        "width": 14,
+        "height": 4
+      }
+    },
+    "Weapon/2/3": {
+      "source": "Weapon2.png",
+      "part": "Weapon",
+      "type": "2",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 60,
+        "y": 35
+      },
+      "sha256": "ed93a5b55d81ed5568ceda05f1fad44e37abc5c8c91c079d0a01b0f67d02d0ec",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 247,
+        "y": 93,
+        "width": 3,
+        "height": 12
+      }
+    },
+    "Weapon/3/0": {
+      "source": "Weapon3.png",
+      "part": "Weapon",
+      "type": "3",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 61,
+        "y": 37
+      },
+      "sha256": "853de088028f21f7a791da894aceb2d25b6bbe139a26599639619e700a12bbde",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 252,
+        "y": 93,
+        "width": 7,
+        "height": 11
+      }
+    },
+    "Weapon/3/1": {
+      "source": "Weapon3.png",
+      "part": "Weapon",
+      "type": "3",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 31,
+        "y": 37
+      },
+      "sha256": "c8d5149ab83ea1e9e8c704bc416071fe388f27b39a3bd9f7e1e18b634bf5cbd8",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 261,
+        "y": 93,
+        "width": 18,
+        "height": 18
+      }
+    },
+    "Weapon/3/2": {
+      "source": "Weapon3.png",
+      "part": "Weapon",
+      "type": "3",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 31,
+        "y": 17
+      },
+      "sha256": "23556f19b467f915930f2211930233640ca3d3c7ffea268627a6befb2e334269",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 281,
+        "y": 93,
+        "width": 7,
+        "height": 30
+      }
+    },
+    "Weapon/3/3": {
+      "source": "Weapon3.png",
+      "part": "Weapon",
+      "type": "3",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 50,
+        "y": 17
+      },
+      "sha256": "958b4041f1d5dd82ad293ee74e34bd0aacd0f9d9b96995294cc3f5f0ce705d31",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 290,
+        "y": 93,
+        "width": 18,
+        "height": 23
+      }
+    },
+    "Weapon/4/0": {
+      "source": "Weapon4.png",
+      "part": "Weapon",
+      "type": "4",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 61,
+        "y": 38
+      },
+      "sha256": "e2f7b2212bb16f318ec9bcb49ddfe4bec33807ea0306ca6f7f317c472bcd23da",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 310,
+        "y": 93,
+        "width": 9,
+        "height": 11
+      }
+    },
+    "Weapon/4/1": {
+      "source": "Weapon4.png",
+      "part": "Weapon",
+      "type": "4",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 36,
+        "y": 41
+      },
+      "sha256": "d9cef2b17c57e197441bedec298462962eb0ded9920454367e1182f7b08382c1",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 321,
+        "y": 93,
+        "width": 13,
+        "height": 14
+      }
+    },
+    "Weapon/4/2": {
+      "source": "Weapon4.png",
+      "part": "Weapon",
+      "type": "4",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 29,
+        "y": 24
+      },
+      "sha256": "9c74dd5afae02a5139d6a891f335652defd419e43080e1f6184631659131bd5e",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 336,
+        "y": 93,
+        "width": 10,
+        "height": 25
+      }
+    },
+    "Weapon/4/3": {
+      "source": "Weapon4.png",
+      "part": "Weapon",
+      "type": "4",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 50,
+        "y": 20
+      },
+      "sha256": "23ddd92f68e7a3e9da761bfb97d87f95b1ca04547901dfe21abbe6ccdc23a646",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 348,
+        "y": 93,
+        "width": 13,
+        "height": 22
+      }
+    },
+    "Weapon/5/0": {
+      "source": "Weapon5.png",
+      "part": "Weapon",
+      "type": "5",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 61,
+        "y": 37
+      },
+      "sha256": "314561a6eabc2844e87994e18a66be15636044705a6e6ffdc98b93031e921345",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 363,
+        "y": 93,
+        "width": 8,
+        "height": 11
+      }
+    },
+    "Weapon/5/1": {
+      "source": "Weapon5.png",
+      "part": "Weapon",
+      "type": "5",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 33,
+        "y": 39
+      },
+      "sha256": "cea0c1dc4d9ba908b702c5281a527b276e402fa6cd564de4606ac2b922cb8002",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 373,
+        "y": 93,
+        "width": 17,
+        "height": 16
+      }
+    },
+    "Weapon/5/2": {
+      "source": "Weapon5.png",
+      "part": "Weapon",
+      "type": "5",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 30,
+        "y": 20
+      },
+      "sha256": "336b957abe981537d68047069312a834765aab7bcba0a2f6b894a85fcc71f09f",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 392,
+        "y": 93,
+        "width": 8,
+        "height": 27
+      }
+    },
+    "Weapon/5/3": {
+      "source": "Weapon5.png",
+      "part": "Weapon",
+      "type": "5",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 50,
+        "y": 18
+      },
+      "sha256": "8c9c292201cffcbea9050e384c5c2517766cb57a2f9e04199cd745ed3ebd9206",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 402,
+        "y": 93,
+        "width": 16,
+        "height": 22
+      }
+    },
+    "Weapon/6/0": {
+      "source": "Weapon6.png",
+      "part": "Weapon",
+      "type": "6",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 62,
+        "y": 41
+      },
+      "sha256": "7cc4d919b81cb34a7e42b43a60df926844db75eb4d1ff605cc25579e0495ad2d",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 420,
+        "y": 93,
+        "width": 6,
+        "height": 6
+      }
+    },
+    "Weapon/6/1": {
+      "source": "Weapon6.png",
+      "part": "Weapon",
+      "type": "6",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 39,
+        "y": 45
+      },
+      "sha256": "5238e281fe419579b04c5be8dfb9b8a3b71c05ba9bfe1fc24fcf2aa55dd19b33",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 428,
+        "y": 93,
+        "width": 9,
+        "height": 9
+      }
+    },
+    "Weapon/6/2": {
+      "source": "Weapon6.png",
+      "part": "Weapon",
+      "type": "6",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 31,
+        "y": 31
+      },
+      "sha256": "cf026ffed03423a5b491b6f73929f7bda36e57c05876a618412acc9a16f72219",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 439,
+        "y": 93,
+        "width": 6,
+        "height": 13
+      }
+    },
+    "Weapon/6/3": {
+      "source": "Weapon6.png",
+      "part": "Weapon",
+      "type": "6",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 51,
+        "y": 26
+      },
+      "sha256": "3f1a6878610aa1290e44321bdb512aa9cc86f43e0a8d0ed35d092abddfdd2a17",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 447,
+        "y": 93,
+        "width": 9,
+        "height": 12
+      }
+    },
+    "Weapon/7/0": {
+      "source": "Weapon7.png",
+      "part": "Weapon",
+      "type": "7",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 62,
+        "y": 42
+      },
+      "sha256": "4f967ea52ba845d1a91a017bf33aed300b9ed4ee9cbe20b0e2948e393df3bdff",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 458,
+        "y": 93,
+        "width": 6,
+        "height": 6
+      }
+    },
+    "Weapon/7/1": {
+      "source": "Weapon7.png",
+      "part": "Weapon",
+      "type": "7",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 39,
+        "y": 45
+      },
+      "sha256": "082af0b4c24d72075946e9b535eddb115d702b465136c66101b52cb28d7df320",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 466,
+        "y": 93,
+        "width": 9,
+        "height": 10
+      }
+    },
+    "Weapon/7/2": {
+      "source": "Weapon7.png",
+      "part": "Weapon",
+      "type": "7",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 32,
+        "y": 30
+      },
+      "sha256": "aac1e89c839e916458b5a96de3d646b2b2dad0d09743ca15e632242525cc97dd",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 477,
+        "y": 93,
+        "width": 5,
+        "height": 15
+      }
+    },
+    "Weapon/7/3": {
+      "source": "Weapon7.png",
+      "part": "Weapon",
+      "type": "7",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 51,
+        "y": 26
+      },
+      "sha256": "6736edce3abcf2d9a1a905bacc71d1c85e70e5f4dd3bd3589fbf0b4d6ccfd3b3",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 484,
+        "y": 93,
+        "width": 9,
+        "height": 13
+      }
+    },
+    "Weapon/8/0": {
+      "source": "Weapon8.png",
+      "part": "Weapon",
+      "type": "8",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 62,
+        "y": 39
+      },
+      "sha256": "42f6d30c0ba19f084e6b0de8502a241a63fe2c2479222d78710e11b72ba4edfe",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 495,
+        "y": 93,
+        "width": 6,
+        "height": 8
+      }
+    },
+    "Weapon/8/1": {
+      "source": "Weapon8.png",
+      "part": "Weapon",
+      "type": "8",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 37,
+        "y": 42
+      },
+      "sha256": "7ecba9da2e2e7d3aea064b90fbe5c679a5b43c856af412c8ff4c9a2cedda828b",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 1,
+        "y": 133,
+        "width": 11,
+        "height": 12
+      }
+    },
+    "Weapon/8/2": {
+      "source": "Weapon8.png",
+      "part": "Weapon",
+      "type": "8",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 31,
+        "y": 25
+      },
+      "sha256": "baf11234647d22af84a01ffbc6afac8d489adf64f9d2b4ddf95917b10a44b17b",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 14,
+        "y": 133,
+        "width": 6,
+        "height": 20
+      }
+    },
+    "Weapon/8/3": {
+      "source": "Weapon8.png",
+      "part": "Weapon",
+      "type": "8",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 51,
+        "y": 23
+      },
+      "sha256": "d437d4cdc3f6ae677a3416f13d56c7e370aeeef730ee12ec06de60a6abbe5db9",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 22,
+        "y": 133,
+        "width": 11,
+        "height": 15
+      }
+    },
+    "Weapon/9/0": {
+      "source": "Weapon9.png",
+      "part": "Weapon",
+      "type": "9",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 61,
+        "y": 41
+      },
+      "sha256": "b225570ff50f4c62f4dbee4d39060f40dd8753473230014a33b40a13577aedab",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 35,
+        "y": 133,
+        "width": 9,
+        "height": 8
+      }
+    },
+    "Weapon/9/1": {
+      "source": "Weapon9.png",
+      "part": "Weapon",
+      "type": "9",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 38,
+        "y": 42
+      },
+      "sha256": "bc67250570843bdce26eea8092926e9fa8a6982bad939063bd7be9612278b0ad",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 46,
+        "y": 133,
+        "width": 11,
+        "height": 13
+      }
+    },
+    "Weapon/9/2": {
+      "source": "Weapon9.png",
+      "part": "Weapon",
+      "type": "9",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 29,
+        "y": 28
+      },
+      "sha256": "85746c33d8cf8f1dd9a22196fd366127acac440da4803922d7e328a09ebde9ec",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 59,
+        "y": 133,
+        "width": 9,
+        "height": 18
+      }
+    },
+    "Weapon/9/3": {
+      "source": "Weapon9.png",
+      "part": "Weapon",
+      "type": "9",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 50,
+        "y": 24
+      },
+      "sha256": "46ea978425051c639441f2156418eda1fd8a60f2db01dd16f91b9e6816571aa1",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 70,
+        "y": 133,
+        "width": 11,
+        "height": 16
+      }
+    },
+    "Weapon/10/0": {
+      "source": "Weapon10.png",
+      "part": "Weapon",
+      "type": "10",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 60,
+        "y": 38
+      },
+      "sha256": "6e3517dd75b0ffd9b63c0cc698053a182eeff22a9f196fee3f45fc027a862492",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 83,
+        "y": 133,
+        "width": 8,
+        "height": 11
+      }
+    },
+    "Weapon/10/1": {
+      "source": "Weapon10.png",
+      "part": "Weapon",
+      "type": "10",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 36,
+        "y": 40
+      },
+      "sha256": "f64759e001b9e4b2ef6e0feaa07d2381531aa4fd245a6d032124e814b864b8c3",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 93,
+        "y": 133,
+        "width": 14,
+        "height": 16
+      }
+    },
+    "Weapon/10/2": {
+      "source": "Weapon10.png",
+      "part": "Weapon",
+      "type": "10",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 31,
+        "y": 24
+      },
+      "sha256": "3e0e99d08849ce28af0160576a7e9271352b0bfc48fc39d1b55d93ed7a10bba9",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 109,
+        "y": 133,
+        "width": 8,
+        "height": 24
+      }
+    },
+    "Weapon/10/3": {
+      "source": "Weapon10.png",
+      "part": "Weapon",
+      "type": "10",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 50,
+        "y": 21
+      },
+      "sha256": "1d4650dc03677770600a2c7709709335c18d36d35a723463839a5d56c5370f8f",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 119,
+        "y": 133,
+        "width": 14,
+        "height": 19
+      }
+    },
+    "Weapon/11/0": {
+      "source": "Weapon11.png",
+      "part": "Weapon",
+      "type": "11",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 61,
+        "y": 39
+      },
+      "sha256": "f04293051a4352e323e4037dca1e288f3bddba846dab3ed4d248a7a7282bdfad",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 135,
+        "y": 133,
+        "width": 7,
+        "height": 9
+      }
+    },
+    "Weapon/11/1": {
+      "source": "Weapon11.png",
+      "part": "Weapon",
+      "type": "11",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 36,
+        "y": 42
+      },
+      "sha256": "0d7e9fbb8e44cde8a3f32b7353fa0e75aa67446a4d29e09c5d4dde96f9c6a543",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 144,
+        "y": 133,
+        "width": 13,
+        "height": 12
+      }
+    },
+    "Weapon/11/2": {
+      "source": "Weapon11.png",
+      "part": "Weapon",
+      "type": "11",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 30,
+        "y": 25
+      },
+      "sha256": "fb2ef27a2ad61a8390b101c9f3a93724db930b6fbfa9e50743a4eccab25d6a51",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 159,
+        "y": 133,
+        "width": 8,
+        "height": 21
+      }
+    },
+    "Weapon/11/3": {
+      "source": "Weapon11.png",
+      "part": "Weapon",
+      "type": "11",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 50,
+        "y": 22
+      },
+      "sha256": "839c04efb90ae718e2f27d9b374016afd383951df73adbbdec0f65cf5722eb6c",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 169,
+        "y": 133,
+        "width": 13,
+        "height": 18
+      }
+    },
+    "Weapon/12/0": {
+      "source": "Weapon12.png",
+      "part": "Weapon",
+      "type": "12",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 61,
+        "y": 38
+      },
+      "sha256": "34b0fdf4e8eabf01a6488afd1bf9635f3b9d81cda5bcaeccff6f95459e35ef3a",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 184,
+        "y": 133,
+        "width": 9,
+        "height": 10
+      }
+    },
+    "Weapon/12/1": {
+      "source": "Weapon12.png",
+      "part": "Weapon",
+      "type": "12",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 35,
+        "y": 40
+      },
+      "sha256": "f7647c01c54be9a7483a05e5e75f278403459afbaaf219ba63982bc86057a3bf",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 195,
+        "y": 133,
+        "width": 14,
+        "height": 14
+      }
+    },
+    "Weapon/12/2": {
+      "source": "Weapon12.png",
+      "part": "Weapon",
+      "type": "12",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 29,
+        "y": 23
+      },
+      "sha256": "c541187ead3e2e00fa7aa1cf85b0e636721fb5922f36c44bf56ef9694d2b5253",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 211,
+        "y": 133,
+        "width": 9,
+        "height": 24
+      }
+    },
+    "Weapon/12/3": {
+      "source": "Weapon12.png",
+      "part": "Weapon",
+      "type": "12",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 50,
+        "y": 20
+      },
+      "sha256": "921ee88b57959e38ac6498f0997ea432de1ca792275e15870bea55ff167483d0",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 222,
+        "y": 133,
+        "width": 15,
+        "height": 20
+      }
+    },
+    "Weapon/13/0": {
+      "source": "Weapon13.png",
+      "part": "Weapon",
+      "type": "13",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 61,
+        "y": 34
+      },
+      "sha256": "01de7a494bd7d9cf134401fc7940bedcd1175c509fca3c2f7a035abcb1f3df53",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 239,
+        "y": 133,
+        "width": 12,
+        "height": 14
+      }
+    },
+    "Weapon/13/1": {
+      "source": "Weapon13.png",
+      "part": "Weapon",
+      "type": "13",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 30,
+        "y": 36
+      },
+      "sha256": "8945c6ae4f9cd7d86e50da92be84d8f733a59b1e3345505bb0247109a5642317",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 253,
+        "y": 133,
+        "width": 20,
+        "height": 19
+      }
+    },
+    "Weapon/13/2": {
+      "source": "Weapon13.png",
+      "part": "Weapon",
+      "type": "13",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 26,
+        "y": 17
+      },
+      "sha256": "76064725e40bb20fc25750bbeee1878d8a5a38d5fb133ed4adedb93a3e4fbee7",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 275,
+        "y": 133,
+        "width": 12,
+        "height": 30
+      }
+    },
+    "Weapon/13/3": {
+      "source": "Weapon13.png",
+      "part": "Weapon",
+      "type": "13",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 50,
+        "y": 15
+      },
+      "sha256": "5ea189741b74a142f3e55db21a17b257449642e867cfa37c94abaff887f8ed27",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 289,
+        "y": 133,
+        "width": 19,
+        "height": 26
+      }
+    },
+    "Weapon/14/0": {
+      "source": "Weapon14.png",
+      "part": "Weapon",
+      "type": "14",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 61,
+        "y": 36
+      },
+      "sha256": "1ed54106bb2f054a8e1252c6cc04af1adeae32266607bc9af23f7f922a2c7f17",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 310,
+        "y": 133,
+        "width": 15,
+        "height": 13
+      }
+    },
+    "Weapon/14/1": {
+      "source": "Weapon14.png",
+      "part": "Weapon",
+      "type": "14",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 32,
+        "y": 37
+      },
+      "sha256": "431e533c31b17c7479484b9c6b02c99c530cd6ea984e32aef30b46383d57610f",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 327,
+        "y": 133,
+        "width": 18,
+        "height": 19
+      }
+    },
+    "Weapon/14/2": {
+      "source": "Weapon14.png",
+      "part": "Weapon",
+      "type": "14",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 23,
+        "y": 17
+      },
+      "sha256": "7bba1363e9d66ffce1025d72fa0b12cd46e909ac2e975fd3b4b4d9b92c8a28b5",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 347,
+        "y": 133,
+        "width": 16,
+        "height": 32
+      }
+    },
+    "Weapon/14/3": {
+      "source": "Weapon14.png",
+      "part": "Weapon",
+      "type": "14",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 49,
+        "y": 14
+      },
+      "sha256": "40b5ecacde3eff17a206a8dc34dc240d0ef39926ee1f2d6c25804452c07c845d",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 365,
+        "y": 133,
+        "width": 18,
+        "height": 28
+      }
+    },
+    "Weapon/15/0": {
+      "source": "Weapon15.png",
+      "part": "Weapon",
+      "type": "15",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 61,
+        "y": 35
+      },
+      "sha256": "ebee0b15619bf43b026eb796ea25a335366320e5812b345240b857f87cd43976",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 385,
+        "y": 133,
+        "width": 10,
+        "height": 13
+      }
+    },
+    "Weapon/15/1": {
+      "source": "Weapon15.png",
+      "part": "Weapon",
+      "type": "15",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 31,
+        "y": 35
+      },
+      "sha256": "b7e255bd72971f1083bcd337af576a67ee334241e0ba87a802a54fdcd90ede69",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 397,
+        "y": 133,
+        "width": 18,
+        "height": 19
+      }
+    },
+    "Weapon/15/2": {
+      "source": "Weapon15.png",
+      "part": "Weapon",
+      "type": "15",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 28,
+        "y": 15
+      },
+      "sha256": "3f47183443f020a28a63347b465481c2f514d9ded5d19fafa950ed20e3c79f30",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 417,
+        "y": 133,
+        "width": 11,
+        "height": 31
+      }
+    },
+    "Weapon/15/3": {
+      "source": "Weapon15.png",
+      "part": "Weapon",
+      "type": "15",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 50,
+        "y": 14
+      },
+      "sha256": "030c720ebcd9cbaf52c4dad94abb62cd002b4cbd54aedfb69e9474b9847d7157",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 430,
+        "y": 133,
+        "width": 18,
+        "height": 26
+      }
+    },
+    "Weapon/16/0": {
+      "source": "Weapon16.png",
+      "part": "Weapon",
+      "type": "16",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 62,
+        "y": 36
+      },
+      "sha256": "f7ed68b9f5ddcc0ac25552023d21e4509d407a0055790e98cae915d61e510949",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 450,
+        "y": 133,
+        "width": 5,
+        "height": 12
+      }
+    },
+    "Weapon/16/1": {
+      "source": "Weapon16.png",
+      "part": "Weapon",
+      "type": "16",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 32,
+        "y": 35
+      },
+      "sha256": "9d68e7619a7a838b6e996af51338d0240e736bd4b7720932cc7ed67fd29839db",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 457,
+        "y": 133,
+        "width": 17,
+        "height": 20
+      }
+    },
+    "Weapon/16/2": {
+      "source": "Weapon16.png",
+      "part": "Weapon",
+      "type": "16",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 33,
+        "y": 16
+      },
+      "sha256": "5499f4108eae6e66018b3212020f5d75885c91d95c47ce460495a0ba92287b50",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 476,
+        "y": 133,
+        "width": 4,
+        "height": 31
+      }
+    },
+    "Weapon/16/3": {
+      "source": "Weapon16.png",
+      "part": "Weapon",
+      "type": "16",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 50,
+        "y": 17
+      },
+      "sha256": "227a6c7b4d86b2277cb3d4bd7dd97f23c70ecb8787f96088bd1849132b0e8e20",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 482,
+        "y": 133,
+        "width": 18,
+        "height": 23
+      }
+    },
+    "Weapon/17/0": {
+      "source": "Weapon17.png",
+      "part": "Weapon",
+      "type": "17",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 62,
+        "y": 34
+      },
+      "sha256": "91eb9b950527e535a5ad4823edfbdbeda434dc0714d0243c84dc79a1dba1f2f8",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 502,
+        "y": 133,
+        "width": 7,
+        "height": 14
+      }
+    },
+    "Weapon/17/1": {
+      "source": "Weapon17.png",
+      "part": "Weapon",
+      "type": "17",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 28,
+        "y": 32
+      },
+      "sha256": "6e6f077b9526da72fcdd4d82ebaac9c2236f3b0e5d56f8b5dff91ca9682bdc3c",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 1,
+        "y": 167,
+        "width": 21,
+        "height": 22
+      }
+    },
+    "Weapon/17/2": {
+      "source": "Weapon17.png",
+      "part": "Weapon",
+      "type": "17",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 30,
+        "y": 10
+      },
+      "sha256": "795193db085f951b535a1ae81ace7e22b4155b71da274003797080d1e41ddf38",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 24,
+        "y": 167,
+        "width": 7,
+        "height": 35
+      }
+    },
+    "Weapon/17/3": {
+      "source": "Weapon17.png",
+      "part": "Weapon",
+      "type": "17",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 51,
+        "y": 12
+      },
+      "sha256": "39a2de984a0b0440c096b2e20839edfd5c0cfe62b3797a31d8d3b0fa02216ae4",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 33,
+        "y": 167,
+        "width": 20,
+        "height": 27
+      }
+    },
+    "Weapon/18/0": {
+      "source": "Weapon18.png",
+      "part": "Weapon",
+      "type": "18",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 60,
+        "y": 36
+      },
+      "sha256": "347d94aceeda45dd4df16b6c645b20f3ad59a7a0d348b280bd8da22356d67be5",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 55,
+        "y": 167,
+        "width": 8,
+        "height": 12
+      }
+    },
+    "Weapon/18/1": {
+      "source": "Weapon18.png",
+      "part": "Weapon",
+      "type": "18",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 30,
+        "y": 35
+      },
+      "sha256": "11ea8f26e2a8b49f40202a25e9b49d9095c3cb98c2e1a0e67ed3e109342ba681",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 65,
+        "y": 167,
+        "width": 19,
+        "height": 19
+      }
+    },
+    "Weapon/18/2": {
+      "source": "Weapon18.png",
+      "part": "Weapon",
+      "type": "18",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 31,
+        "y": 13
+      },
+      "sha256": "5813f77f6cfa4905ccefa113b7714f4ccb5cc53ceb5e3ac68f15690c7b4ae263",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 86,
+        "y": 167,
+        "width": 8,
+        "height": 33
+      }
+    },
+    "Weapon/18/3": {
+      "source": "Weapon18.png",
+      "part": "Weapon",
+      "type": "18",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 51,
+        "y": 14
+      },
+      "sha256": "602c4db7a788796cb07fe62ca61b1d545a4cb406b291d5fdc0d6a532d5040f8a",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 96,
+        "y": 167,
+        "width": 19,
+        "height": 26
+      }
+    },
+    "Weapon/19/0": {
+      "source": "Weapon19.png",
+      "part": "Weapon",
+      "type": "19",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 61,
+        "y": 36
+      },
+      "sha256": "b8980088626b2096f6b41667be6288516aadf681340f2f5f6b6f28eea25c1b9f",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 117,
+        "y": 167,
+        "width": 6,
+        "height": 11
+      }
+    },
+    "Weapon/19/1": {
+      "source": "Weapon19.png",
+      "part": "Weapon",
+      "type": "19",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 31,
+        "y": 34
+      },
+      "sha256": "f6bc96c745cd08667482ac77ca7f8a64cba25d5529a24d380fe2afdbc4a2651d",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 125,
+        "y": 167,
+        "width": 17,
+        "height": 20
+      }
+    },
+    "Weapon/19/2": {
+      "source": "Weapon19.png",
+      "part": "Weapon",
+      "type": "19",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 33,
+        "y": 14
+      },
+      "sha256": "f520fa4af8c6e0f846fd020d2ae8dc9009c9811011465a8d013224f975260ee7",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 144,
+        "y": 167,
+        "width": 5,
+        "height": 30
+      }
+    },
+    "Weapon/19/3": {
+      "source": "Weapon19.png",
+      "part": "Weapon",
+      "type": "19",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 52,
+        "y": 17
+      },
+      "sha256": "841650f4bb83b3535a23e36a26aaeaa18871cae456e9597388dcf56ac9b58e1c",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 151,
+        "y": 167,
+        "width": 16,
+        "height": 21
+      }
+    },
+    "Weapon/20/0": {
+      "source": "Weapon20.png",
+      "part": "Weapon",
+      "type": "20",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 61,
+        "y": 18
+      },
+      "sha256": "d4e368bc8f57d33728df57cce5de33cad3a0a4c2b7feab4e066e9e9db78b5f75",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 169,
+        "y": 167,
+        "width": 5,
+        "height": 8
+      }
+    },
+    "Weapon/20/1": {
+      "source": "Weapon20.png",
+      "part": "Weapon",
+      "type": "20",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 60,
+        "y": 35
+      },
+      "sha256": "54f19d3627598d3f994ed0e84cd8f4b0cba01ac989c100736a3cad7adf70d1d2",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 176,
+        "y": 167,
+        "width": 6,
+        "height": 5
+      }
+    },
+    "Weapon/20/2": {
+      "source": "Weapon20.png",
+      "part": "Weapon",
+      "type": "20",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 33,
+        "y": 34
+      },
+      "sha256": "a69b5e0b568d6818fac37a9faca42d1feb4fd596536c634599a82879c4ba14c3",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 184,
+        "y": 167,
+        "width": 6,
+        "height": 5
+      }
+    },
+    "Weapon/20/3": {
+      "source": "Weapon20.png",
+      "part": "Weapon",
+      "type": "20",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 33,
+        "y": 18
+      },
+      "sha256": "650a559171175121968b5b2fbd30f6f51f4aa1c5dd30b6969d7eff239a4180fc",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 192,
+        "y": 167,
+        "width": 6,
+        "height": 7
+      }
+    },
+    "Weapon/21/0": {
+      "source": "Weapon21.png",
+      "part": "Weapon",
+      "type": "21",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 50,
+        "y": 19
+      },
+      "sha256": "dc7fd18e1855ba7f5e2212ba1196796efa6ad1419bdac63c1fa01642f6133217",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 200,
+        "y": 167,
+        "width": 25,
+        "height": 18
+      }
+    },
+    "Weapon/21/1": {
+      "source": "Weapon21.png",
+      "part": "Weapon",
+      "type": "21",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 32
+      },
+      "sha256": "f6bfd4cbd5a8f3200e39b81c807424dc991b76ec82f6983880ede0b6914d33a5",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 227,
+        "y": 167,
+        "width": 23,
+        "height": 14
+      }
+    },
+    "Weapon/21/2": {
+      "source": "Weapon21.png",
+      "part": "Weapon",
+      "type": "21",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 25,
+        "y": 30
+      },
+      "sha256": "b4227da08607583ded38ae5ba98cb6bb27c077add96ef23cc3b29dfc51141937",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 252,
+        "y": 167,
+        "width": 24,
+        "height": 12
+      }
+    },
+    "Weapon/21/3": {
+      "source": "Weapon21.png",
+      "part": "Weapon",
+      "type": "21",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 30,
+        "y": 16
+      },
+      "sha256": "e6c6681797c7f2af71fd5c2c21d1703ecf08d75b78ca42c78acfe5d6acfea6dc",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 278,
+        "y": 167,
+        "width": 24,
+        "height": 19
+      }
+    },
+    "Weapon/22/0": {
+      "source": "Weapon22.png",
+      "part": "Weapon",
+      "type": "22",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 61,
+        "y": 15
+      },
+      "sha256": "d52581657385ead0217debddf4a0f365c586ff327b0c6086c7e1aaef7b9d1de1",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 304,
+        "y": 167,
+        "width": 10,
+        "height": 10
+      }
+    },
+    "Weapon/22/1": {
+      "source": "Weapon22.png",
+      "part": "Weapon",
+      "type": "22",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 60,
+        "y": 36
+      },
+      "sha256": "f91e371594e1cdc0771d3cb402381c04908096ca4206fab3dc4ca1f76f66ca6c",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 316,
+        "y": 167,
+        "width": 11,
+        "height": 4
+      }
+    },
+    "Weapon/22/2": {
+      "source": "Weapon22.png",
+      "part": "Weapon",
+      "type": "22",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 29,
+        "y": 35
+      },
+      "sha256": "f1591e85928b189a4e75f3dc868546b0efc570405f119d29c432bdd8218f9646",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 329,
+        "y": 167,
+        "width": 10,
+        "height": 5
+      }
+    },
+    "Weapon/22/3": {
+      "source": "Weapon22.png",
+      "part": "Weapon",
+      "type": "22",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 29,
+        "y": 15
+      },
+      "sha256": "0935f934cbe0060045d915947d60b142542a71fe6a4420342dbb6e79881c19cc",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 341,
+        "y": 167,
+        "width": 10,
+        "height": 9
+      }
+    },
+    "Weapon/23/0": {
+      "source": "Weapon23.png",
+      "part": "Weapon",
+      "type": "23",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 58,
+        "y": 17
+      },
+      "sha256": "71ff153d0543a0184727b1bbba95581992142bb207f9617ea32d9bc56c023409",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 353,
+        "y": 167,
+        "width": 11,
+        "height": 11
+      }
+    },
+    "Weapon/23/1": {
+      "source": "Weapon23.png",
+      "part": "Weapon",
+      "type": "23",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 57,
+        "y": 32
+      },
+      "sha256": "fa40f6a21466661c70ef9b7a1d60a8a668723321713a5de9183220e50702a3ef",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 366,
+        "y": 167,
+        "width": 13,
+        "height": 10
+      }
+    },
+    "Weapon/23/2": {
+      "source": "Weapon23.png",
+      "part": "Weapon",
+      "type": "23",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 31,
+        "y": 32
+      },
+      "sha256": "4e4df45b9fe21031aa53dfe7639ab87a65ab80a198611d56fad2d76dd2b39d3c",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 381,
+        "y": 167,
+        "width": 11,
+        "height": 11
+      }
+    },
+    "Weapon/23/3": {
+      "source": "Weapon23.png",
+      "part": "Weapon",
+      "type": "23",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 30,
+        "y": 17
+      },
+      "sha256": "1044109825851af910bf34711a71896b1d1e7c5150fd27c571dcc367a735ddbb",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 394,
+        "y": 167,
+        "width": 12,
+        "height": 11
+      }
+    },
+    "Weapon/24/0": {
+      "source": "Weapon24.png",
+      "part": "Weapon",
+      "type": "24",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 59,
+        "y": 15
+      },
+      "sha256": "05109d6055d95888809b088629560601a7b38b8840ad2a957196a8a9cdae28b7",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 408,
+        "y": 167,
+        "width": 13,
+        "height": 12
+      }
+    },
+    "Weapon/24/1": {
+      "source": "Weapon24.png",
+      "part": "Weapon",
+      "type": "24",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 58,
+        "y": 33
+      },
+      "sha256": "4ee713b8bb29dce83f953d472c2466d20aff0741871208df5386a0c5addf26ae",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 423,
+        "y": 167,
+        "width": 13,
+        "height": 9
+      }
+    },
+    "Weapon/24/2": {
+      "source": "Weapon24.png",
+      "part": "Weapon",
+      "type": "24",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 28,
+        "y": 33
+      },
+      "sha256": "6e0abc9b0772e2d8909f7d6cd0dc2833b236663b29cd221e6422decc02097c17",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 438,
+        "y": 167,
+        "width": 13,
+        "height": 8
+      }
+    },
+    "Weapon/24/3": {
+      "source": "Weapon24.png",
+      "part": "Weapon",
+      "type": "24",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 28,
+        "y": 15
+      },
+      "sha256": "d55c5ab690be3da2fa9483cebc9082a28694771cec83c21bd90e26934fc642ad",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 453,
+        "y": 167,
+        "width": 14,
+        "height": 12
+      }
+    },
+    "Weapon/25/0": {
+      "source": "Weapon25.png",
+      "part": "Weapon",
+      "type": "25",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 47,
+        "y": 41
+      },
+      "sha256": "d6159372e1239e3ab7778c618cb2e95f606c01e671e9761e0dcf9049fe425d42",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 469,
+        "y": 167,
+        "width": 20,
+        "height": 12
+      }
+    },
+    "Weapon/25/1": {
+      "source": "Weapon25.png",
+      "part": "Weapon",
+      "type": "25",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 37,
+        "y": 41
+      },
+      "sha256": "8f1ebe9b74ca505f70a27aa81c130f2da9deeba0df3a3284da997b8fcfe3417b",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 1,
+        "y": 204,
+        "width": 22,
+        "height": 15
+      }
+    },
+    "Weapon/25/2": {
+      "source": "Weapon25.png",
+      "part": "Weapon",
+      "type": "25",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 33,
+        "y": 36
+      },
+      "sha256": "6925ae12ab8483939139d35d5386f3589b17efab05d4067b47ac11b7b56cf996",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 25,
+        "y": 204,
+        "width": 20,
+        "height": 16
+      }
+    },
+    "Weapon/25/3": {
+      "source": "Weapon25.png",
+      "part": "Weapon",
+      "type": "25",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 41,
+        "y": 36
+      },
+      "sha256": "4b9e9f7847ad6fcbcd46c0d3aae7c560e01f70723354ee1516b65cff0ffc2fa3",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 47,
+        "y": 204,
+        "width": 21,
+        "height": 11
+      }
+    },
+    "Weapon/26/0": {
+      "source": "Weapon26.png",
+      "part": "Weapon",
+      "type": "26",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 40,
+        "y": 18
+      },
+      "sha256": "9c8155146643ae86e28707e099901b039ee4387645ae44d0d2a0d58420aca5c4",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 70,
+        "y": 204,
+        "width": 33,
+        "height": 21
+      }
+    },
+    "Weapon/26/1": {
+      "source": "Weapon26.png",
+      "part": "Weapon",
+      "type": "26",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 34,
+        "y": 23
+      },
+      "sha256": "90568daf2f5d82be4c7588089859c5ba95f172a256aad288c94e61066a9db527",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 105,
+        "y": 204,
+        "width": 34,
+        "height": 22
+      }
+    },
+    "Weapon/26/2": {
+      "source": "Weapon26.png",
+      "part": "Weapon",
+      "type": "26",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 27,
+        "y": 20
+      },
+      "sha256": "a759e0b5231f323c8cbdea5fffa8b5562470ba1f10da0e6f7c33ea507e7ae739",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 141,
+        "y": 204,
+        "width": 32,
+        "height": 22
+      }
+    },
+    "Weapon/26/3": {
+      "source": "Weapon26.png",
+      "part": "Weapon",
+      "type": "26",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 32,
+        "y": 15
+      },
+      "sha256": "d1d3bfb26b7e3dd184c4596c0acf6e94336f25e83a609e3f5943a3e1787fb49a",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 175,
+        "y": 204,
+        "width": 33,
+        "height": 21
+      }
+    },
+    "Weapon/27/0": {
+      "source": "Weapon27.png",
+      "part": "Weapon",
+      "type": "27",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 53,
+        "y": 22
+      },
+      "sha256": "f5d75dfa4daf3f0f29eddddcaf782624e039fb8c9b221a8feeeb746289b94ffb",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 210,
+        "y": 204,
+        "width": 19,
+        "height": 14
+      }
+    },
+    "Weapon/27/1": {
+      "source": "Weapon27.png",
+      "part": "Weapon",
+      "type": "27",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 47,
+        "y": 32
+      },
+      "sha256": "e013a09f2db2fe673234265158092a65eee11a639d6555382b301f48f040f822",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 231,
+        "y": 204,
+        "width": 20,
+        "height": 13
+      }
+    },
+    "Weapon/27/2": {
+      "source": "Weapon27.png",
+      "part": "Weapon",
+      "type": "27",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 28,
+        "y": 29
+      },
+      "sha256": "22033987899eef7b88e77cf755ebabf84b37c72c70af1a12d56d69d09d398304",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 253,
+        "y": 204,
+        "width": 20,
+        "height": 13
+      }
+    },
+    "Weapon/27/3": {
+      "source": "Weapon27.png",
+      "part": "Weapon",
+      "type": "27",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 33,
+        "y": 19
+      },
+      "sha256": "a6df84a7c7cd4c5a64ce87de228c791257f5b9dd5374d83fccd61b5c3b6dfbb9",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 275,
+        "y": 204,
+        "width": 20,
+        "height": 14
+      }
+    },
+    "Weapon/28/0": {
+      "source": "Weapon28.png",
+      "part": "Weapon",
+      "type": "28",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 52,
+        "y": 14
+      },
+      "sha256": "e5eb1d32beec78433c90d3a96b74be7505fef54bfc146dfbb5b20b88eead4a7f",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 297,
+        "y": 204,
+        "width": 21,
+        "height": 22
+      }
+    },
+    "Weapon/28/1": {
+      "source": "Weapon28.png",
+      "part": "Weapon",
+      "type": "28",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 46,
+        "y": 32
+      },
+      "sha256": "9a46fe4783b7bfc35d706b8360ee22a0b80f1b71cbd06ed86de9ff858b123254",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 320,
+        "y": 204,
+        "width": 32,
+        "height": 12
+      }
+    },
+    "Weapon/28/2": {
+      "source": "Weapon28.png",
+      "part": "Weapon",
+      "type": "28",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 27,
+        "y": 28
+      },
+      "sha256": "93b752518e2de363c9ef00225fcffe0dd6b1bb2f55efc71cf57d143385229220",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 354,
+        "y": 204,
+        "width": 21,
+        "height": 19
+      }
+    },
+    "Weapon/28/3": {
+      "source": "Weapon28.png",
+      "part": "Weapon",
+      "type": "28",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 22,
+        "y": 17
+      },
+      "sha256": "c60f7d0e85287a7c8faa120320e5517ebb17dedb27d7869c5b6e61c23bf4c166",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 377,
+        "y": 204,
+        "width": 32,
+        "height": 16
+      }
+    },
+    "Weapon/29/0": {
+      "source": "Weapon29.png",
+      "part": "Weapon",
+      "type": "29",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 59,
+        "y": 31
+      },
+      "sha256": "44d31e642bb3efc7fedc3b6c755964343e2b21b7bdda5c90ba5514cdf38bd2fa",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 411,
+        "y": 204,
+        "width": 4,
+        "height": 3
+      }
+    },
+    "Weapon/29/1": {
+      "source": "Weapon29.png",
+      "part": "Weapon",
+      "type": "29",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 50,
+        "y": 37
+      },
+      "sha256": "b6703855114236866a1fb825aa4605d91e3ee4769ab7f98d3dc4c19ac5178520",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 417,
+        "y": 204,
+        "width": 2,
+        "height": 4
+      }
+    },
+    "Weapon/29/2": {
+      "source": "Weapon29.png",
+      "part": "Weapon",
+      "type": "29",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 37,
+        "y": 32
+      },
+      "sha256": "7a1ca989a091d745cb3e69a6d5e9e624d7f37181381ed1e6ad9554d25e0233d4",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 421,
+        "y": 204,
+        "width": 4,
+        "height": 3
+      }
+    },
+    "Weapon/29/3": {
+      "source": "Weapon29.png",
+      "part": "Weapon",
+      "type": "29",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 48,
+        "y": 25
+      },
+      "sha256": "8f09c8ea4b39351776aa9d14aa8276c4facbc54c98b70a9f750cffda4c0e90b4",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 427,
+        "y": 204,
+        "width": 2,
+        "height": 3
+      }
+    },
+    "Weapon/30/0": {
+      "source": "Weapon30.png",
+      "part": "Weapon",
+      "type": "30",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 52,
+        "y": 22
+      },
+      "sha256": "10cbb2ae7ac421fe0262f1745967cd148303f0768a4847fa813ef39be66ac6d2",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 431,
+        "y": 204,
+        "width": 16,
+        "height": 14
+      }
+    },
+    "Weapon/30/1": {
+      "source": "Weapon30.png",
+      "part": "Weapon",
+      "type": "30",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 47,
+        "y": 31
+      },
+      "sha256": "3c42d60450b3efcdcae26c0fcaed57d24bb094aca6400b7368eb991fda189bcb",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 449,
+        "y": 204,
+        "width": 16,
+        "height": 11
+      }
+    },
+    "Weapon/30/2": {
+      "source": "Weapon30.png",
+      "part": "Weapon",
+      "type": "30",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 33,
+        "y": 28
+      },
+      "sha256": "3fa386f0812a52b407323150eb4b479e1b5967430e9e7097eadcc1126bd8273e",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 467,
+        "y": 204,
+        "width": 15,
+        "height": 11
+      }
+    },
+    "Weapon/30/3": {
+      "source": "Weapon30.png",
+      "part": "Weapon",
+      "type": "30",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 38,
+        "y": 19
+      },
+      "sha256": "2e584f4e61c7c720a5ed35fc5e1086dd3d89b80f87488b153cbbda6c30dc5a12",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 484,
+        "y": 204,
+        "width": 16,
+        "height": 14
+      }
+    },
+    "Weapon/31/0": {
+      "source": "Weapon31.png",
+      "part": "Weapon",
+      "type": "31",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 54,
+        "y": 20
+      },
+      "sha256": "ea15faed13703b1a2bc3aba107130ae5a9107390b9d4f80f6b65a9111cdf4289",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 1,
+        "y": 228,
+        "width": 19,
+        "height": 13
+      }
+    },
+    "Weapon/31/1": {
+      "source": "Weapon31.png",
+      "part": "Weapon",
+      "type": "31",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 49,
+        "y": 31
+      },
+      "sha256": "c6764c9b20cf17402f1b69ff94742bdc9e2a64d12417b655ebff4756cf19bd8e",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 22,
+        "y": 228,
+        "width": 20,
+        "height": 15
+      }
+    },
+    "Weapon/31/2": {
+      "source": "Weapon31.png",
+      "part": "Weapon",
+      "type": "31",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 27,
+        "y": 29
+      },
+      "sha256": "9e6ef6f2ca283251821f6b08ebaa3e3d00e29765ab76974711b8b023910d5845",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 44,
+        "y": 228,
+        "width": 19,
+        "height": 15
+      }
+    },
+    "Weapon/31/3": {
+      "source": "Weapon31.png",
+      "part": "Weapon",
+      "type": "31",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 31,
+        "y": 17
+      },
+      "sha256": "ec694f663dd97f153aa6d884202f2aede9d1f527a58db0077d3c4d555e5ce1ea",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 65,
+        "y": 228,
+        "width": 20,
+        "height": 13
+      }
+    },
+    "Weapon/32/0": {
+      "source": "Weapon32.png",
+      "part": "Weapon",
+      "type": "32",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 42,
+        "y": 33
+      },
+      "sha256": "f7464439cb76b7b89a2dfd334fb407cd385a5851dcd76e73a65e5993f5834e9e",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 87,
+        "y": 228,
+        "width": 37,
+        "height": 24
+      }
+    },
+    "Weapon/32/1": {
+      "source": "Weapon32.png",
+      "part": "Weapon",
+      "type": "32",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 34,
+        "y": 39
+      },
+      "sha256": "7a21e6bcfcb9a7d0e115081f9959a659d3806a50e51a4db664ff4da810fa1f39",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 126,
+        "y": 228,
+        "width": 35,
+        "height": 32
+      }
+    },
+    "Weapon/32/2": {
+      "source": "Weapon32.png",
+      "part": "Weapon",
+      "type": "32",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 22,
+        "y": 34
+      },
+      "sha256": "064aad69683cb84b9d0393274dc3424e138f6427001f9480e24b7939d8650b02",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 163,
+        "y": 228,
+        "width": 37,
+        "height": 32
+      }
+    },
+    "Weapon/32/3": {
+      "source": "Weapon32.png",
+      "part": "Weapon",
+      "type": "32",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 31,
+        "y": 27
+      },
+      "sha256": "c975027e1499ba84aff9491d4d7b6ccefdf9ee0b77c7a89f708cb88b1fa99f12",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 202,
+        "y": 228,
+        "width": 36,
+        "height": 25
+      }
+    },
+    "Weapon/33/0": {
+      "source": "Weapon33.png",
+      "part": "Weapon",
+      "type": "33",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 43,
+        "y": 37
+      },
+      "sha256": "6f8b65d6af35ce4abf7ed7bcede2462d261faf67b4330d20c068d8c8446be7ba",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 240,
+        "y": 228,
+        "width": 30,
+        "height": 20
+      }
+    },
+    "Weapon/33/1": {
+      "source": "Weapon33.png",
+      "part": "Weapon",
+      "type": "33",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 37,
+        "y": 42
+      },
+      "sha256": "d52461357a78128a97f12f09fec4d1bb91b0c37839113ea58430a13e13569017",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 272,
+        "y": 228,
+        "width": 29,
+        "height": 23
+      }
+    },
+    "Weapon/33/2": {
+      "source": "Weapon33.png",
+      "part": "Weapon",
+      "type": "33",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 22,
+        "y": 39
+      },
+      "sha256": "f91f08bac3d470c4144df69123b126fa289735e0eef952ebf73f14930fbc2f9d",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 303,
+        "y": 228,
+        "width": 30,
+        "height": 22
+      }
+    },
+    "Weapon/33/3": {
+      "source": "Weapon33.png",
+      "part": "Weapon",
+      "type": "33",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 29,
+        "y": 34
+      },
+      "sha256": "4b56f398e60241910b375e62270a6b38105e5ce67fb086100eafba43b31c59e3",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 335,
+        "y": 228,
+        "width": 29,
+        "height": 19
+      }
+    },
+    "Shadows/1/0": {
+      "source": "Shadows1.png",
+      "part": "Shadows",
+      "type": "1",
+      "direction": 0,
+      "frame": 1,
+      "registration": {
+        "x": 47,
+        "y": 64
+      },
+      "sha256": "604f749502238d63c793245a3b51777ff2419f6c036836b5f8b0eed69dd476ae",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 366,
+        "y": 228,
+        "width": 30,
+        "height": 14
+      }
+    },
+    "Shadows/1/1": {
+      "source": "Shadows1.png",
+      "part": "Shadows",
+      "type": "1",
+      "direction": 1,
+      "frame": 1,
+      "registration": {
+        "x": 38,
+        "y": 69
+      },
+      "sha256": "3c3ccda179eed294f7ac60a6c3c8c4ae7313beacc1a56595d695493bf1621ac6",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 398,
+        "y": 228,
+        "width": 33,
+        "height": 12
+      }
+    },
+    "Shadows/1/2": {
+      "source": "Shadows1.png",
+      "part": "Shadows",
+      "type": "1",
+      "direction": 2,
+      "frame": 1,
+      "registration": {
+        "x": 41,
+        "y": 64
+      },
+      "sha256": "dc56ce796594893ce3612e5d04c1b506f971edb081560b037a71980eedc8512e",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 433,
+        "y": 228,
+        "width": 28,
+        "height": 15
+      }
+    },
+    "Shadows/1/3": {
+      "source": "Shadows1.png",
+      "part": "Shadows",
+      "type": "1",
+      "direction": 3,
+      "frame": 1,
+      "registration": {
+        "x": 37,
+        "y": 65
+      },
+      "sha256": "2f030208dcacb446c899ce182d257a248a4b1677ad2ce562ae2391a574b64b67",
+      "requiresLegSeparation": false,
+      "tint": "preserve",
+      "rect": {
+        "x": 463,
+        "y": 228,
+        "width": 34,
+        "height": 11
+      }
+    }
+  }
+}
